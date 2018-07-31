@@ -8,7 +8,7 @@ data_reaction = [
         bullets: [
             "Trigger: enemy creature leaves your reach.",
             "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
+            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach. However, it does not stop their movement (unless you have the Sentinel feat)",
             "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
         ]
     },
