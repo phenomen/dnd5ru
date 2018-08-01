@@ -77,6 +77,7 @@
     font-size: inherit;
     vertical-align: top;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .item-icon {
@@ -165,6 +166,13 @@
     color: ForestGreen;
 }
 
+#section-xp, #section-xp .item-icon {
+    background-color: RoyalBlue;
+    border-color: RoyalBlue;
+}
+#section-xp .text {
+    color: RoyalBlue;
+}
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
@@ -265,10 +273,10 @@ p:first-child {
 
 /* Smart phone, portrait */
 @media (min-width:    0px) and (max-width:  479px) {
-    .fontsize { font-size: 12pt; } 
-    .iconsize { width: 44px; height: 44px;} 
-    .itemsize { height: 44px; width: 100%; } 
-    .modalsize {} 
+    .fontsize { font-size: 12pt; }
+    .iconsize { width: 44px; height: 44px;}
+    .itemsize { height: 44px; width: 100%; }
+    .modalsize {}
 }
 
 /* Smart phone, landscape */
@@ -318,4 +326,3 @@ p:first-child {
     .itemsize { height: 36px; width:  33%; }
     .modalsize {}
 }
-
