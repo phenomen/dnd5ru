@@ -66,6 +66,7 @@ function init() {
     fill_section(data_environment_light, "environment-light", "Environment");
     fill_section(data_environment_vision, "environment-vision", "Environment");
     fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_xpchart_player, "xp-player", "XP Chart");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
