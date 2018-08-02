@@ -134,6 +134,14 @@
     color: black;
 }
 
+#section-free-action, #section-free-action .item-icon {
+    background-color: gray;
+    border-color: gray;
+}
+#section-free-action .text {
+    color: gray;
+}
+
 #section-bonus-action, #section-bonus-action .item-icon {
     background-color: indigo;
     border-color: indigo;
