@@ -182,6 +182,22 @@
     color: MediumVioletRed;
 }
 
+#section-damage-types, #section-damage-types .item-icon {
+    background-color: IndianRed;
+    border-color: IndianRed;
+}
+#section-damage-types .text {
+    color: IndianRed;
+}
+
+#section-damage-healing, #section-damage-healing .item-icon {
+    background-color: SeaGreen;
+    border-color: SeaGreen;
+}
+#section-damage-healing .text {
+    color: SeaGreen;
+}
+
 /* ------------------------------------------------------------------------- */
 /* Page container */
 /* ------------------------------------------------------------------------- */

@@ -68,6 +68,10 @@ function init() {
     fill_section(data_environment_cover, "environment-cover", "Environment");
     fill_section(data_xpchart_player, "xp-player", "XP Chart");
     fill_section(data_xpchart_cr, "xp-cr", "XP-CR Chart");
+    fill_section(data_damage_types, "damage-types", "Damage Types");
+    fill_section(data_damage_death, "damage-death", "Health, Dying, and Resting");
+    fill_section(data_damage_health, "damage-health", "Health, Dying, and Resting");
+    fill_section(data_damage_resting, "damage-resting", "Health, Dying, and Resting");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;

@@ -70,7 +70,7 @@ data_movement = [
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
-        
+
         reference: "PHB, pg. 182.",
         bullets: [
             "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
@@ -120,5 +120,17 @@ data_movement = [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
         ]
-    }
+   },
+   {
+       title: "Mounting & Dismounting",
+       icon: "horseshoe",
+       subtitle: "Cost: speed halved",
+       description: "Getting on and off of a mount",
+       reference: "PHB, pg. 198",
+       bullets: [
+            "Once during your move, you can mount a creature that is within 5 feet of you, or dismount. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse. Therefore you can't mount it if you don't have 15 feet of movement left or if your speed is 0.",
+            "If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked prone while mounted, you must make the same saving throw.",
+            "If your mount is knocked prone, you can use your reaction to dismount as it falls and land on your feet. Otherwise you are dismounted and fall prone in a space within 5 feet of it."
+       ]
+   }
 ]
