@@ -73,6 +73,12 @@ function init() {
     fill_section(data_damage_death, "damage-death", "Health, Dying, and Resting");
     fill_section(data_damage_health, "damage-health", "Health, Dying, and Resting");
     fill_section(data_damage_resting, "damage-resting", "Health, Dying, and Resting");
+    fill_section(data_abilities_str, "abilities-str", "Ability Scores & Skills");
+    fill_section(data_abilities_dex, "abilities-dex", "Ability Scores & Skills");
+    fill_section(data_abilities_con, "abilities-con", "Ability Scores & Skills");
+    fill_section(data_abilities_int, "abilities-int", "Ability Scores & Skills");
+    fill_section(data_abilities_wis, "abilities-wis", "Ability Scores & Skills");
+    fill_section(data_abilities_cha, "abilities-cha", "Ability Scores & Skills");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
