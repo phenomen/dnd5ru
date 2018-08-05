@@ -206,6 +206,15 @@
     color: SeaGreen;
 }
 
+#section-abilities, #section-abilities .item-icon {
+    background-color: Crimson;
+    border-color: Crimson;
+}
+#section-abilities .text {
+    color: Crimson;
+}
+
+
 /* ------------------------------------------------------------------------- */
 /* Page container */
 /* ------------------------------------------------------------------------- */
