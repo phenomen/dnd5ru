@@ -81,6 +81,16 @@ data_environment_vision = [
         ]
     },
     {
+        title: "Tremorsense",
+        icon: "quake-stomp",
+        subtitle: "Perceive vibrations on a surface",
+        description: "",
+        reference: "MM, pg. 9",
+        bullets: [
+            "A creature with tremorsense can detect and pinpoint the origin of vibrations within a specified radius, provided that the creature and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense."
+        ]
+    },
+    {
         title: "Truesight",
         icon: "eye-shield",
         subtitle: "See in darkness",
