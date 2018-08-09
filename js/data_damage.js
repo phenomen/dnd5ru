@@ -21,6 +21,16 @@ data_damage_types = [
       ]
    },
    {
+      title: "Falling",
+      icon: "falling",
+      subtitle: "1d6 per 10 ft.",
+      description: "Damage taken from falling",
+      reference: "PHB, pg. 183",
+      bullets: [
+          "At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall.",
+      ]
+   },
+   {
       title: "Fire",
       icon: "flame",
       bullets: [

@@ -79,6 +79,7 @@ function init() {
     fill_section(data_abilities_int, "abilities-int", "Ability Scores & Skills");
     fill_section(data_abilities_wis, "abilities-wis", "Ability Scores & Skills");
     fill_section(data_abilities_cha, "abilities-cha", "Ability Scores & Skills");
+    fill_section(data_travel, "travel", "Traveling");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
