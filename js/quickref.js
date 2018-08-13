@@ -80,6 +80,8 @@ function init() {
     fill_section(data_abilities_wis, "abilities-wis", "Ability Scores & Skills");
     fill_section(data_abilities_cha, "abilities-cha", "Ability Scores & Skills");
     fill_section(data_travel, "travel", "Traveling");
+    fill_section(data_languages_standard, "languages-standard", "Languages");
+    fill_section(data_languages_exotic, "languages-exotic", "Languages");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;

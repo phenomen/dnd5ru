@@ -222,6 +222,14 @@
     color: Crimson;
 }
 
+#section-languages, #section-languages .item-icon {
+    background-color: Purple;
+    border-color: Purple;
+}
+#section-languages .text {
+    color: Purple;
+}
+
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
