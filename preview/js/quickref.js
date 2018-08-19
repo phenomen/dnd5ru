@@ -82,6 +82,10 @@ function init() {
     fill_section(data_travel, "travel", "Traveling");
     fill_section(data_languages_standard, "languages-standard", "Languages");
     fill_section(data_languages_exotic, "languages-exotic", "Languages");
+    fill_section(data_equipment_packs, "equipment-packs", "Equipment Packs");
+    fill_section(data_equipment_tools_norm, "equipment-tools-norm", "Tools");
+    fill_section(data_equipment_tools_artisan, "equipment-tools-artisan", "Tools");
+    fill_section(data_equipment_weapons_properties, "equipment-weap-prop", "Weapon Properties");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;

@@ -37,6 +37,18 @@
     font-size: 16pt;
 }
 
+.section-title-reverse-sienna {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: Sienna;
+    font-size: 16pt;
+}
+
 .float-right {
     float: right;
 }
@@ -230,6 +242,13 @@
     color: Purple;
 }
 
+#section-equipment, #section-equipment .item-icon {
+    background-color: Sienna;
+    border-color: Sienna;
+}
+#section-equipment .text {
+    color: Sienna;
+}
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
