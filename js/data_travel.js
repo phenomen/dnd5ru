@@ -40,9 +40,36 @@ data_travel = [
        description: "The speeds at which you can travel",
        reference: "PHB, pg. 182",
        bullets: [
-           "<b>Fast:</b> 400ft/minute, 4 miles/hour, 30 miles/day<br /><b>Effect:</b> -5 penalty to passive Wisdom (Perception) scores",
-           "<b>Normal:</b> 300ft/minute, 3 miles/hour, 24 miles/day<br /><b>Effect:</b> None",
-           "<b>Slow:</b> 200ft/minute, 2 miles/hour, 18 miles/day<br /><b>Effect:</b> Able to use stealth"
+            "<table id='t01' style='width:100%'>\
+               <tr>\
+                 <th><b>Pace</b></th>\
+                 <th><b>Minute</b></th>\
+                 <th><b>Hour</b></th>\
+                 <th><b>Day</b></th>\
+                 <th><b>Effect</b></th>\
+               </tr>\
+               <tr>\
+                 <td>Fast</td>\
+                 <td>400 feet</td>\
+                 <td>4 miles</td>\
+                 <td>30 miles</td>\
+                 <td>-5 penalty to passive Wisdom (Perception) scores</td>\
+               </tr>\
+               <tr>\
+                 <td>Normal</td>\
+                 <td>300 feet</td>\
+                 <td>3 miles</td>\
+                 <td>24 miles</td>\
+                 <td>---</td>\
+               </tr>\
+               <tr>\
+                 <td>Slow</td>\
+                 <td>200 feet</td>\
+                 <td>2 miles</td>\
+                 <td>18 miles</td>\
+                 <td>Able to use stealth</td>\
+               </tr>\
+             </table>"
        ]
    },
 ]
