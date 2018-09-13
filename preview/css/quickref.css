@@ -49,6 +49,42 @@
     font-size: 16pt;
 }
 
+.section-title-reverse-maroon {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: Maroon;
+    font-size: 16pt;
+}
+
+.section-title-reverse-crimson {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: Crimson;
+    font-size: 16pt;
+}
+
+.section-title-reverse-purple {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: Purple;
+    font-size: 16pt;
+}
+
 .float-right {
     float: right;
 }
@@ -126,6 +162,29 @@
     height: 100%;
 }
 
+table {
+    width:40%;
+}
+table, th, td {
+    border: 0px solid #cdd2d8;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+    border-radius: 4px;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+   border-radius: 4px;
+}
+table#t01 th {
+    background-color: white;
+    color: black;
+}
 
 /* ------------------------------------------------------------------------- */
 /* Colors */
@@ -249,6 +308,16 @@
 #section-equipment .text {
     color: Sienna;
 }
+
+#section-classabilities, #section-classabilities .item-icon {
+    background-color: Maroon;
+    border-color: Maroon;
+}
+
+#section-classabilities .text {
+    color: Maroon;
+}
+
 
 /* ------------------------------------------------------------------------- */
 /* Page container */

@@ -86,6 +86,18 @@ function init() {
     fill_section(data_equipment_tools_norm, "equipment-tools-norm", "Tools");
     fill_section(data_equipment_tools_artisan, "equipment-tools-artisan", "Tools");
     fill_section(data_equipment_weapons_properties, "equipment-weap-prop", "Weapon Properties");
+    fill_section(data_classabilities_barbarian, "class-abilities-barbarian", "Class Abilities");
+    fill_section(data_classabilities_bard, "class-abilities-bard", "Class Abilities");
+    fill_section(data_classabilities_cleric, "class-abilities-cleric", "Class Abilities");
+    fill_section(data_classabilities_druid, "class-abilities-druid", "Class Abilities");
+    fill_section(data_classabilities_fighter, "class-abilities-fighter", "Class Abilities");
+    fill_section(data_classabilities_monk, "class-abilities-monk", "Class Abilities");
+    fill_section(data_classabilities_paladin, "class-abilities-paladin", "Class Abilities");
+    fill_section(data_classabilities_ranger, "class-abilities-ranger", "Class Abilities");
+    fill_section(data_classabilities_rogue, "class-abilities-rogue", "Class Abilities");
+    fill_section(data_classabilities_sorcerer, "class-abilities-sorcerer", "Class Abilities");
+    fill_section(data_classabilities_warlock, "class-abilities-warlock", "Class Abilities");
+    //fill_section(data_classabilities_wizard, "class-abilities-wizard", "Class Abilities");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
