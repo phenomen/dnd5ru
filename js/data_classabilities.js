@@ -75,7 +75,7 @@ data_classabilities_druid = [
          bullets: [
              "Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.",
              "Your druid level determines the beast you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swim speed.",
-             "<div class='section-title-reverse-maroon'>Beast Shapes</div><table id='t01' style='width:100%'>\
+             "<div class='section-title-reverse-black' align='center'>Beast Shapes</div><table id='t01' style='width:100%'>\
                 <tr>\
                   <th><b>Level</b></th>\
                   <th><b>Max. CR</b></th>\
@@ -384,7 +384,7 @@ data_classabilities_sorcerer = [
          reference: "PHB, pg. 101",
          bullets: [
              "<b>Creating Spell Slots:</b> You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.",
-             "<div class='section-title-reverse-maroon'>Creating Spell Slots</div><table id='t01'>\
+             "<div class='section-title-reverse-black' align='center'>Creating Spell Slots</div><table id='t01' style='width:100%'>\
                 <tr>\
                   <th><b>Spell Slot Level</b></th>\
                   <th><b>Sorcery Point Cost</b></th>\

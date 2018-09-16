@@ -40,7 +40,7 @@ function show_modal(data, color, type) {
     $("#modal-subtitle").text(subtitle);
     $("#modal-reference").text(reference);
 
-    var bullets_html = bullets.map(function (item) { return "<p class=\"fonstsize\">" + item + "</p>"; }).join("\n<hr>\n");
+    var bullets_html = bullets.map(function (item) { return "<p class=\"fontsize\">" + item + "</p>"; }).join("\n<hr style=\"height: 1px\">\n");
     $("#modal-bullets").html(bullets_html);
 }
 
@@ -98,6 +98,11 @@ function init() {
     fill_section(data_classabilities_sorcerer, "class-abilities-sorcerer", "Class Abilities");
     fill_section(data_classabilities_warlock, "class-abilities-warlock", "Class Abilities");
     //fill_section(data_classabilities_wizard, "class-abilities-wizard", "Class Abilities");
+    fill_section(data_spellcasting_spellinfo, "spellcasting-spellinfo", "Spell Information");
+    fill_section(data_spellcasting_casting, "spellcasting-casting", "Casting a Spell");
+    fill_section(data_multiclassing_classreqs, "multiclassing-classreqs", "Prerequisites, Proficiencies, and More");
+    fill_section(data_multiclassing_classfeats_reg, "multiclassing-classfeats-reg", "Class Features & Multiclassing");
+    fill_section(data_multiclassing_classfeats_casting, "multiclassing-classfeats-casting", "Class Features & Multiclassing");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;

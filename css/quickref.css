@@ -85,6 +85,42 @@
     font-size: 16pt;
 }
 
+.section-title-reverse-spellcasting {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: #404580;
+    font-size: 16pt;
+}
+
+.section-title-reverse-multiclassing {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: #2e4f1e;
+    font-size: 16pt;
+}
+
+.section-title-reverse-black {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: Black;
+    font-size: 16pt;
+}
+
 .float-right {
     float: right;
 }
@@ -254,11 +290,11 @@ table#t01 th {
 }
 
 #section-xp, #section-xp .item-icon {
-    background-color: RoyalBlue;
-    border-color: RoyalBlue;
+    background-color: #2271AE;
+    border-color: #2271AE;
 }
 #section-xp .text {
-    color: RoyalBlue;
+    color: #2271AE;
 }
 
 #section-xp-cr, #section-xp-cr .item-icon {
@@ -313,9 +349,24 @@ table#t01 th {
     background-color: Maroon;
     border-color: Maroon;
 }
-
 #section-classabilities .text {
     color: Maroon;
+}
+
+#section-spellcasting, #section-spellcasting .item-icon {
+    background-color: #404580;
+    border-color: #404580;
+}
+#section-spellcasting .text {
+    color: #404580;
+}
+
+#section-multiclassing, #section-multiclassing .item-icon {
+    background-color: #2e4f1e;
+    border-color: #2e4f1e;
+}
+#section-multiclassing .text {
+    color: #2e4f1e;
 }
 
 
