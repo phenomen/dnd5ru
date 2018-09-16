@@ -6,10 +6,12 @@ data_abilities_str = [
         description: "Used for acts of athleticism",
         reference: "PHB, pg. 175",
         bullets: [
-             "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities...",
-             "You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.",
-             "You try to jump an unusually long distance or pull off a stunt midjump.",
-             "You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming."
+             "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities...\
+             <ul>\
+                <li>You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off</li>\
+                <li>You try to jump an unusually long distance or pull off a stunt midjump</li>\
+                <li>You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</li>\
+              </ul>"
         ]
     },
     {
@@ -61,13 +63,15 @@ data_abilities_str = [
        description: "Other uses for Strength",
        reference: "PHB, pgs. 175-176",
        bullets: [
-            "The DM might also call for a Strength check when you try to accomplish tasks like the following...",
-            "Force open a stuck, locked, or barred door",
-            "Break free of bonds",
-            "Push through a tunnel that is too small to normally fit in",
-            "Hang on to a wagon while being dragged behind it",
-            "Tip over a statue",
-            "Keep a boulder from rolling"
+            "The DM might also call for a Strength check when you try to accomplish tasks like the following...\
+            <ul>\
+               <li>Force open a stuck, locked, or barred door</li>\
+               <li>Break free of bonds</li>\
+               <li>Push through a tunnel that is too small to normally fit in</li>\
+               <li>Hang on to a wagon while being dragged behind it</li>\
+               <li>Tip over a statue</li>\
+               <li>Keep a boulder from rolling</li>\
+             </ul>"
        ]
     },
 ]
@@ -140,15 +144,17 @@ data_abilities_dex = [
        description: "Other uses for Dexterity",
        reference: "PHB, pg. 177",
        bullets: [
-            "The DM might call for a Dexterity check when you try to accomplish tasks like the following...",
-            "Control a heavily laden cart on a steep descent",
-            "Steer a chariot around a tight turn",
-            "Pick a lock",
-            "Disable a trap",
-            "Securely tie up a prisoner",
-            "Wriggle free of bonds",
-            "Play a stringed instrument",
-            "Craft a small or detailed object"
+            "The DM might call for a Dexterity check when you try to accomplish tasks like the following...\
+            <ul>\
+               <li>Control a heavily laden cart on a steep descent</li>\
+               <li>Steer a chariot around a tight corner</li>\
+               <li>Pick a lock</li>\
+               <li>Disable a trap</li>\
+               <li>Securely tie a prisoner</li>\
+               <li>Wriggle free of bonds</li>\
+               <li>Play a stringed instrument</li>\
+               <li>Craft a small or detailed object</li>\
+             </ul>"
        ]
     },
 ]
@@ -183,11 +189,13 @@ data_abilities_con = [
        description: "Uses for Constitution",
        reference: "PHB, pg. 177",
        bullets: [
-            "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits; however, the DM might call for a Constitution check when you try to accomplish tasks like the following...",
-            "March or labor for hours without rest",
-            "Go without sleep",
-            "Survive without food or water",
-            "Quaff an entire stein of ale in one go"
+            "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits; however, the DM might call for a Constitution check when you try to accomplish tasks like the following...\
+            <ul>\
+               <li>March or labor for hours without rest</li>\
+               <li>Go without sleep</li>\
+               <li>Survive without food or water</li>\
+               <li>Quaff an entire stein of ale in one go</li>\
+             </ul>"
        ]
     },
 ]
@@ -260,13 +268,15 @@ data_abilities_int = [
       description: "Other uses for Intelligence",
       reference: "PHB, pg. 178",
       bullets: [
-           "The DM might call for an Intelligence check when you try to accomplish tasks like the following...",
-           "Communicate with a creature without using words",
-           "Estimate the value of a precious item",
-           "Pull together a disguise to pass as a city guard",
-           "Forge a document",
-           "Recall lore about a craft or trade",
-           "Win a game of skill"
+           "The DM might call for an Intelligence check when you try to accomplish tasks like the following...\
+           <ul>\
+              <li>Communicate with a creature without using words</li>\
+              <li>Estimate the value of a precious item</li>\
+              <li>Pull together a disguise to pass as a city guard</li>\
+              <li>Forge a document</li>\
+              <li>Recall lore about a craft or trade</li>\
+              <li>Win a game of skill</li>\
+            </ul>"
       ]
     },
 ]
@@ -339,9 +349,11 @@ data_abilities_wis = [
        description: "Other uses for Wisdom",
        reference: "PHB, pg. 178",
        bullets: [
-            "The DM might call for a Wisdom check when you try to accomplish tasks like the following...",
-            "Get a gut feeling about what course of action to follow",
-            "Discern whether a seemingly dead or living creature is undead"
+            "The DM might call for a Wisdom check when you try to accomplish tasks like the following...\
+            <ul>\
+               <li>Get a gut feeling about what course of action to follow</li>\
+               <li>Discern whether a seemingly dead or living creature is undead</li>\
+             </ul>"
        ]
      },
 ]
@@ -404,9 +416,11 @@ data_abilities_cha = [
        description: "Other uses for Charisma",
        reference: "PHB, pg. 179",
        bullets: [
-            "The DM might call for a Charisma check when you try to accomplish tasks like the following...",
-            "Find the best person to talk to for news, rumors, and gossip",
-            "Blend into a crowd to get the sense of key topics of conversation"
+            "The DM might call for a Charisma check when you try to accomplish tasks like the following...\
+            <ul>\
+               <li>Find the best person to talk to for news, rumors, and gossip</li>\
+               <li>Blend into a crowd to get the sense of key topics of conversation</li>\
+             </ul>"
        ]
      },
 ]
