@@ -297,14 +297,6 @@ table#t01 th {
     color: #2271AE;
 }
 
-#section-xp-cr, #section-xp-cr .item-icon {
-    background-color: MediumVioletRed;
-    border-color: MediumVioletRed;
-}
-#section-xp-cr .text {
-    color: MediumVioletRed;
-}
-
 #section-damage-types, #section-damage-types .item-icon {
     background-color: IndianRed;
     border-color: IndianRed;
