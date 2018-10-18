@@ -16,24 +16,24 @@ data_damage_types = [
       ]
   },
      {
-        title: "Acid",
+        title: "Кислотный",
         icon: "acid",
         bullets: [
-            "The corrosive spray of a black dragon’s breath and the dissolving enzymes secreted by a black pudding deal acid damage.",
+            "Едкое дыхание чёрного дракона и растворяющая слизь чёрного пудинга причиняют урон кислотой.",
         ]
     },
     {
-       title: "Bludgeoning",
+       title: "Дробящий",
        icon: "mace-head",
        bullets: [
-           "Blunt force attacks—hammers, falling, constriction, and the like—deal bludgeoning damage.",
+           "Тяжёлые силовые атаки — молотом, падением, сдавливанием и т. п. — причиняют дробящий урон.",
        ]
    },
    {
-      title: "Cold",
+      title: "Холодный",
       icon: "ice-cube",
       bullets: [
-          "The infernal chill radiating from an ice devil’s spear and the frigid blast of a white dragon’s breath deal cold damage.",
+          "Лютый холод от копья ледяного дьявола и морозное дыхание белого дракона причиняют урон холодом.",
       ]
    },
    {
@@ -47,136 +47,136 @@ data_damage_types = [
       ]
    },
    {
-      title: "Fire",
+      title: "Огненный",
       icon: "flame",
       bullets: [
-          "Red dragons breathe fire, and many spells conjure flames to deal fire damage",
+          "Красный дракон, выдыхающий пламя, и многие заклинания, создающие жар, причиняют урон огнём.",
       ]
    },
    {
-      title: "Force",
+      title: "Силовой",
       icon: "magic-swirl",
       bullets: [
-          "Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells, including magic missile and spiritual weapon.",
+          "Силовое поле это чистая магия, сфокусированная в разрушительную силу. Чаще всего силовым полем причиняют урон заклинания, такие как волшебная стрела и божественное оружие.",
       ]
    },
    {
-      title: "Lightning",
+      title: "Электрический",
       icon: "lightning-storm",
       bullets: [
-          "A lightning bolt spell and a blue dragon’s breath deal lightning damage.",
+          "Заклинание молния и дыхание синего дракона причиняют урон электричеством.",
       ]
    },
    {
-      title: "Necrotic",
+      title: "Некротический",
       icon: "death-skull",
       bullets: [
-          "Necrotic damage, dealt by certain undead and a spell such as chill touch, withers matter and even the soul.",
+          "Некротическая энергия, излучаемая некоторой нежитью и такими заклинаниями как леденящее прикосновение, иссушают плоть и даже душу.",
       ]
    },
    {
-      title: "Piercing",
+      title: "Колющий",
       icon: "ice-spear",
       bullets: [
-          "Puncturing and impaling attacks, including spears and monsters’ bites, deal piercing damage.",
+          "Колющие и пронзающие атаки, включая удары копьём и укусы чудовищ, причиняют колющий урон.",
       ]
    },
    {
-      title: "Poison",
+      title: "Ядовитый",
       icon: "poison-gas",
       bullets: [
-          "Venomous stings and the toxic gas of a green dragon’s breath deal poison damage.",
+          "Ядовитые укусы и токсичное дыхание зелёного дракона причиняют урон ядом.",
       ]
    },
    {
-      title: "Psychic",
+      title: "Психический",
       icon: "psychic-waves",
       bullets: [
-          "Mental abilities such as a mind flayer’s psionic blast deal psychic damage.",
+          "Атаки силой разума, такие как у иллитидов, причиняют урон психической энергией.",
       ]
    },
    {
-      title: "Radiant",
+      title: "Излучение",
       icon: "holy-symbol",
       bullets: [
-          "Radiant damage, dealt by a cleric’s flame strike spell or an angel’s smiting weapon, sears the flesh like fire and overloads the spirit with power.",
+          "Урон излучением, причиняемый заклинанием небесный огонь жреца и карающим оружием ангела, опаляют плоть как огонь и переполняют дух силой.",
       ]
    },
    {
-      title: "Slashing",
+      title: "Рубящий",
       icon: "shining-sword",
       bullets: [
-          "Swords, axes, and monsters’ claws deal slashing damage.",
+          "Мечи, топоры и когти чудовищ причиняют рубящий урон.",
       ]
    },
    {
-      title: "Thunder",
+      title: "Звуковой",
       icon: "ultrasound",
       bullets: [
-          "A concussive burst of sound, such as the effect of the Thunderwave spell, deals thunder damage.",
+          "Оглушительные звуковые волны, такие как от заклинания волна грома, причиняют урон звуком.",
       ]
    }
 ]
 
 data_damage_health = [
      {
-        title: "Healing",
+        title: "Исцеление",
         icon: "health-normal",
-        subtitle: "Regaining health",
-        description: "Regaining health",
+        subtitle: "Восстановление здоровья",
+        description: "Восстановление здоровья",
         reference: "КИ, стр. 197",
         bullets: [
-             "Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points, and magical methods such as a <i>cure wounds</i> spell or a <i>potion of healing</i> can remove damage in an instant.",
-             "When a creatures receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8.",
-             "A creature that has died can't regain hit points until magic such as the <i>revivify</i> spell has restored it to life."
+             "Если урон не вызвал смерть, он не постоянен. И даже смерть можно обратить мощной магией. Хиты существа восстанавливаются отдыхом, а магия, такая как заклинание лечение ран или зелье лечения устраняют урон мгновенно.",
+             "Если существо получает какое-либо лечение, восстановленные хиты добавляются к его текущим хитам. Хиты существа не могут превышать его максимум хитов, поэтому лишние хиты теряются. Например, друид восстанавливает следопыту 8 хитов. Если у следопыта сейчас 14 хитов, а максимум хитов 20, следопыт восстанавливает 6 хитов, а не 8.",
+             "Умершее существо не может восстанавливать хиты, пока такая магия как возрождение не вернёт его к жизни."
         ]
     },
 ]
 
 data_damage_death = [
      {
-        title: "Instant Death",
+        title: "Мгновенная смерть",
         icon: "decapitation",
-        subtitle: "Death by massive damage",
-        description: "Death by massive damage",
+        subtitle: "Смерть от огромного урона",
+        description: "Смерть от огромного урона",
         reference: "КИ, стр. 197",
         bullets: [
-            "Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.",
-            "For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies."
+            "Большой урон может убить вас мгновенно. Если урон опускает ваши хиты до 0, и ещё остаются излишки, вы умираете, если излишки равны максимуму ваших хитов или превышают его.",
+            "Например, у жрицы с максимумом хитов 12 сейчас 6 хитов. Если она получает от атаки урон 18, хиты опускаются до 0, но остаётся ещё 12 урона. Так как этот урон равен максимуму хитов, жрица умирает."
         ]
     },
     {
-       title: "Falling Unconscious",
+       title: "Потеря сознания",
        icon: "sleepy",
        reference: "КИ, стр. 197",
        bullets: [
-           "If damage reduces you to 0 hit points and fails to kill you, you fall unconscious. This unconsciousness ends if you regain any hit points."
+           "Если урон опускает ваши хиты до 0, но не убивает вас, вы теряете сознание. Вы приходите в сознание, если восстанавливаете хиты."
        ]
    },
 ]
 
 data_damage_resting = [
      {
-        title: "Short Rest",
+        title: "Короткий отдых",
         icon: "campfire",
-        subtitle: "Resting for at least 1 hour",
-        description: "Resting for at least 1 hour",
+        subtitle: "Отдых длиной как мин. 1 час",
+        description: "Отдых длиной как минимум 1 час",
         reference: "КИ, стр. 186",
         bullets: [
-             "A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
-             "A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can deecide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a long rest."
+             "Короткий отдых это период длиной как минимум 1 час, во время которого персонаж не делает ничего напряжённого кроме поглощения пищи, питья, чтения и обработки ран.",
+             "В конце короткого отдыха персонаж может потратить одну или несколько Костей Хитов. Каждая потраченная кость позволяет совершить бросок соответствующей кости, добавить к ней модификатор Телосложения и восстановить получившееся количество хитов. После каждого броска можно решить, что будет потрачена ещё одна Кость Хитов. Потраченные Кости Хитов восстанавливаются в конце продолжительного отдыха, как описано ниже."
         ]
     },
     {
-        title: "Long Rest",
+        title: "Продолжительный отдых",
         icon: "bed",
-        subtitle: "Resting for at least 8 hours",
-        description: "Resting for at least 8 hours",
+        subtitle: "Отдых длиной как мин. 8 часов",
+        description: "Отдых длиной как минимум 1 час",
         reference: "КИ, стр. 186",
         bullets: [
-             "A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity - at least 1 hour of walking, fighting, casting spells, or similar adventuring activity - the character must begin the rest again to gain any benefit from it.",
-             "At the end of a long rest, a character regains all lost hit points. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them. For example, if a character has eight Hit Dice, they can regain four spent Hit Dice upon finishing a long rest.",
-             "A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits."
+             "Продолжительный отдых это долгий период длительностью как минимум 8 часов, во время которого персонаж как минимум 6 спит, и не более 2 часов занимается лёгкой деятельностью: читает, разговаривает, ест и стоит на страже. Если отдых прерывается напряжённой активностью (как минимум 1 час ходьбы, сражение, накладывание заклинаний или другая подобная деятельность), персонажи должны начать отдых с начала, чтобы получить от него преимущества.",
+             "В конце продолжительного отдыха персонаж восстанавливает все потраченные хиты, а также половину от максимума Костей Хитов (минимум 1). Например, если у персонажа восемь Костей Хитов, в конце продолжительного отдыха он может восстановить четыре из них.",
+             "Персонаж не может получить преимущества от второго продолжительного отдыха за 24-часовой период, и у персонажа должен быть хотя бы 1 хит в начале отдыха, чтобы получить от него преимущества."
         ]
    },
 ]

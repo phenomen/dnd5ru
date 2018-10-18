@@ -78,7 +78,7 @@ function init() {
     fill_section(data_abilities_int, "abilities-int", "Характеристики и Навыки");
     fill_section(data_abilities_wis, "abilities-wis", "Характеристики и Навыки");
     fill_section(data_abilities_cha, "abilities-cha", "Характеристики и Навыки");
-    fill_section(data_travel, "travel", "Traveling");
+    fill_section(data_travel, "travel", "Путешествие");
     fill_section(data_languages_standard, "languages-standard", "Языки");
     fill_section(data_languages_exotic, "languages-exotic", "Языки");
     fill_section(data_equipment_packs, "equipment-packs", "Наборы снаряжения");
