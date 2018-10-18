@@ -1,9 +1,9 @@
-dnd5e-quickref
+Dungeons and Dragons 5e - Справочник на русском
 ==============
 
 Интерактивный справочник по D&D5e.
 
-Перевод на русский язык: Phenomen
+Перевод на русский язык: Phenomen, используя материалы Phantom Studio
 
 Автор обновлённой справочника: niblexis
 
@@ -13,7 +13,7 @@ dnd5e-quickref
 Иконки
 ==============
 
-Все иконки бесплатны и взяты с http://game-icons.net/
+Все иконки взяты с http://game-icons.net/
 
 FAQ
 ===

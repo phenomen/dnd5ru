@@ -1,76 +1,72 @@
 data_abilities_str = [
     {
-        title: "Athletics",
+        title: "Атлетика",
         icon: "strong",
-        subtitle: "Used for acts of athleticism",
-        description: "Used for acts of athleticism",
-        reference: "PHB, pg. 175",
+        subtitle: "Атлетические действия",
+        description: "Атлетические действия",
+        reference: "КИ, стр. 175",
         bullets: [
-             "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities...\
+             "Проверки Силы (Атлетика) покрывают разнообразные ситуации, в которых вы лазаете, прыгаете или плаваете. Примеры включаютследующие действия:\
              <ul>\
-                <li>You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off</li>\
-                <li>You try to jump an unusually long distance or pull off a stunt midjump</li>\
-                <li>You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</li>\
+                <li>Вы пытаетесь взобраться на крутой утёс, избегая при этом опасностей, или попытки удержаться за что-то, когда вас пытаются стряхнуть.</li>\
+                <li>Вы пытаетесь прыгнуть на большое расстояние или совершить трюк в середине прыжка.</li>\
+                <li>Вы пытаетесь плыть или оставаться на плаву в бурных водах, во время шторма или среди зарослей водорослей. Другое существо может попытаться толкнуть или затянуть вас под воду, или как-то иным способом помешать вашему плаванию.</li>\
               </ul>"
         ]
     },
     {
-        title: "Carrying Capacity",
+        title: "Грузоподъёмность",
         icon: "knapsack",
-        subtitle: "Strength multiplied by 15",
-        description: "How much you can carry at a given time",
-        reference: "PHB, pg. 176",
+        subtitle: "Сила умноженная на 15",
+        description: "Как много веса вы можете нести",
+        reference: "КИ, стр. 176",
         bullets: [
-             "Your carrying capacity is your Strength score multiplied by 15. This is the weight (in pounds) that you can carry, which is high enough that most characters don't usually have to worry about it."
+             "Ваша грузоподъёмность это ваше значение Силы, умноженное на 15. Такой вес (в фунтах) вы можете носить, и это достаточно много, так что большинству персонажей не нужно об этом заботиться."
         ]
     },
     {
-        title: "Push, Drag, and Lift",
+        title: "Толкание, волочение и перенос",
         icon: "pull",
-        subtitle: "Strength multiplied by 30",
-        description: "How much weight you can push, drag, and lift",
-        reference: "PHB, pg. 176",
+        subtitle: "Сила умноженная на 30",
+        description: "Как много веса вы можете толкать, волочить и переносить",
+        reference: "КИ, стр. 176",
         bullets: [
-             "You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Strength score). While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet."
+             "Вы можете толкать, тянуть и отрывать от земли вес в фунтах, вдвое превышающий вашу грузоподъёмность (или значение Силы, умноженное на 30). Если вы толкаете или тянете вес, превышающий грузоподъёмность, ваша скорость падает до 5 футов."
         ]
     },
     {
-       title: "Size/Strength",
+       title: "Размер и груз",
        icon: "lift",
-       subtitle: "Size can affect a creature's strength",
-       description: "Size can affect a creature's strength",
-       reference: "PHB, pg. 176",
+       subtitle: "Влияние размера на груз",
+       description: "Влияние размера на грузоподъёмность",
+       reference: "КИ, стр. 176",
        bullets: [
-            "Larger creatures can bear more weight, whereas Tiny creatures can carry less.",
-            "For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift.",
-            "For a Tiny creature, halve these weights."
+            "Существа большого размера могут тащить больше, а Крохотные существа меньше. За каждую категорию размера выше Средней удвойте его грузоподъёмность и вес, который оно может толкать, тянуть и поднимать. Для существа Крохотного размера уменьшите эти значения вдвое."
        ]
     },
     {
-       title: "Attack Rolls & Damage",
+       title: "Броски Атаки и Урона",
        icon: "stone-axe",
-       subtitle: "How likely you are to hit your target",
-       description: "How likely you are to hit your target",
-       reference: "PHB, pg. 176",
+       subtitle: "Насколько вероятно попадание",
+       description: "Насколько вероятно попадание по цели и наносимый урон",
+       reference: "КИ, стр. 176",
        bullets: [
-            "You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be thrown to make a ranged attack."
+            "Вы добавляете модификатор Силы к броскам атаки и урона при совершении атак рукопашным оружием, таким как булава, секира или метательное копьё. Рукопашным оружием совершаются рукопашные атаки, а некоторые его виды можно метать, совершая, таким образом, дальнобойные атаки."
        ]
     },
     {
-       title: "Other Strength Checks",
+       title: "Прочие проверки Силы",
        icon: "perspective-dice-six-faces-random",
-       subtitle: "Other uses for Strength",
-       description: "Other uses for Strength",
-       reference: "PHB, pgs. 175-176",
+       reference: "КИ, стр. 175-176",
        bullets: [
-            "The DM might also call for a Strength check when you try to accomplish tasks like the following...\
+            "Мастер может призвать к проверке Силы, если вы пытаетесь сделать что-то из следующего:\
             <ul>\
-               <li>Force open a stuck, locked, or barred door</li>\
-               <li>Break free of bonds</li>\
-               <li>Push through a tunnel that is too small to normally fit in</li>\
-               <li>Hang on to a wagon while being dragged behind it</li>\
-               <li>Tip over a statue</li>\
-               <li>Keep a boulder from rolling</li>\
+               <li>Попытка открыть застрявшую, запертую или заложенную на засов дверь</li>\
+               <li>Попытка вырваться из оков</li>\
+               <li>Попытка протиснуться по узкому туннелю</li>\
+               <li>Попытка удержаться за фургон, не отцепившись от него во время движения</li>\
+               <li>Опрокидывание статуи</li>\
+               <li>Попытка удержать валун от падения</li>\
              </ul>"
        ]
     },
@@ -78,82 +74,80 @@ data_abilities_str = [
 
 data_abilities_dex = [
      {
-        title: "Acrobatics",
+        title: "Акробатика",
         icon: "falling",
-        subtitle: "Used for nimble physical feats",
-        description: "Used for nimble physical feats",
-        reference: "PHB, pg. 176",
+        subtitle: "Выдающиеся физические трюки",
+        description: "Выдающиеся физические трюки",
+        reference: "КИ, стр. 176",
         bullets: [
-             "Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+             "Проверки Ловкости (Акробатика) охватывают попытки устоять на ногах в неудобной ситуации, например, когда вы пытаетесь пробежаться по льду, балансируете на натянутом канате или стоите на палубе корабля в шторм. Мастер может также призвать к проверке Ловкости (Акробатика), чтобы увидеть, можете ли вы выполнить акробатический трюк, включая ныряние, кувырки, сальто и перекаты."
         ]
     },
     {
-       title: "Sleight of Hand",
+       title: "Ловкость рук",
        icon: "snatch",
-       subtitle: "Used for the art of theft and trickery",
-       description: "Used for the art of theft and trickery",
-       reference: "PHB, pg. 177",
+       subtitle: "Искусство воровства и обмана",
+       description: "Искусство воровства и обмана",
+       reference: "КИ, стр. 177",
        bullets: [
-            "Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The DM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket."
+            "Если вы пытаетесь жонглировать или сделать ловкий трюк, например, подбросить что-то другому или спрятать что-то на своём теле, совершите проверку Ловкости (Ловкость рук). Мастер может призвать совершить проверку Ловкости (Ловкость рук) чтобы определить, можете ли вы срезать у ротозея кошелёк или подбросить чтото другому в карман."
        ]
     },
     {
-       title: "Stealth",
+       title: "Скрытность",
        icon: "hood",
-       subtitle: "Used to remain unseen",
-       description: "Usde to remain unseen",
-       reference: "PHB, pg. 177",
+       subtitle: "Помогает быть незаметным",
+       description: "Помогает быть незаметным",
+       reference: "КИ, стр. 177",
        bullets: [
-            "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+            "Совершите проверку Ловкости (Скрытность), когда пытаетесь спрятаться от врагов, прокрасться мимо стражи, сбежать незамеченным или незаметно и неслышно подобраться к кому-то."
        ]
     },
     {
-       title: "Armor Class",
+       title: "Класс Доспеха",
        icon: "spiked-armor",
-       subtitle: "How likely/unlikely you are to be hit",
-       description: "How likely/unlikely you are to be hit",
-       reference: "PHB, pg. 177",
+       subtitle: "Насколько вероятно не получитить урон",
+       description: "Насколько вероятно не получитить урон",
+       reference: "КИ, стр. 177",
        bullets: [
-            "Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class."
+            "В зависимости от доспеха, который вы носите, вы можете добавлять модификатор Ловкости или его часть к Классу Доспеха, как описано в главе 5."
        ]
     },
     {
-       title: "Initiative",
+       title: "Инициатива",
        icon: "sprint",
-       subtitle: "How soon you act in combat",
-       description: "How soon you act in combat",
-       reference: "PHB, pg. 177",
+       subtitle: "Как скоро вы действуете в бою",
+       description: "Как скоро вы действуете в бою",
+       reference: "КИ, стр. 177",
        bullets: [
-            "At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat."
+            "В начале каждого сражения вы совершаете проверку инициативы, совершая проверку Ловкости. Инициатива определяет порядок ходов существ в сражении, как описано в главе 9."
        ]
     },
     {
-       title: "Attack Rolls & Damage",
+       title: "Броски Атаки и Урона",
        icon: "plain-dagger",
-       subtitle: "How likely you are to hit your target",
-       description: "How likely you are to hit your target",
-       reference: "PHB, pg. 177",
+       subtitle: "Насколько вероятно попадание",
+       description: "Насколько вероятно попадание по цели",
+       reference: "КИ, стр. 177",
        bullets: [
-            "You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier."
+            "Вы добавляете модификатор Ловкости к броскам атаки и урона при совершении атак дальнобойным оружием, таким как праща или длинный лук. Вы также можете добавлять модификатор Ловкости к броскам атаки и урона при совершении атак рукопашным оружием со свойством «фехтовальное», таким как кинжал и рапира."
        ]
     },
     {
-       title: "Other Dexterity Checks",
+       title: "Прочие проверки Ловкости",
        icon: "perspective-dice-six-faces-random",
-       subtitle: "Other uses for Dexterity",
-       description: "Other uses for Dexterity",
-       reference: "PHB, pg. 177",
+       reference: "КИ, стр. 177",
        bullets: [
-            "The DM might call for a Dexterity check when you try to accomplish tasks like the following...\
+            "Мастер может призвать к проверке Ловкости, если вы пытаетесь сделать что-то из следующего:\
             <ul>\
-               <li>Control a heavily laden cart on a steep descent</li>\
-               <li>Steer a chariot around a tight corner</li>\
-               <li>Pick a lock</li>\
-               <li>Disable a trap</li>\
-               <li>Securely tie a prisoner</li>\
-               <li>Wriggle free of bonds</li>\
-               <li>Play a stringed instrument</li>\
-               <li>Craft a small or detailed object</li>\
+               <li>Вы спускаетесь с тяжело нагруженной тачкой по крутому склону</li>\
+               <li>Вы закладываете крутой вираж на карете</li>\
+               <li>Вы вскрываете замок</li>\
+               <li>Вы обезвреживаете ловушку</li>\
+               <li>Вы связываете пленника сложным узлом</li>\
+               <li>Вы пытаетесь высвободиться из пут</li>\
+               <li>Вы играете на струнном инструменте</li>\
+               <li>Вы создаёте мелкий или высокодетализированный предмет</li>\
              </ul>"
        ]
     },
@@ -161,40 +155,39 @@ data_abilities_dex = [
 
 data_abilities_con = [
      {
-       title: "Hit Points",
+       title: "Хиты",
        icon: "heart-bottle",
-       subtitle: "How much health you have",
-       description: "How much health you have",
-       reference: "PHB, pg. 177",
+       subtitle: "Показатель вашего здоровья",
+       description: "Показатель вашего здоровья",
+       reference: "КИ, стр. 177",
        bullets: [
-            "Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for hit points.",
-            "If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitution score when you reach 4th level, and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitution modifier by 1, your hit point maximum is reduced by 7."
+            "Модификатор Телосложения участвует в определении ваших хитов. Обычно вы добавляете модификатор Телосложения ко всем Костям Хитов, брошенным для определения хитов.",
+            "Если ваш модификатор Телосложения изменяется, изменяется и максимум ваших хитов, как если бы новый модификатор был у вас с 1 уровня. Например, если вы повышаете значение Телосложения, когда достигаете 4 уровня, и ваш модификатор Телосложения увеличивается с +1 до +2, вы изменяете максимум хитов так, как будто этот модификатор всегда был +2. Вы добавляете 3 хита за первые три уровня, а затем определяете хиты за 4 уровень, используя уже новый модификатор. И наоборот, если на 7 уровне некий эффект уменьшит ваше значение Телосложения, уменьшив модификатор Телосложения на 1, максимум ваших хитов уменьшится на 7."
        ]
      },
      {
-       title: "Holding Breath",
+       title: "Задержка дыхания",
        icon: "drowning",
-       subtitle: "1 + Constitution modifier in minutes",
-       description: "How long you can hold your breath",
-       reference: "PHB, pg. 183",
+       subtitle: "Как долго можно не дышать",
+       description: "Как долго вы можете задержать дыхание",
+       reference: "КИ, стр. 183",
        bullets: [
-            "A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).",
-            "When a creature runs out of breath, it can survive for a number of rounds equal to its Constitution modifier (minimum 1 round). At the start of its next turn, it drops to 0 hit points and is dying."
+            "Существо может задержать дыхание на количество минут, равное 1 + модификатор Телосложения.",
+            "Если существо не может дышать, оно может жить в течение количества раундов, равного модификатору Телосложения (минимум 1 раунд). В начале своего следующего хода его хиты опускаются до 0, и оно начинает умирать. Если у вас кончился воздух или вас душат, вы не можете восстанавливать хиты и становиться стабилизированным, пока снова не сможете дышать.",
+            "Например, существо с Телосложением 14 может задержать дыхание на 3 минуты. Если оно начнёт задыхаться, у него будет 2 раунда, после чего его хиты опускаются до 0."
        ]
      },
      {
-       title: "Constitution Checks",
+       title: "Прочие проверки Телосложения",
        icon: "perspective-dice-six-faces-random",
-       subtitle: "Uses for Constitution",
-       description: "Uses for Constitution",
-       reference: "PHB, pg. 177",
+       reference: "КИ, стр. 177",
        bullets: [
-            "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits; however, the DM might call for a Constitution check when you try to accomplish tasks like the following...\
+            "Проверки Телосложения совершаются не часто, и от него не зависят никакие навыки, так как выносливость, которую отражает эта характеристика, пассивна, и персонаж или чудовище не может активно её использовать. Однако проверка Телосложения может моделировать вашу попытку сделать что-то необычное. Мастер может призвать к проверке Телосложения, если вы пытаетесь сделать что-то из следующего:\
             <ul>\
-               <li>March or labor for hours without rest</li>\
-               <li>Go without sleep</li>\
-               <li>Survive without food or water</li>\
-               <li>Quaff an entire stein of ale in one go</li>\
+               <li>Вы совершаете марш-бросок или несколько часов без перерыва работаете</li>\
+               <li>Вы долго не спите</li>\
+               <li>У вас нет еды и воды</li>\
+               <li>Вы пытаетесь осушить кружку эля одним махом</li>\
              </ul>"
        ]
     },
@@ -202,80 +195,78 @@ data_abilities_con = [
 
 data_abilities_int = [
      {
-       title: "Arcana",
+       title: "Магия",
        icon: "magic-lamp",
-       subtitle: "Used for knowledge of magic",
-       description: "Used for recalling knowledge of magic",
-       reference: "PHB, pg. 177",
+       subtitle: "Глубокое понимание магии",
+       description: "Глубокое понимание магии",
+       reference: "КИ, стр. 177",
        bullets: [
-            "Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
+            "Проверка Интеллекта (Магия) определяет вашу способность вспомнить знания о заклинаниях, магических предметах, мистических символах, магических традициях, планах существования и обитателях этих планов."
        ]
     },
     {
-      title: "History",
+      title: "История",
       icon: "open-book",
-      subtitle: "Used for recalling the past",
-      description: "Used for recalling the past",
-      reference: "PHB, pgs. 177-178",
+      subtitle: "Знание событий прошлого",
+      description: "Знание событий прошлого",
+      reference: "КИ, стр. 177-178",
       bullets: [
-           "Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."
+           "Проверка Интеллекта (История) определяет вашу способность вспомнить знания об исторических событиях, легендарных личностях, древних королевствах, былых спорах, недавних войнах и утерянных цивилизациях."
       ]
     },
     {
-      title: "Investigation",
+      title: "Анализ",
       icon: "magnifying-glass",
-      subtitle: "Used for investigating certain things",
-      description: "Used for investigating certain things",
-      reference: "PHB, pg. 178",
+      subtitle: "Поиск подсказок и логических связей",
+      description: "Поиск подсказок и логических связей",
+      reference: "КИ, стр. 178",
       bullets: [
-           "When you look around for clues and make deductions based on those clues, you might make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check."
+           "Если вы ищете подсказки и делаете на их основе выводы, вы совершаете проверку Интеллекта (Анализ). Вы можете вычислить местоположение спрятанного предмета, понять по виду раны, каким оружием она была нанесена или определить самую слабую точку в туннеле, способную его обрушить. Рассматривание древних свитков в поисках тайного знания тоже может требовать совершения проверки Интеллекта (Анализ)."
       ]
     },
     {
-      title: "Nature",
+      title: "Природа",
       icon: "spoted-flower",
-      subtitle: "Used for knowledge of things in nature",
-      description: "Used for knowledge of things in nature",
-      reference: "PHB, pg. 178",
+      subtitle: "Знание флоры, фауны и географии",
+      description: "Знание флоры, фауны и географии",
+      reference: "КИ, стр. 178",
       bullets: [
-           "Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
+           "Проверка Интеллекта (Природа) определяет вашу способность вспомнить знания о местности, о растениях и животных, о погоде и естественных циклах."
       ]
     },
     {
-      title: "Religion",
+      title: "Религия",
       icon: "holy-grail",
-      subtitle: "Used for knowledge of religious subjects",
-      description: "Used for knowledge of religious subjects",
-      reference: "PHB, pg. 178",
+      subtitle: "Понимание религиозных тем",
+      description: "Понимание религиозных тем и теологии",
+      reference: "КИ, стр. 178",
       bullets: [
-           "Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."
+           "Проверка Интеллекта (Религия) определяет вашу способность вспомнить знания о божествах, ритуалах и молитвах, религиозных иерархиях, священных символах и практиках тайных культов."
       ]
     },
     {
-      title: "Spellcasting Ability",
+      title: "Базовая характеристика",
       icon: "magic-swirl",
-      subtitle: "Wizards",
-      description: "Wizards",
-      reference: "PHB, pg. 178",
+      subtitle: "Волшебники",
+      description: "Волшебники",
+      reference: "КИ, стр. 178",
       bullets: [
-           "Wizards use Intelligence as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."
+           "Волшебники используют Интеллект при определении Сл спасбросков от накладываемых ими заклинаний."
       ]
     },
     {
-      title: "Other Intelligence Checks",
+      title: "Прочие проверки Интеллекта",
       icon: "perspective-dice-six-faces-random",
-      subtitle: "Other uses for Intelligence",
-      description: "Other uses for Intelligence",
-      reference: "PHB, pg. 178",
+      reference: "КИ, стр. 178",
       bullets: [
-           "The DM might call for an Intelligence check when you try to accomplish tasks like the following...\
+           "Мастер может призвать к проверке Интеллекта, если вы пытаетесь сделать что-то из следующего:\
            <ul>\
-              <li>Communicate with a creature without using words</li>\
-              <li>Estimate the value of a precious item</li>\
-              <li>Pull together a disguise to pass as a city guard</li>\
-              <li>Forge a document</li>\
-              <li>Recall lore about a craft or trade</li>\
-              <li>Win a game of skill</li>\
+              <li>Вы общаетесь с существом без использования слов</li>\
+              <li>Вы оцениваете стоимость ценного предмета</li>\
+              <li>Вы маскируетесь под городского стража</li>\
+              <li>Вы подделываете документ</li>\
+              <li>Вы вспоминаете знание о ремесле или торговле</li>\
+              <li>Вы соревнуетесь с кем-то в философском споре</li>\
             </ul>"
       ]
     },
@@ -283,76 +274,75 @@ data_abilities_int = [
 
 data_abilities_wis = [
      {
-       title: "Animal Handling",
+       title: "Уход за животными",
        icon: "hoof",
-       subtitle: "Used to control animals",
-       description: "Used to control animals",
-       reference: "PHB, pg. 178",
+       subtitle: "Управление животными",
+       description: "Используется для управления животными",
+       reference: "КИ, стр. 178",
        bullets: [
-            "When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an amimal's intentions, the DM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver."
+            "Если возникает вопрос, можете ли вы успокоить одомашненное животное, удержать скакуна от того, чтобы он запаниковал, или почувствовать намерения животного, Мастер может призвать совершить проверку Мудрости (Уход за животными). Вы также совершаете проверку Мудрости (Уход за животными) для контролирования скакуна при совершении опасного манёвра."
        ]
      },
      {
-       title: "Insight",
+       title: "Проницательность",
        icon: "brain",
-       subtitle: "Used to see past deception",
-       description: "Used to see past deception",
-       reference: "PHB, pg. 178",
+       subtitle: "Определение обмана и мотивов",
+       description: "Определение обмана и мотивов",
+       reference: "КИ, стр. 178",
        bullets: [
-            "Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+            "Ваша проверка Мудрости (Проницательность) определяет, можете ли вы определить истинные намерения существа, например, при попытке распознать ложь или предсказать чей-то следующий шаг. При этом вы совершаете догадки по языку тела, особенностям разговора и переменах в поведении."
        ]
      },
      {
-       title: "Medicine",
+       title: "Медицина",
        icon: "bandage-roll",
-       subtitle: "Used for all things medicine",
-       description: "Used for all things medicine",
-       reference: "PHB, pg. 178",
+       subtitle: "Всё, связанное с медициной",
+       description: "Всё, связанное с медициной",
+       reference: "КИ, стр. 178",
        bullets: [
-            "A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness."
+            "Проверка Мудрости (Медицина) позволяет стабилизировать умирающего спутника или диагностировать болезнь."
        ]
      },
      {
-       title: "Perception",
+       title: "Внимательность",
        icon: "semi-closed-eye",
-       subtitle: "Used to notice and see things",
-       description: "Used to notice and see things",
-       reference: "PHB, pg. 178",
+       subtitle: "Позволяет замечать вещи",
+       description: "Позволяет замечать вещи",
+       reference: "КИ, стр. 178",
        bullets: [
-            "Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses."
+            "Проверка Мудрости (Внимательность) позволяет вам увидеть, услышать или как-то иначе заметить присутствие чего-либо. Она измеряет вашу готовность к новым событиям и остроту ваших чувств.",
+            "Например, вы может подслушать разговор под дверью, подсмотреть в окно или услышать чудовищ, крадущихся по лесу. Или вы можете попытаться заметить что-то, что скрыто или легко можно пропустить, будь то орки, лежащие в засаде у дороги, головорезы, затаившиеся в тенях аллеи или свет от лампы под закрытой потайной дверью."
        ]
      },
      {
-       title: "Survival",
+       title: "Выживание",
        icon: "footprint",
-       subtitle: "Used to hunt and track",
-       description: "Used to hunt and track",
+       subtitle: "Охота и выслеживание",
+       description: "Охота и выслеживание",
        reference: "",
        bullets: [
-            "The DM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."
+            "Мастер может призвать совершить проверку Мудрости (Выживание) для выслеживания врагов, охоты на дичь, нахождения дороги в промёрзшей тундре, замечания признаков того, что рядом живут совомеды, предсказывания погоды и избегания зыбучих песков и прочих природных опасностей."
        ]
      },
      {
-       title: "Spellcasting Ability",
+       title: "Базовая характеристика",
        icon: "magic-swirl",
-       subtitle: "Clerics, druids, and rangers",
-       description: "Clerics, druids, and rangers",
-       reference: "PHB, pg. 178",
+       subtitle: "Друиды, жрецы и следопыты",
+       description: "Друиды, жрецы и следопыты",
+       reference: "КИ, стр. 178",
        bullets: [
-            "Clerics, druids, and rangers use Wisdom as their spelcasting ability, which helps determine the saving throw DCs of spells they cast."
+            "Друиды, жрецы и следопыты используют Мудрость при определении Сл спасбросков от накладываемых ими заклинаний."
        ]
     },
      {
-       title: "Other Wisdom Checks",
+       title: "Прочие проверки Мудрости",
        icon: "perspective-dice-six-faces-random",
-       subtitle: "Other uses for Wisdom",
-       description: "Other uses for Wisdom",
-       reference: "PHB, pg. 178",
+       reference: "КИ, стр. 178",
        bullets: [
-            "The DM might call for a Wisdom check when you try to accomplish tasks like the following...\
+            "Мастер может призвать к проверке Мудрости, если вы пытаетесь сделать что-то из следующего:\
             <ul>\
-               <li>Get a gut feeling about what course of action to follow</li>\
-               <li>Discern whether a seemingly dead or living creature is undead</li>\
+               <li>Вы пытаетесь понять, что делать дальше</li>\
+               <li>Вы пытаетесь распознать доппельгангера</li>\
              </ul>"
        ]
      },
@@ -360,66 +350,65 @@ data_abilities_wis = [
 
 data_abilities_cha = [
      {
-       title: "Deception",
+       title: "Обман",
        icon: "conversation",
-       subtitle: "Used to lie and trick others",
-       description: "Used to lie and trick others",
-       reference: "PHB, pg. 178",
+       subtitle: "Ложь и скрытие мотивов",
+       description: "Ложь и скрытие мотивов",
+       reference: "КИ, стр. 178",
        bullets: [
-            "Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+            "Ваша проверка Харизмы (Обман) определяет, можете ли в ы намеренно утаить правду, хоть речами, хоть де йствиями. Такой обман охватывает всё, от направления других по неверному следу и двусмысленных речей до рассказывания откровенной лжи. Может применяться при отвлечении стражников, обмане торговцев, зарабатывании денег азартными играми, маскировке под других, отводе чужих подозрений ложными утверждениями и сохранении спокойного лица при рассказывании чудовищной лжи."
        ]
      },
      {
-       title: "Intimidation",
+       title: "Запугивание",
        icon: "scarecrow",
-       subtitle: "Used to frighten others",
-       description: "Used to frighten others",
-       reference: "PHB, pg. 179",
+       subtitle: "Угрозы и шатаж",
+       description: "Угрозы и шатаж",
+       reference: "КИ, стр. 179",
        bullets: [
-            "When you attempt to influence someone through overt threats, hostile actions, and physical violence, the DM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision."
+            "Когда вы пытаетесь воздействовать на других угрозами, враждебными действиями и физическим насилием, Мастер может попросить вас совершить проверку Харизмы (Запугивание). Примерами могут послужить добыча информации из пленника, убеждение головорезов отказат ься от драки и угроза разбитой бутылкой ехидно му визирю, чтобы тот изменил решение."
        ]
      },
      {
-       title: "Performance",
+       title: "Выступление",
        icon: "drama-masks",
-       subtitle: "Used to act and perform",
-       description: "Used to act and perform",
-       reference: "PHB, pg. 179",
+       subtitle: "Песни, танцы и актерская игра",
+       description: "Песни, танцы и актерская игра",
+       reference: "КИ, стр. 179",
        bullets: [
-            "Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
+            "Ваша проверка Харизмы (Выступление) определяет, насколько хорошо вы удовлетворили публику музыкой, танцем, актёрской игрой, рассказом или другим развлечением."
        ]
      },
      {
-       title: "Persuasion",
+       title: "Убеждение",
        icon: "trade",
-       subtitle: "Used to convince others",
-       description: "Used to convince others",
-       reference: "PHB, pg. 179",
+       subtitle: "Убеждение и воодушевление",
+       description: "Убеждение и воодушевление",
+       reference: "КИ, стр. 179",
        bullets: [
-            "When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuasing others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
+            "Если вы пытаетесь повлиять на существо или целую группу существ тактично, с уважением и добродуш ием, Мастер может попросить вас совершить проверку Харизмы (Убеждение). Обычно убеждение используется при добрых намерениях, при попытках подружиться, установить контакт или проявить этикет. Примеры убеждения других включают в себя попытки убедить дворецкого пропустить вас к королю, мирное урегулирование споров двух враждующих племён и воодушевление толпы горожан."
        ]
      },
      {
-       title: "Spellcasting Ability",
+       title: "Базовая характеристика",
        icon: "magic-swirl",
-       subtitle: "Bards, paladins, sorcerers, and warlocks",
-       description: "Bards, paladins, sorcerers, and warlocks",
-       reference: "PHB, pg. 179",
+       subtitle: "Барды, колдуны, паладины и чародеи",
+       description: "Барды, колдуны, паладины и чародеи",
+       reference: "КИ, стр. 179",
        bullets: [
-            "Bards, paladins, sorcerers, and warlocks use Charisma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."
+            "Барды, колдуны, паладины и чародеи используют Харизму при определении Сл спасбросков от накладываемых ими заклинаний."
        ]
      },
      {
-       title: "Other Charisma Checks",
+       title: "Прочие проверки Харизмы",
        icon: "perspective-dice-six-faces-random",
-       subtitle: "Other uses for Charisma",
-       description: "Other uses for Charisma",
-       reference: "PHB, pg. 179",
+       reference: "КИ, стр. 179",
        bullets: [
-            "The DM might call for a Charisma check when you try to accomplish tasks like the following...\
+            "Мастер может призвать к проверке Харизмы, если вы пытаетесь сделать что-то из следующего:\
             <ul>\
-               <li>Find the best person to talk to for news, rumors, and gossip</li>\
-               <li>Blend into a crowd to get the sense of key topics of conversation</li>\
+               <li>Вы ищете, с кем лучше всего обсудить новости, слухи и сплетни</li>\
+               <li>Вы сливаетесь с толпой, чтобы узнать основные обсуждаемые темы</li>\
+               <li>Вы пытаетесь соблазнить даму или кавалера на знатном балу</li>\
              </ul>"
        ]
      },
