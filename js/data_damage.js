@@ -37,13 +37,13 @@ data_damage_types = [
       ]
    },
    {
-      title: "Falling",
+      title: "Падение",
       icon: "falling",
-      subtitle: "1d6 per 10 ft.",
-      description: "Damage taken from falling",
-      reference: "PHB, pg. 183",
+      subtitle: "1к6 за 10 футов",
+      description: "Урон от падения",
+      reference: "КИ, стр. 183",
       bullets: [
-          "At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall.",
+          "В конце падения существо получает дробящий урон 1к6 за каждые 10 футов падения, с максимумом 20к6. Существо падает ничком, если только каким-то образом не избежит урона от падения.",
       ]
    },
    {
@@ -124,7 +124,7 @@ data_damage_health = [
         icon: "health-normal",
         subtitle: "Regaining health",
         description: "Regaining health",
-        reference: "PHB, pg. 197",
+        reference: "КИ, стр. 197",
         bullets: [
              "Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points, and magical methods such as a <i>cure wounds</i> spell or a <i>potion of healing</i> can remove damage in an instant.",
              "When a creatures receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8.",
@@ -139,7 +139,7 @@ data_damage_death = [
         icon: "decapitation",
         subtitle: "Death by massive damage",
         description: "Death by massive damage",
-        reference: "PHB, pg. 197",
+        reference: "КИ, стр. 197",
         bullets: [
             "Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.",
             "For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies."
@@ -148,7 +148,7 @@ data_damage_death = [
     {
        title: "Falling Unconscious",
        icon: "sleepy",
-       reference: "PHB, pg. 197",
+       reference: "КИ, стр. 197",
        bullets: [
            "If damage reduces you to 0 hit points and fails to kill you, you fall unconscious. This unconsciousness ends if you regain any hit points."
        ]
@@ -161,7 +161,7 @@ data_damage_resting = [
         icon: "campfire",
         subtitle: "Resting for at least 1 hour",
         description: "Resting for at least 1 hour",
-        reference: "PHB, pg. 186",
+        reference: "КИ, стр. 186",
         bullets: [
              "A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
              "A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can deecide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a long rest."
@@ -172,7 +172,7 @@ data_damage_resting = [
         icon: "bed",
         subtitle: "Resting for at least 8 hours",
         description: "Resting for at least 8 hours",
-        reference: "PHB, pg. 186",
+        reference: "КИ, стр. 186",
         bullets: [
              "A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity - at least 1 hour of walking, fighting, casting spells, or similar adventuring activity - the character must begin the rest again to gain any benefit from it.",
              "At the end of a long rest, a character regains all lost hit points. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them. For example, if a character has eight Hit Dice, they can regain four spent Hit Dice upon finishing a long rest.",

@@ -1,73 +1,73 @@
 data_travel = [
      {
-        title: "Forced March",
+        title: "Форсированный марш",
         icon: "journey",
-        subtitle: "DC: 10 + hours past 8",
-        description: "Traveling more than 8 hours in a day",
-        reference: "PHB, pg. 181",
+        subtitle: "Сл: 10 + 1 за час сверх 8",
+        description: "Путешествие более 8 часов в день",
+        reference: "КИ, стр. 181",
         bullets: [
-            "The Travel Pace table assumes that characters travel for 8 hours in a day. They can push on beyond that limit, at the risk of exhaustion.",
-            "For each additional hour of travel beyond 8 hours... each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion."
+            "За каждый дополнительный час путешествия сверх 8 часов, персонажи покрывают расстояние, указанное в колонке «час» для их темпа, но все персонажи должны в конце каждого лишнего часа совершать спасброски Телосложения",
+            "Сл равна 10 + 1 за каждый час сверх 8. В случае провала персонаж получает одну степень истощения."
         ]
     },
     {
-       title: "Mounts & Vehicles",
+       title: "Скакуны и транспорт",
        icon: "cavalry",
-       subtitle: "Tools to assist in traveling",
-       description: "Tools to assist in traveling",
-       reference: "PHB, pgs. 181-182",
+       subtitle: "Помощь в перемещение",
+       description: "Помощь в перемещение на дальние дистанции",
+       reference: "КИ, стр. 181-182",
        bullets: [
-           "For short spans of time (up to an hour) many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are available every 8 to 10 miles, characters can cover larger distances at this pace, but this is very rare except in densely populated areas.",
-           "Characters in wagons, carriages, or otoher land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't suffer penalties for a fast pace or gain benefits from a slow pace. Depending on the vessel and the size of the crew, ships might be able to travel up to 24 hours per day.",
-           "Certain special mounts, such as a pegasus or griffin, or special vehicles, such as a carpet of flying, allow you to travel more swiftly."
+           "В течение небольших промежутков времени (в пределах часа) многие животные перемещаются значительно быстрее гуманоидов. Едущий верхом персонаж может в течение часа ехать галопом, покрывая двойное расстояние быстрого темпа. Если через каждые 8–16 километров есть свежие скакуны, персонажи могут покрывать в таком темпе большие расстояния, но такое возможно только в густонаселённых землях.",
+           "Персонажи в фургонах, каретах и прочем наземном транспорте, используют нормальный темп. Персонажи на водном транспорте ограничены скоростью судна (смотрите главу 5), и они не получают ни штрафы за быстрый темп, ни преимущества от медленного темпа.",
+           "В зависимости от судна и размера экипажа, корабли могут перемещаться и по 24 часа в сутки. Некоторые магические животные (грифоны) или предметы (ковер-самолет) могут перемещаться намного быстрее обычных транспортных средств."
        ]
    },
    {
-       title: "Difficult terrain",
+       title: "Труднопроходимая местность",
        icon: "stone-pile",
-       subtitle: "Half speed",
-       reference: "PHB, pg. 182.",
-       description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+       subtitle: "Вдвое медленнее",
+       reference: "КИ, стр. 182.",
+       description: "По труднопроходимой местности вы перемещаетесь с уменьшенной вдвое скоростью",
        bullets: [
-            "The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground -- all considered difficult terrain.",
-            "You move at half speed in difficult terrain -- moving 1 foot in difficult terrain costs 2 feet of speed -- so you can only cover half the normal distance in a minute, an hour, or a day."
+            "Скорость, указанная в таблице, подразумевает путешествие по относительно нормальной местности: дороги, открытые равнины или ровные коридоры подземелья. Однако искатели приключений часто забредают в густые леса, глубокие болота, заваленные булыжниками руины, крутые горы и закованные в ледяной панцирь реки — всё это труднопроходимая местность.",
+            "По труднопроходимой местности вы перемещаетесь с уменьшенной вдвое скоростью: перемещение на 1 фут совершается за счёт 2 футов скорости, так что за минуту, час или день вы пройдёте вдвое меньшее расстояние, чем обычно."
        ]
    },
    {
-       title: "Travel Pace",
+       title: "Темп передвижения",
        icon: "old-wagon",
-       subtitle: "The speeds at which you can travel",
-       description: "The speeds at which you can travel",
-       reference: "PHB, pg. 182",
+       subtitle: "Скорость в путешествии",
+       description: "Скорость в путешествии. 1 миля = 1,6 км. 1 фут = 30 см.",
+       reference: "КИ, стр. 182",
        bullets: [
             "<table id='t01' style='width:100%'>\
                <tr>\
-                 <th><b>Pace</b></th>\
-                 <th><b>Minute</b></th>\
-                 <th><b>Hour</b></th>\
-                 <th><b>Day</b></th>\
-                 <th><b>Effect</b></th>\
+                 <th><b>Темп</b></th>\
+                 <th><b>Минута</b></th>\
+                 <th><b>Час</b></th>\
+                 <th><b>День</b></th>\
+                 <th><b>Эффект</b></th>\
                </tr>\
                <tr>\
-                 <td>Fast</td>\
-                 <td>400 feet</td>\
-                 <td>4 miles</td>\
-                 <td>30 miles</td>\
-                 <td>-5 penalty to passive Wisdom (Perception) scores</td>\
+                 <td>Быстрый</td>\
+                 <td>400 футов</td>\
+                 <td>4 мили</td>\
+                 <td>30 миль</td>\
+                 <td>Штраф −5 к пассивному значению Мудрости (Внимательность)</td>\
                </tr>\
                <tr>\
-                 <td>Normal</td>\
-                 <td>300 feet</td>\
-                 <td>3 miles</td>\
-                 <td>24 miles</td>\
+                 <td>Нормальный</td>\
+                 <td>300 футов</td>\
+                 <td>3 мили</td>\
+                 <td>24 мили</td>\
                  <td>---</td>\
                </tr>\
                <tr>\
-                 <td>Slow</td>\
-                 <td>200 feet</td>\
-                 <td>2 miles</td>\
-                 <td>18 miles</td>\
-                 <td>Able to use stealth</td>\
+                 <td>Медленный</td>\
+                 <td>200 футов</td>\
+                 <td>2 мили</td>\
+                 <td>18 миль</td>\
+                 <td>Возможность перемещаться скрытно</td>\
                </tr>\
              </table>"
        ]
