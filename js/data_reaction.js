@@ -7,31 +7,31 @@ data_reaction = [
         reference: "КИ, стр. 195.",
         bullets: [
             "Вы можете совершить провоцированную атаку, если враждебное существо, которое вы видите, покидает вашу досягаемость.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach. However, it does not stop their movement (unless you have the Sentinel feat)",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction.",
-            "Does not benefit from Extra Attack (as it isn't the Attack action)"
+            "Для этого вы реакцией совершаете одну рукопашную атаку по спровоцировавшему существу.",
+            "Эта атака прерывает перемещение спровоцировавшего существа, происходя как раз перед тем, как оно покинет пределы вашей досягаемости.",
+            "Вы можете избежать провоцированной атаки, совершив действие Отход. Вы также не провоцируете атаки, если телепортируетесь, или кто-то (что-то) перемещает вас, не тратя ваше перемещение, действие и реакцию.",
+            "Провоцированная атака не получает дополнительной атаки (способность воина), т.к. не является действием Атака."
         ]
     },
     {
         title: "Подготовленная атака",
         icon: "stopwatch",
         subtitle: "Часть действия Подготовки",
-        description: "Execute the reaction specified by your Ready action",
+        description: "Совершить атаку реакции",
         reference: "КИ, стр. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Условие: при достижении условий действия Подготовки."
         ]
     },
     {
         title: "Наложение заклинания",
         icon: "magic-swirl",
         subtitle: "Наложение в 1 реакцию",
-        description: "Cast a spell with a casting time of 1 reaction",
+        description: "Наложить заклинание с временем наложения в 1 реакцию",
         reference: "КИ, стр. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Условие: зависит от заклинания.",
+            "Смотрите основное действие <i>Наложение заклинания</i> для подробностей."
         ]
     }
 ]

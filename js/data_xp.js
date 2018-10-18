@@ -1,15 +1,15 @@
 data_xp = [
      {
-         title: "Experience Required",
+         title: "Требуемый опыт",
          icon: "chart",
-         subtitle: "The amount of XP needed to level up",
-         description: "The amount of XP needed to level up",
-         reference: "PHB, pg. 15",
+         subtitle: "Опыт для повышения уровня",
+         description: "Количество опыта для повышения уровня",
+         reference: "КИ, стр. 15",
          bullets: [
               "<table id='t01' style='width:100%'>\
                  <tr>\
-                   <th><b>Experience Points</b></th>\
-                   <th><b>Level</b></th>\
+                   <th><b>Опыт</b></th>\
+                   <th><b>Уровень</b></th>\
                  </tr>\
                  <tr>\
                    <td>0</td>\
@@ -95,20 +95,20 @@ data_xp = [
          ]
      },
      {
-         title: "Experience Given",
+         title: "Получение опыта",
          icon: "fish-monster",
-         subtitle: "The amount of XP given by monsters",
-         description: "The amount of XP given by monsters",
-         reference: "PHB, pg. 15",
+         subtitle: "Опыт за победу",
+         description: "Количество опыта за победу над противниками",
+         reference: "РМ, стр. 81",
          bullets: [
                    "<table id='t01' style='width:100%'>\
                       <tr>\
-                        <th><b>CR</b></th>\
-                        <th><b>XP</b></th>\
+                        <th><b>Сложность</b></th>\
+                        <th><b>Опыт</b></th>\
                       </tr>\
                       <tr>\
                         <td>0</td>\
-                        <td>0 or 10</td>\
+                        <td>0 или 10</td>\
                       </tr>\
                       <tr>\
                         <td>1/8</td>\
