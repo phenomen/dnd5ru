@@ -1,33 +1,33 @@
 data_freeaction = [
      {
-        title: "Speaking",
+        title: "Разговор",
         icon: "conversation",
-        subtitle: "Brief communication with others",
-        description: "Brief communication with others",
-        reference: "PHB, pg. 190",
+        subtitle: "Короткий разговор или фраза",
+        description: "Короткий разговор или фраза",
+        reference: "КИ, стр. 190",
         bullets: [
-             "You can communicate however you are able, through brief utterances and gestures as you take your turn."
+             "Вы можете общаться любыми доступными вам средствами, короткими фразами и жестами."
         ]
      },
      {
-        title: "Interact with object",
+        title: "Использование предмета",
         icon: "hand",
-        subtitle: "Interact with one object around you",
-        description: "Interact with one object around you",
-        reference: "PHB, pg. 190",
+        subtitle: "Взаимодействие с предметом",
+        description: "Взаимодействие с одним предметом рядом с вами",
+        reference: "КИ, стр. 190",
         bullets: [
-             "You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.",
-             "If you want to interact with a second object, you need to use your action. Some magic items and other special objects always require an action to use, as stated in their descriptions."
+             "Вы можете также свободно взаимодействовать с одним предметом или особенностью местности во время другого действия. Например, вы можете открыть дверь во время перемещения, или вынуть оружие из ножен частью того же действия, которым совершаете атаку.",
+             "Если вы хотите взаимодействовать со вторым предметом, вам нужно потратить на это действие. Некоторые магические и другие особые предметы всегда используются действием, что указывается в их описании."
         ]
      },
      {
-        title: "Dropping concentration",
+        title: "Прерывание концентрации",
         icon: "wizard-staff",
-        subtitle: "Drop concentration on a spell",
-        description: "Drop concentration on a spell",
-        reference: "PHB, pg. 203",
+        subtitle: "Перестать концентрироваться",
+        description: "Перестать концентрироваться на заклинании",
+        reference: "КИ, стр. 203",
         bullets: [
-             "You can end concentration at any time (no action required)."
+             "Вы можете перестать концентрироваться на заклинании в любое время без затраты действия."
         ]
      },
 ]

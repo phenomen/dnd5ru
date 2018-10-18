@@ -1,136 +1,136 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Перемещение",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        subtitle: "Стоимость: 5 футов за 5 футов",
+        description: "Стоимость движения: 5 футов за перемещение на 5 футов",
+        reference: "КИ, стр. 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Если у вас есть несколько скоростей, например, скорость ходьбы и скорость полёта, вы можете переключаться между ними во время перемещения. При каждом переключении вычитайте уже пройдённое расстояние из новой скорости.",
+            "Вы можете проходить сквозь пространство невраждебных существ.",
+            "Сквозь пространство враждебного существа можно пройти только если его размер как минимум на две категории больше или меньше вашего.",
+            "Пространство других существ является для вас труднопроходимой местностью.",
+            "Вне зависимости от того, дружественное существо или нет, вы не можете добровольно закончить перемещение в его пространстве."
         ]
     },
     {
-        title: "Climb",
+        title: "Лазание",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
-        reference: "PHB, pg. 182.",
+        subtitle: "Стоимость: 10 футов за 5 футов",
+        description: "Стоимость движения: 5 футов за восхождение на 5 футов",
+        reference: "КИ, стр. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Лазание по скользкой вертикальной поверхности или поверхности, где мало за что можно ухватиться, может требовать успешную проверку Силы (Атлетика)."
         ]
     },
     {
-        title: "Swim",
+        title: "Плавание",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
-        reference: "PHB, pg. 182.",
+        subtitle: "Стоимость: 10 футов за 5 футов",
+        description: "Стоимость движения: 10 футов за 5 футов swum",
+        reference: "КИ, стр. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Плавание в бурных водах может требовать успешную проверку Силы (Атлетика)."
         ]
     },
     {
-        title: "Drop prone",
+        title: "Упасть ничком",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        subtitle: "Стоимость: 0 футов",
+        description: "Стоимость движения: 0 футов (свободно)",
+        reference: "КИ, стр. 190-191,292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Вы можете упасть ничком, не тратя скорость.",
+            "Для перемещения в положении лёжа нужно или ползти, или использовать магию, такую как телепортация.",
+            "Падение даёт состояние <i>Лежащий ничком</i> (броски рукопашной атаки по существу совершаются с преимуществом, броски дальнобойной атаки по существу совершаются с помехой, само существо получает помеху на свои броски атаки)"
         ]
     },
     {
-        title: "Crawl",
+        title: "Ползание",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
+        subtitle: "Стоимость: 10 футов за 5 футов",
+        description: "Стоимость движения: 10 футов за 5 футов ползком",
+        reference: "КИ, стр. 182.",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "Встать",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        subtitle: "Стоимость: половина скорости",
+        description: "Стоимость движения: половина вашей скорости перемещения",
+        reference: "КИ, стр. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Вы не можете встать, если у вас недостаточно перемещения или если скорость равна 0."
         ]
     },
     {
-        title: "High jump",
+        title: "Прыжок в высоту",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Стоимость: 5 футов за 5 футов",
+        description: "Стоимость движения: 5 футов за 5 футов прыжка",
 
-        reference: "PHB, pg. 182.",
+        reference: "КИ, стр. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "Если вы совершаете прыжок в высоту, вы поднимаетесь в воздух на количество футов, равное 3 + модификатор Силы, если непосредственно перед прыжком переместились минимум на 10 футов.",
+            "Если вы совершаете прыжок в высоту без разбега, прыгнуть можно только на половину этой дистанции.",
+            "Руки можно вытянуть вверх на половину своего роста.",
+            "В некоторых случаях Мастер может позволить совершить проверку Силы (Атлетика), чтобы прыгнуть выше, чем обычно."
         ]
     },
     {
-        title: "Long jump",
+        title: "Прыжок в длину",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        reference: "PHB, pg. 182.",
+        subtitle: "Стоимость: 5 футов за 5 футов",
+        description: "Стоимость движения: 5 футов за 5 футов прыжка",
+        reference: "КИ, стр. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "Если вы совершаете прыжок в длину, вы покрываете количество футов, равное значению Силы, если непосредственно перед прыжком переместились минимум на 10 футов.",
+            "Если вы совершаете прыжок в длину без разбега, прыгнуть можно только на половину этой дистанции.",
+            "Иногда вы должны преуспеть в проверке Силы (Атлетика) со Сл 10, чтобы перепрыгнуть через препятствие (не выше четверти расстояния прыжка), такое как изгородь или невысокая стена. В противном случае вы ударяетесь об него.",
+            "Если вы приземляетесь в труднопроходимую местность, вы должны преуспеть в спасброске Ловкости (Акробатика) со Сл 10, чтобы приземлиться на ноги. В противном случае вы падаете ничком."
         ]
     },
     {
-        title: "Improvise",
+        title: "Импровизация",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Любое движение не из списка",
+        description: "Исполнить любое движение или трюк",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Когда вы хотите совершить движение, не описанное в правилах, Мастер решает возможно ли это и назначает Сл проверки."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Труднопроходимая местность",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
-        reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        subtitle: "Мод. стоимости: +5 футов за 5 футов",
+        reference: "КИ, стр. 182.",
+        description: "По труднопроходимой местности вы перемещаетесь с уменьшенной вдвое скоростью: перемещение на 1 фут совершается за счёт 2 футов скорости, так что за минуту, час или день вы пройдёте вдвое меньшее расстояние, чем обычно.",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Движение в захвате",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
-        reference: "PHB, pg. 195.",
+        subtitle: "Мод.: скорость снижена вдвое",
+        description: "Толкай или неси захваченное существо",
+        reference: "КИ, стр. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "Если вы перемещаетесь во время захвата, вы можете тащить или нести захваченное существо вместе с собой, но ваша скорость уменьшается вдвое, если только существо не меньше вас как минимум на две категории.",
+            "Смотрите действие захвата для дополнительной информации."
         ]
    },
    {
-       title: "Mounting & Dismounting",
+       title: "Посадка в седло и спешивание",
        icon: "horseshoe",
-       subtitle: "Cost: speed halved",
-       description: "Getting on and off of a mount",
-       reference: "PHB, pg. 198",
+       subtitle: "Стоимость: половина скорости",
+       description: "Позволяет садиться и спешиваться с лошади или другого существа.",
+       reference: "КИ, стр. 198",
        bullets: [
-            "Once during your move, you can mount a creature that is within 5 feet of you, or dismount. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse. Therefore you can't mount it if you don't have 15 feet of movement left or if your speed is 0.",
-            "If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked prone while mounted, you must make the same saving throw.",
-            "If your mount is knocked prone, you can use your reaction to dismount as it falls and land on your feet. Otherwise you are dismounted and fall prone in a space within 5 feet of it."
+            "Один раз во время перемещения вы можете сесть в седло существа, находящегося в пределах 5 футов от вас или наоборот, спешиться. Это стоит количество перемещения, равного половине скорости. Например, если ваша скорость 30 футов, вы должны потратить 15 футов перемещения на посадку в седло лошади. Кроме того, вы не можете сесть в седло, если у вас осталось меньше 15 футов перемещения или если ваша скорость равна 0.",
+            "Если некий эффект перемещает вашего скакуна против его воли, пока вы находитесь на нём, вы должны преуспеть в спасброске Ловкости со Сл 10, иначе вы упадёте со скакуна, падая ничком в пространстве в пределах 5 футов от него. Если вас собьют с ног, пока вы находитесь верхом, вы должны совершить этот же спасбросок.",
+            "Если ваш скакун сбивается с ног, вы можете реакцией спешиться и приземлиться на ноги. В противном случае вы спешиваетесь и падаете ничком в пространстве в пределах 5 футов от скакуна."
        ]
    }
 ]

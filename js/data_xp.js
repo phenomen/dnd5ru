@@ -1,7 +1,7 @@
 data_xp = [
      {
          title: "Experience Required",
-         icon: "level-crossing",
+         icon: "chart",
          subtitle: "The amount of XP needed to level up",
          description: "The amount of XP needed to level up",
          reference: "PHB, pg. 15",

@@ -1,34 +1,34 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Атака второй рукой",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Атака вторым лёгким оружием",
+        description: "Атака лёгким оружием во второй руке",
+        reference: "КИ, стр. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Если вы совершаете действие Атака и атакуете рукопашным оружием со свойством «лёгкое», удерживаемым в одной руке, вы можете бонусным действием атаковать другим рукопашным оружием со свойством «лёгкое», удерживаемым в другой руке.",
+            "Вы не добавляете модификатор характеристики к урону от бонусной атаки, если он положительный, но отнимаете, если он отрицательный.",
+            "Вы также не добавляете другие положительные модификаторы своих способностей ко второй атаке, но любые отрицательные модификаторы продолжают действовать.",
+            "Если у любого из оружий есть свойство «метательное», вы можете не совершать им рукопашную атаку, а метнуть его."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Наложить заклинание",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Наложение в 1 бонусное действие",
+        description: "Наложить заклинание с временем наложения в 1 бонусное действие",
+        reference: "КИ, стр. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Вы не можете наложить заклинание основным действием и другое заклинание бонусным действием за один ход, кроме случаев, когда действием был наложен заговор.",
+            "Смотрите основное действие <i>Наложить заклинание</i> для подробностей."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Способность класса",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Бонусное действие класса",
+        description: "Некоторые способности используются класса как бонусное действие",
+        reference: "Смотрите описание своего класса.",
         bullets: [
 
         ]
