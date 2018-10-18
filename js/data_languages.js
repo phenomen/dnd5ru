@@ -1,181 +1,181 @@
 data_languages_standard = [
      {
-         title: "Common",
+         title: "Общий",
          icon: "conversation",
-         subtitle: "Typically spoken by Humans",
-         description: "Typically spoken by Humans",
-         reference: "PHB, pg. 123",
+         subtitle: "Люди",
+         description: "Люди",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Humans",
-             "<b>Script:</b> Common"
+             "<b>Типичный представитель:</b> Люди и все разумные расы поверхности",
+             "<b>Письменность:</b> Общая"
          ]
      },
      {
-         title: "Dwarvish",
+         title: "Дварфский",
          icon: "dwarf-face",
-         subtitle: "Typically spoken by Dwarves",
-         description: "Typically spoken by Dwarves",
-         reference: "PHB, pg. 123",
+         subtitle: "Дварфы",
+         description: "Дварфы",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Dwarves",
-             "<b>Script:</b> Dwarvish"
+             "<b>Типичный представитель:</b> Дварфы",
+             "<b>Письменность:</b> Дварфская"
          ]
      },
      {
-         title: "Elvish",
+         title: "Эльфийский",
          icon: "elf-ear",
-         subtitle: "Typically spoken by Elves",
-         description: "Typically spoken by Elves",
-         reference: "PHB, pg. 123",
+         subtitle: "Эльфы",
+         description: "Эльфы",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Elves",
-             "<b>Script:</b> Elvish"
+             "<b>Типичный представитель:</b> Эльфы",
+             "<b>Письменность:</b> Эльфийская"
          ]
      },
      {
-         title: "Giant",
+         title: "Великаний",
          icon: "ogre",
-         subtitle: "Typically spoken by Ogres and Giants",
-         description: "Typically spoken by Ogres and Giants",
-         reference: "PHB, pg. 123",
+         subtitle: "Огры и Великаны",
+         description: "Огры и Великаны",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Ogres, giants",
-             "<b>Script:</b> Dwarvish"
+             "<b>Типичный представитель:</b> Огры и Великаны",
+             "<b>Письменность:</b> Дварфская"
          ]
      },
      {
-         title: "Gnomish",
+         title: "Гномий",
          icon: "bad-gnome",
-         subtitle: "Typically spoken by Gnomes",
-         description: "Typically spoken by Gnomes",
-         reference: "PHB, pg. 123",
+         subtitle: "Гномы",
+         description: "Гномы",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Gnomes",
-             "<b>Script:</b> Dwarvish"
+             "<b>Типичный представитель:</b> Гномы",
+             "<b>Письменность:</b> Дварфская"
          ]
      },
      {
-         title: "Goblin",
+         title: "Гоблинский",
          icon: "goblin-head",
-         subtitle: "Typically spoken by Goblinoids",
-         description: "Typically spoken by Goblinoids",
-         reference: "PHB, pg. 123",
+         subtitle: "Гоблинойды",
+         description: "Гоблинойды",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Goblinoids",
-             "<b>Script:</b> Dwarvish"
+             "<b>Типичный представитель:</b> Гоблины, Медвежатники, Кобольды",
+             "<b>Письменность:</b> Дварфская"
          ]
      },
      {
-         title: "Halfling",
+         title: "Полуросликов",
          icon: "conversation",
-         subtitle: "Typically spoken by Halflings",
-         description: "Typically spoken by Halflings",
-         reference: "PHB, pg. 123",
+         subtitle: "Полурослики",
+         description: "Полурослики",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Halflings",
-             "<b>Script:</b> Common"
+             "<b>Типичный представитель:</b> Полурослики",
+             "<b>Письменность:</b> Общая"
          ]
      },
      {
-         title: "Orc",
+         title: "Орочий",
          icon: "orc-head",
-         subtitle: "Typically spoken by Orcs",
-         description: "Typically spoken by Orcs",
-         reference: "PHB, pg. 123",
+         subtitle: "Орки",
+         description: "Орки",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Orcs",
-             "<b>Script:</b> Dwarvish"
+             "<b>Типичный представитель:</b> Орки",
+             "<b>Письменность:</b> Дварфская"
          ]
      },
 ]
 
 data_languages_exotic = [
      {
-         title: "Abyssal",
+         title: "Бездны",
          icon: "imp",
-         subtitle: "Typically spoken by Demons",
-         description: "Typically spoken by Demons",
-         reference: "PHB, pg. 123",
+         subtitle: "Демоны",
+         description: "Демоны",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Demons",
-             "<b>Script:</b> Infernal"
+             "<b>Типичный представитель:</b> Демоны",
+             "<b>Письменность:</b> Инфернальная"
          ]
      },
      {
-         title: "Celestial",
+         title: "Небесный",
          icon: "angel-outfit",
-         subtitle: "Typically spoken by Celestials",
-         description: "Typically spoken by Celestials",
-         reference: "PHB, pg. 123",
+         subtitle: "Небожители",
+         description: "Небожители",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Celestials",
-             "<b>Script:</b> Celestial"
+             "<b>Типичный представитель:</b> Небожители",
+             "<b>Письменность:</b> Небесная"
          ]
      },
      {
-         title: "Draconic",
+         title: "Драконий",
          icon: "dragon-head",
-         subtitle: "Typically spoken by Dragons...",
-         description: "Typically spoken by Dragons...",
-         reference: "PHB, pg. 123",
+         subtitle: "Драконы",
+         description: "Драконы",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Dragons, dragonborn",
-             "<b>Script:</b> Draconic"
+             "<b>Типичный представитель:</b> Драконы, драконорождённые",
+             "<b>Письменность:</b> Драконья"
          ]
      },
      {
-         title: "Deep Speech",
+         title: "Глубинная Речь",
          icon: "squid-head",
-         subtitle: "Typically spoken by Mind-Flayers...",
-         description: "Typically spoken by Mind-Flayers...",
-         reference: "PHB, pg. 123",
+         subtitle: "Иллитиды",
+         description: "Иллитиды",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Mind-flayers, beholders",
-             "<b>Script:</b> ---"
+             "<b>Типичный представитель:</b> Иллитиды, злобоглазы",
+             "<b>Письменность:</b> ---"
          ]
      },
      {
-         title: "Infernal",
+         title: "Инфернальный",
          icon: "diablo-skull",
-         subtitle: "Typically spoken by Devils",
-         description: "Typically spoken by Devils",
-         reference: "PHB, pg. 123",
+         subtitle: "Дьяволы",
+         description: "Дьяволы",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Devils",
-             "<b>Script:</b> Infernal"
+             "<b>Типичный представитель:</b> Дьяволы",
+             "<b>Письменность:</b> Инфернальная"
          ]
      },
      {
-         title: "Primordial",
+         title: "Первичный",
          icon: "unfriendly-fire",
-         subtitle: "Typically spoken by Elementals",
-         description: "Typically spoken by Elementals",
-         reference: "PHB, pg. 123",
+         subtitle: "Элементали",
+         description: "Элементали",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Elementals",
-             "<b>Script:</b> Dwarvish"
+             "<b>Типичный представитель:</b> Элементали",
+             "<b>Письменность:</b> Дварфская"
          ]
      },
      {
-         title: "Sylvan",
+         title: "Сильван",
          icon: "fairy",
-         subtitle: "Typically spoken by Fey Creatures",
-         description: "Typically spoken by Fey Creatures",
-         reference: "PHB, pg. 123",
+         subtitle: "Фейские существа",
+         description: "Фейские существа",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Fey creatures",
-             "<b>Script:</b> Elvish"
+             "<b>Типичный представитель:</b> Фейские существа",
+             "<b>Письменность:</b> Эльфийская"
          ]
      },
      {
-         title: "Undercommon",
+         title: "Подземный",
          icon: "trade",
-         subtitle: "Typically spoken by Underdark Traders",
-         description: "Typically spoken by Underdark Traders",
-         reference: "PHB, pg. 123",
+         subtitle: "Жители Подземья",
+         description: "Жители Подземья",
+         reference: "КИ, стр. 123",
          bullets: [
-             "<b>Typical Speakers:</b> Underdark traders",
-             "<b>Script:</b> Elvish"
+             "<b>Типичный представитель:</b> Дроу, Дуэргары и Глубинные гномы",
+             "<b>Письменность:</b> Эльфийская"
          ]
      },
 ]
