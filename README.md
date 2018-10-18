@@ -3,11 +3,11 @@ dnd5e-quickref
 
 Интерактивный справочник по D&D5e.
 
-Перевед на русский язык: Phenomen
+Перевод на русский язык: Phenomen
 
 Автор обновлённой справочника: niblexis
 
-Оригинальная версия: Crobi: https://github.com/crobi/dnd5e-quickref
+Оригинальная версия: Crobi https://github.com/crobi/dnd5e-quickref
 
 
 Иконки
