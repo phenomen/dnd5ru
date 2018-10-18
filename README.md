@@ -1,22 +1,20 @@
 dnd5e-quickref
 ==============
 
-Quick reference sheet for D&amp;D 5e
+Интерактивная справочник по D&D5e.
 
-This is a fork of the project updated by niblexis. You can find the original by Crobi here: https://github.com/crobi/dnd5e-quickref
+Перевед на русский язык: Phenomen
+Автор обновлённой справочника: niblexis
+Оригинальная версия: Crobi: https://github.com/crobi/dnd5e-quickref
 
 
-Icons
+Иконки
 ==============
 
-All icons are provided by http://game-icons.net/
-
+Все иконки бесплатны и взяты с http://game-icons.net/
 
 FAQ
 ===
 
-#### Q: I have found a layout issue or a major issue in one of the core items, what should I do? ####
-A: Open an issue at https://github.com/niblexis/dnd5e-quickref/issues. Even better: fork the project, fix the problem, and post a pull request.
-
-#### Q: I have an idea for a minor tweak, such as adding actions specific for my character. How do I modify the content of the sheet? ####
-A: Open the subfolder called `js`, and edit one of the `data` files. Ask your local computer geek for help if you don't know how to edit those.
+#### Q: Я нашел опечатку или ошибку и не могу спать спокойно! Что теперь делать? ####
+A: Откройте issue на https://github.com/phenomen/dnd5e-quickref/issues. А еще лучше - сделайте форк, исправьте ошибку и отправьте pull request.
