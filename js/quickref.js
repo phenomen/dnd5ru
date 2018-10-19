@@ -68,7 +68,7 @@ function init() {
     fill_section(data_environment_vision, "environment-vision", "Окружающая среда");
     fill_section(data_environment_cover, "environment-cover", "Окружающая среда");
     fill_section(data_xp, "xp", "Опыт");
-    fill_section(data_damage_types, "damage-types", "Типы урона");
+    fill_section(data_damage_types, "damage-types", "Урон и атака");
     fill_section(data_damage_death, "damage-death", "Хиты, Смерть и Отдых");
     fill_section(data_damage_health, "damage-health", "Хиты, Смерть и Отдых");
     fill_section(data_damage_resting, "damage-resting", "Хиты, Смерть и Отдых");
