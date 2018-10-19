@@ -429,17 +429,18 @@ p:first-child {
 .modal-dialog {
     position: relative;
     width: auto;
+    z-index: 1;
     margin: 8px;
 }
 
 .modal-backdrop {
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
-    background-color: #888;
-    opacity: .75;
-    overflow: hidden;
+    width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    background-color: rgba(136,136,136,.5);
 }
 
 .modal-container {
