@@ -1,396 +1,396 @@
 data_equipment_packs = [
      {
-         title: "Burglar's Pack",
+         title: "Набор взломщика",
          icon: "robber",
-         subtitle: "Cost: 16gp",
-         description: "Cost: 16gp",
-         reference: "PHB, pg. 151",
+         subtitle: "Стоимость: 16зм",
+         description: "Стоимость: 16зм",
+         reference: "КИ, стр. 151",
          bullets: [
-             "Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, a tinderbox, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."
+             "Включает рюкзак, сумку с 1 000 металлических шариков, 10 футов лески, колокольчик, 5 свечек, ломик, молоток, 10 шлямбуров, закрытый фонарь, 2 фляги масла, рационы на 5 дней, трутницу и бурдюк. В набор также входит 50-футовая пеньковая верёвка, закреплённая сбоку."
          ]
      },
      {
-         title: "Diplomat's Pack",
+         title: "Набор дипломата",
          icon: "shaking-hands",
-         subtitle: "Cost: 39gp",
-         description: "Cost: 39gp",
-         reference: "PHB, pg. 151",
+         subtitle: "Стоимость: 39зм",
+         description: "Стоимость: 39зм",
+         reference: "КИ, стр. 151",
          bullets: [
-             "Includes a chest, 2 cases for maps and scrolls, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 2 flasks of oil, 5 sheets of paper, a vial of perfume, sealing wax, and soap."
+             "Включает сундук, 2 контейнера для карт и свитков, комплект отличной одежды, бутылочку чернил, писчее перо, лампу, 2 фляги масла, 5 листов бумаги, флакон духов, воск и мыло."
          ]
      },
      {
-         title: "Dungeoneer's Pack",
+         title: "Набор исследователя подземелий",
          icon: "dungeon-gate",
-         subtitle: "Cost: 12gp",
-         description: "Cost: 12gp",
-         reference: "PHB, pg. 151",
+         subtitle: "Стоимость: 12зм",
+         description: "Стоимость: 12зм",
+         reference: "КИ, стр. 151",
          bullets: [
-             "Includes a backpack, a crowbar, a hammer, 10 pitons, 10 torches, a tinderbox, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."
+             "Включает рюкзак, ломик, молоток, 10 шлямбуров, 10 факелов, трутницу, рационы на 10 дней и бурдюк. В набор также входит 50-футовая пеньковая верёвка, закреплённая сбоку."
          ]
      },
      {
-         title: "Entertainer's Pack",
+         title: "Набор артиста",
          icon: "drama-masks",
-         subtitle: "Cost: 40gp",
-         description: "Cost: 40gp",
-         reference: "PHB, pg. 151",
+         subtitle: "Стоимость: 40зм",
+         description: "Стоимость: 40зм",
+         reference: "КИ, стр. 151",
          bullets: [
-             "Includes a backpack, a bedroll, 2 costumes, 5 candles, 5 days of rations, a waterskin, and a disguise kit."
+             "Включает рюкзак, спальник, 2 костюма, 5 свечек, рационы на 5 дней, бурдюк и набор для грима."
          ]
      },
      {
-         title: "Explorer's Pack",
+         title: "Набор путешественника",
          icon: "journey",
-         subtitle: "Cost: 10gp",
-         description: "Cost: 10gp",
-         reference: "PHB, pg. 151",
+         subtitle: "Стоимость: 10зм",
+         description: "Стоимость: 10зм",
+         reference: "КИ, стр. 151",
          bullets: [
-             "Includes a backpack, a bedroll, a mess kit, a tinderbox, 10 torches, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."
+             "Включает рюкзак, спальник, столовый набор, трутницу, 10 факелов, рационы на 10 дней и бурдюк. В набор также входит 50-футовая пеньковая верёвка, закреплённая сбоку."
          ]
      },
      {
-         title: "Priest's Pack",
+         title: "Набор священника",
          icon: "holy-symbol",
-         subtitle: "Cost: 19gp",
-         description: "Cost: 19gp",
-         reference: "PHB, pg. 151",
+         subtitle: "Стоимость: 19зм",
+         description: "Стоимость: 19зм",
+         reference: "КИ, стр. 151",
          bullets: [
-             "Includes a backpack, a blanket, 10 candles, a tinderbox, an alms box, 2 blocks of incense, a censer, vestments, 2 days of rations, and a waterskin."
+             "Включает рюкзак, одеяло, 10 свечек, трутницу, коробку для пожертвований, 2 упаковки благовоний, кадило, облачение, рационы на 2 дня и бурдюк."
          ]
      },
      {
-         title: "Scholar's Pack",
+         title: "Набор учёного",
          icon: "bookmark",
-         subtitle: "Cost: 40gp",
-         description: "Cost: 40gp",
-         reference: "PHB, pg. 151",
+         subtitle: "Стоимость: 40зм",
+         description: "Стоимость: 40зм",
+         reference: "КИ, стр. 151",
          bullets: [
-             "Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, and a small knife."
+             "Включает рюкзак, научную книгу, бутылочку чернил, писчее перо, 10 листов пергамента, небольшую сумочку с песком и небольшой нож."
          ]
      },
 ]
 
 data_equipment_tools_norm = [
      {
-         title: "Disguise Kit",
+         title: "Набор для грима",
          icon: "domino-mask",
-         subtitle: "Cost: 25gp",
-         description: "Cost: 25gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 25зм",
+         description: "Стоимость: 25зм",
+         reference: "КИ, стр. 154",
          bullets: [
-             "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
+             "Этот набор косметики, красителей для волос и бутафории позволяет изменять ваш внешний облик. Владение этим набором позволяет добавлять бонус мастерства к проверкам характеристик, совершённым для визуальной маскировки."
          ]
      },
      {
-         title: "Forgery Kit",
+         title: "Набор для фальсификации",
          icon: "letter-bomb",
-         subtitle: "Cost: 15gp",
-         description: "Cost: 15gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 15зм",
+         description: "Стоимость: 15зм",
+         reference: "КИ, стр. 154",
          bullets: [
-             "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."
+             "В этой небольшой коробке лежат разные бумаги и пергаменты, ручки и чернила, печати и куски воска, золотая и серебряная фольга, и прочие припасы, необходимые для создания убедительных подделок документов. Владение этим набором позволяет добавлять бонус мастерства к проверкам характеристик, совершённым при создании поддельных документов."
          ]
      },
      {
-         title: "Gaming Set",
+         title: "Игровой набор",
          icon: "perspective-dice-six-faces-random",
-         subtitle: "Cost: Varied",
-         description: "Cost: Varied",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: Разная",
+         description: "Стоимость: Разная",
+         reference: "КИ, стр. 154",
          bullets: [
-             "This item encompasses a wide range of gaming pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a seperate proficiency.",
-             "<b>Dice set:</b> 1sp <br /> <b>Dragonchess set:</b> 1gp <br /> <b>Playing card set:</b> 5sp <br /> <b>Three-Dragon Ante set:</b> 1gp <br />"
+             "Игры могут состоять из разных предметов, включая кости и колоды карт. В таблице указаны примеры игр, но есть и другие наборы. Если вы владеете игровым набором, вы можете добавлять бонус мастерства к проверкам характеристик, совершаемым во время игры. Для каждой игры требуется отдельное владение.",
+             "<b>Кости:</b> 1см <br /> <b>Драконьи шахматы:</b> 1зм <br /> <b>Карты:</b> 5см <br /> <b>Ставка трех драконов:</b> 1зм <br />"
          ]
      },
      {
-         title: "Herbalism Kit",
+         title: "Набор травника",
          icon: "spoted-flower",
-         subtitle: "Cost: 5gp",
-         description: "Cost: 5gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 5зм",
+         description: "Стоимость: 5зм",
+         reference: "КИ, стр. 154",
          bullets: [
-             "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency witht his kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and <i>potions of healing.</i>"
+             "В этот набор входят разнообразные инструменты, такие как ножницы, ступка и пестик, а также мешочки и флаконы, используемые травниками при создании снадобий и зелий. Владение этим набором позволяет добавлять бонус мастерства к проверкам характеристик, совершённым при опознании и использовании трав. Кроме того, владение этим набором требуется для создания противоядия и зелья лечения."
          ]
      },
      {
-         title: "Musical Instrument",
+         title: "Музыкальные инструменты",
          icon: "guitar",
-         subtitle: "Cost: Varied",
-         description: "Cost: Varied",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: Разная",
+         description: "Стоимость: Разная",
+         reference: "КИ, стр. 154",
          bullets: [
-             "Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a seperate proficiency.",
-             "<b>Bagpipes:</b> 30gp <br /> <b>Drum:</b> 6gp <br /> <b>Dulcimer:</b> 25gp <br /> <b>Flute:</b> 2gp <br /> <b>Lute:</b> 35gp <br /> <b>Lyre:</b> 30gp <br /> <b>Horn:</b> 3gp <br /> <b>Pan flute:</b> 12gp <br /> <b>Shawm:</b> 2gp <br /> <b>Viol:</b> 30gp <br />"
+             "Самые популярные музыкальные инструменты указаны в таблице. Если вы владеете определённым музыкальным инструментом, вы можете добавлять бонус мастерства к проверкам характеристик, совершённым во время игры на нём. Бард может использовать музыкальный инструмент в качестве фокусировки для заклинаний, как описано в главе 10. Для каждого музыкального инструмента нужно отдельное владение.",
+             "<b>Волынка:</b> 30зм <br /> <b>Барабан:</b> 6зм <br /> <b>Цимбалы:</b> 25зм <br /> <b>Флейта:</b> 2зм <br /> <b>Лютня:</b> 35зм <br /> <b>Лира:</b> 30зм <br /> <b>Рожок:</b> 3зм <br /> <b>Свирель:</b> 12зм <br /> <b>Шалмей:</b> 2зм <br /> <b>Виола:</b> 30зм <br />"
          ]
      },
      {
-         title: "Navigator's Tools",
+         title: "Инструменты навигатора",
          icon: "compass",
-         subtitle: "Cost: 25gp",
-         description: "Cost: 25gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 25зм",
+         description: "Стоимость: 25зм",
+         reference: "КИ, стр. 154",
          bullets: [
-             "This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability checks you make to avoid getting lost at sea."
+             "Эти инструменты используются для навигации в море. Владение инструментами навигатора позволяет прокладывать курс корабля и пользоваться морскими картами. Кроме того, эти инструменты позволяют вам добавлять бонус мастерства к проверкам характеристик, совершённым, чтобы не потеряться в море."
          ]
      },
      {
-         title: "Poisoner's Kit",
+         title: "Инструменты отравителя",
          icon: "poison-bottle",
-         subtitle: "Cost: 50gp",
-         description: "Cost: 50gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 50зм",
+         description: "Стоимость: 50зм",
+         reference: "КИ, стр. 154",
          bullets: [
-             "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to ability checks you make to craft or use poisons."
+             "В набор отравителя входят флаконы, химикаты и прочее снаряжение, необходимое для создания ядов. Владение этим набором позволяет вам добавлять бонус мастерства к проверкам характеристик, совершённым для создания и использования ядов."
          ]
      },
      {
-         title: "Thieves' Tools",
+         title: "Воровские инструменты",
          icon: "lockpicks",
-         subtitle: "Cost: 25gp",
-         description: "Cost: 25gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 25зм",
+         description: "Стоимость: 25зм",
+         reference: "КИ, стр. 154",
          bullets: [
-             "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+             "В этот набор инструментов входят небольшой напильник, набор отмычек, небольшое зеркальце на длинной ручке, ножницы и пара щипчиков. Владение этими инструментами позволяет добавлять бонус мастерства ко всем проверкам характеристик, сделанным для отключения ловушек и взлома замков."
          ]
      },
 ]
 
 data_equipment_tools_artisan = [
      {
-         title: "Artisan's Tools",
+         title: "Инструменты ремесленников",
          icon: "hammer-nails",
-         subtitle: "Tools used for a craft",
-         description: "Tools used for a craft",
-         reference: "PHB, pg. 154",
+         subtitle: "Инструменты для ремесла",
+         description: "Инструменты для ремесла",
+         reference: "КИ, стр. 154",
          bullets: [
-             "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+             "В эти особые наборы входят инструменты, необходимые для ремесла и торговли. В таблице приведены примеры самых распространённых наборов, каждый из которых связан со своим ремеслом. Владение инструментами ремесленника позволяет добавлять бонус мастерства к проверкам характеристик, совершённым при использовании инструментов в ремесле. Для каждого набора инструментов требуется отдельное владение."
          ]
      },
      {
-         title: "Alchemist's Supplies",
+         title: "Инструменты алхимика",
          icon: "potion-ball",
-         subtitle: "Cost: 50gp",
-         description: "Cost: 50gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 50зм",
+         description: "Стоимость: 50зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Brewer's Supplies",
+         title: "Инструменты пивовара",
          icon: "beer-stein",
-         subtitle: "Cost: 20gp",
-         description: "Cost: 20gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 20зм",
+         description: "Стоимость: 20зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Calligrapher's Supplies",
+         title: "Инструменты каллиграфа",
          icon: "folded-paper",
-         subtitle: "Cost: 10gp",
-         description: "Cost: 10gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 10зм",
+         description: "Стоимость: 10зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Carpenter's Tools",
+         title: "Инструменты плотника",
          icon: "hand-saw",
-         subtitle: "Cost: 8gp",
-         description: "Cost: 8gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 8зм",
+         description: "Стоимость: 8зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Cobbler's Tools",
+         title: "Инструменты сапожника",
          icon: "boots",
-         subtitle: "Cost: 5gp",
-         description: "Cost: 5gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 5зм",
+         description: "Стоимость: 5зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Cook's Utensils",
+         title: "Инструменты повара",
          icon: "meat-cleaver",
-         subtitle: "Cost: 1gp",
-         description: "Cost: 1gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 1зм",
+         description: "Стоимость: 1зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Glassblower's Tools",
+         title: "Инструменты стеклодува",
          icon: "wine-glass",
-         subtitle: "Cost: 30gp",
-         description: "Cost: 30gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 30зм",
+         description: "Стоимость: 30зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Jeweler's Tools",
+         title: "Инструменты ювелира",
          icon: "engagement-ring",
-         subtitle: "Cost: 25gp",
-         description: "Cost: 25gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 25зм",
+         description: "Стоимость: 25зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Leatherworker's Tools",
+         title: "Инструменты кожевника",
          icon: "leather-vest",
-         subtitle: "Cost: 5gp",
-         description: "Cost: 5gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 5зм",
+         description: "Стоимость: 5зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Mason's Tools",
+         title: "Инструменты каменщика",
          icon: "tombstone",
-         subtitle: "Cost: 10gp",
-         description: "Cost: 10gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 10зм",
+         description: "Стоимость: 10зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Painter's Supplies",
+         title: "Инструменты художника",
          icon: "paint-brush",
-         subtitle: "Cost: 10gp",
-         description: "Cost: 10gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 10зм",
+         description: "Стоимость: 10зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Potter's Tools",
+         title: "Инструменты гончара",
          icon: "flower-pot",
-         subtitle: "Cost: 10gp",
-         description: "Cost: 10gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 10зм",
+         description: "Стоимость: 10зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Smith's Tools",
+         title: "Инструменты кузнеца",
          icon: "anvil-impact",
-         subtitle: "Cost: 20gp",
-         description: "Cost: 20gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 20зм",
+         description: "Стоимость: 20зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Tinker's Tools",
+         title: "Инструменты жестянщика",
          icon: "tinker",
-         subtitle: "Cost: 50gp",
-         description: "Cost: 50gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 50зм",
+         description: "Стоимость: 50зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Weaver's Tools",
+         title: "Инструменты ткача",
          icon: "wool",
-         subtitle: "Cost: 1gp",
-         description: "Cost: 1gp",
-         reference: "PHB, pg. 154",
+         subtitle: "Стоимость: 1зм",
+         description: "Стоимость: 1зм",
+         reference: "КИ, стр. 154",
      },
      {
-         title: "Woodcarver's Tools",
+         title: "Инструменты резчика по дереву",
          icon: "bone-knife",
-         subtitle: "Cost: 1gp",
-         description: "Cost: 1gp",
-         reference: "PHB, pg. 154",
-     },
+         subtitle: "Стоимость: 1зм",
+         description: "Стоимость: 1зм",
+         reference: "КИ, стр. 154",
+     }
 ]
 
 data_equipment_weapons_properties = [
      {
-         title: "Ammunition",
+         title: "Боеприпас",
          icon: "heavy-arrow",
-         subtitle: "Weapons that use ammunition",
-         description: "Weapons that use ammunition",
+         subtitle: "Использует боеприпасы",
+         description: "Оружие, использующее боеприпасы",
          reference: "PHB, pgs. 146-147",
          bullets: [
-             "You can use a weapon that has the ammunition property to make a ranged attack only if you have the ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half of your expended ammunition to search the battlefield.",
-             "If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+             "Вы можете использовать оружие со свойством «боеприпас» для совершения дальнобойной атаки только если у вас есть боеприпасы для стрельбы. Каждый раз, когда вы совершаете атаку с помощью этого оружия, вы тратите один боеприпас. Вынимается боеприпас из колчана или другого контейнера частью атаки. Для зарядки одноручного оружия требуется одна свободная рука. В конце сражения вы восстанавливаете половину использованных боеприпасов, потратив минуту на поиски на поле боя.",
+             "Если вы используете оружие со свойством «боеприпас» для совершения рукопашной атаки, вы считаете его импровизированным оружием (смотрите «Импровизированное оружие»). Праща при этом должна быть заряжена."
          ]
      },
      {
-         title: "Finesse",
+         title: "Фехтовальное",
          icon: "shard-sword",
-         subtitle: "Weapons that can use DEX or STR",
-         description: "Weapons that can use DEX or STR",
-         reference: "PHB, pg. 147",
+         subtitle: "Использует Ловкость вместо Силы",
+         description: "Использует Ловкость вместо Силы",
+         reference: "КИ, стр. 147",
          bullets: [
-             "When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+             "При совершении атаки фехтовальным оружием вы сами выбираете, какой модификатор использовать при совершении бросков атаки и урона — модификатор Силы или Ловкости. Для обоих бросков должен использоваться один и тот же модификатор."
          ]
      },
      {
-         title: "Heavy",
+         title: "Тяжёлое",
          icon: "anvil",
-         subtitle: "Weapons too heavy for small creatures",
-         description: "Weapons too heavy for small creatures",
-         reference: "PHB, pg. 147",
+         subtitle: "Слишком тяжёлое для малых существ",
+         description: "Слишком тяжёлое для малых существ",
+         reference: "КИ, стр. 147",
          bullets: [
-             "Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively."
+             "Существа Маленького размера совершают броски атаки тяжёлым оружием с помехой. Из-за размера и веса Маленькие существа не могут использовать такое оружие эффективно."
          ]
      },
      {
-         title: "Light",
+         title: "Лёгкое",
          icon: "feather",
-         subtitle: "Weapon that is easy to handle",
-         description: "Weapon that is easy to handle",
-         reference: "PHB, pg. 147",
+         subtitle: "Оружием легко управляться",
+         description: "Оружием легко управляться",
+         reference: "КИ, стр. 147",
          bullets: [
-             "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+             "Лёгкое оружие маленькое и удобное, и идеально подходит для сражения двумя оружиями."
          ]
      },
      {
-         title: "Loading",
+         title: "Перезарядка",
          icon: "crossbow",
-         subtitle: "Weapon with long loading time",
-         description: "Weapon with long loading time",
-         reference: "PHB, pg. 147",
+         subtitle: "Долгая перезарядка",
+         description: "Долгая перезарядка",
+         reference: "КИ, стр. 147",
          bullets: [
-             "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."
+             "Из-за долгой перезарядки этого оружия вы можете выстрелить из него только один боеприпас одним действием, бонусным действием или реакцией, вне зависимости от количества положенных атак."
          ]
      },
      {
-         title: "Range",
+         title: "Дистанционное",
          icon: "lightning-bow",
-         subtitle: "A ranged weapon",
-         description: "A ranged weapon",
-         reference: "PHB, pg. 147",
+         subtitle: "Дальнобойное оружие",
+         description: "Дальнобойное оружие",
+         reference: "КИ, стр. 147",
          bullets: [
-             "A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."
+             "У оружия, с помощью которого могут совершаться дальнобойные атаки, указан диапазон в скобках после свойства «боеприпас» или «метательное». Диапазон состоит из двух чисел. Первое — это нормальная дистанция в футах, а второе указывает максимальную дистанцию оружия. При совершении атаки по цели, находящейся на расстоянии, превышающем нормальную дистанцию, бросок атаки совершается с помехой. Цель, находящуюся на расстоянии, превышающем максимальную дистанцию, атаковать нельзя."
          ]
      },
      {
-         title: "Reach",
+         title: "Досягаемость",
          icon: "halberd",
-         subtitle: "A weapon with longer reach than normal",
-         description: "A weapon with longer reach than normal",
-         reference: "PHB, pg. 147",
+         subtitle: "Длинное рукопашное оружие",
+         description: "Длинное рукопашное оружие",
+         reference: "КИ, стр. 147",
          bullets: [
-             "This weapon adds 5 feet to your reach when you attack with it."
+             "Это оружие добавляет 5 футов к расстоянию, на котором вы можете совершать этим оружием атаки, а также провоцированные атаки."
          ]
      },
      {
-         title: "Thrown",
+         title: "Метательное",
          icon: "barbed-spear",
-         subtitle: "A weapon that can be thrown",
-         description: "A weapon that can be thrown",
-         reference: "PHB, pg. 147",
+         subtitle: "Оружие можно метнуть",
+         description: "Оружие можно метнуть",
+         reference: "КИ, стр. 147",
          bullets: [
-             "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."
+             "Если у оружия есть свойство «метательное», вы можете совершать им дальнобойные атаки, метая его. Если это рукопашное оружие, вы используете для бросков атаки и урона тот же модификатор характеристики, что и при совершении рукопашной атаки этим оружием. Например, если вы метаете ручной топор, вы используете Силу, а если метаете кинжал, то можете использовать либо Силу, либо Ловкость, так как у кинжала есть свойство «фехтовальное»."
          ]
      },
      {
-         title: "Two-Handed",
+         title: "Двуручное",
          icon: "axe-swing",
-         subtitle: "A weapon that uses both hands",
-         description: "A weapon that uses both hands",
-         reference: "PHB, pg. 147",
+         subtitle: "Оружие для двух рук",
+         description: "Оружие для двух рук",
+         reference: "КИ, стр. 147",
          bullets: [
-             "This weapon requires two hands to use"
+             "Это оружие нужно держать двумя руками, когда вы атакуете им."
          ]
      },
      {
-         title: "Versatile",
+         title: "Универсальное",
          icon: "relic-blade",
-         subtitle: "A weapon that can use one or two hands",
-         description: "A weapon that can use one or two hands",
-         reference: "PHB, pg. 147",
+         subtitle: "Оружие для одной или двух рук",
+         description: "Оружие для одной или двух рук",
+         reference: "КИ, стр. 147",
          bullets: [
-             "This weapon can be used with one or two hands. A damage value in parentheses appears with the property-- the damage weapon the weapon is used with two hands to make a melee attack."
+             "Это оружие можно использовать как одной, так и двумя руками. Урон, указанный в скобках после этого свойства, означает урон при совершении рукопашной атаки двумя руками."
          ]
      },
      {
-         title: "Special",
+         title: "Особое",
          icon: "perspective-dice-six-faces-random",
-         subtitle: "A special type of property",
-         description: "A special type of property",
-         reference: "PHB, pg. 147",
+         subtitle: "Оружие с особым свойством",
+         description: "Оружие с особым свойством",
+         reference: "КИ, стр. 147",
          bullets: [
-             "A weapon with the special property has unusual rules governing its use, explained in the weapon's description."
+             "Оружие со свойством «особое» используется по специальным правилам, указанным в описании этого оружия."
          ]
      },
 ]

@@ -69,7 +69,7 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: Crimson;
+    color: DarkSlateGray;
     font-size: 16pt;
 }
 
@@ -314,11 +314,11 @@ table#t01 th {
 }
 
 #section-abilities, #section-abilities .item-icon {
-    background-color: Crimson;
-    border-color: Crimson;
+    background-color: DarkSlateGray;
+    border-color: DarkSlateGray;
 }
 #section-abilities .text {
-    color: Crimson;
+    color: DarkSlateGray;
 }
 
 #section-languages, #section-languages .item-icon {
