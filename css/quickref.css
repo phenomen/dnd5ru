@@ -10,13 +10,13 @@
     flex-direction: column;
     /*font-family: Arial;*/
     font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-    width:100%;
-    margin-bottom:8px;
+    width: 100%;
+    margin-bottom: 8px;
     page-break-inside: avoid;
 }
 
 .section-content {
-    padding:8px;
+    padding: 8px;
     padding-bottom: 0;
     border-radius: 8px;
     margin-top: 0;
@@ -125,7 +125,8 @@
     float: right;
 }
 
-.section-subtitle, #modal-reference {
+.section-subtitle,
+#modal-reference {
     display: block;
     margin-bottom: 8px;
     font-size: inherit;
@@ -140,13 +141,14 @@
     font-size: inherit;
 }
 
-.section-row:before, .section-row:after{
+.section-row:before,
+.section-row:after {
     display: table;
     content: " ";
     clear: both;
 }
 
-.section-row + .section-subtitle {
+.section-row+.section-subtitle {
     margin-top: 1em;
 }
 
@@ -199,24 +201,32 @@
 }
 
 table {
-    width:40%;
+    width: 40%;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 0px solid #cdd2d8;
     border-collapse: collapse;
 }
-th, td {
+
+th,
+td {
     padding: 5px;
     text-align: center;
 }
+
 table#t01 tr:nth-child(even) {
     background-color: #eee;
     border-radius: 4px;
 }
+
 table#t01 tr:nth-child(odd) {
-   background-color: #fff;
-   border-radius: 4px;
+    background-color: #fff;
+    border-radius: 4px;
 }
+
 table#t01 th {
     background-color: white;
     color: black;
@@ -225,138 +235,172 @@ table#t01 th {
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
-#section-movement, #section-movement .item-icon {
+#section-movement,
+#section-movement .item-icon {
     background-color: maroon;
     border-color: maroon;
 }
+
 #section-movement .text {
     color: maroon;
 }
 
-#section-action, #section-action .item-icon {
+#section-action,
+#section-action .item-icon {
     background-color: black;
     border-color: black;
 }
+
 #section-action .text {
     color: black;
 }
 
-#section-free-action, #section-free-action .item-icon {
+#section-free-action,
+#section-free-action .item-icon {
     background-color: gray;
     border-color: gray;
 }
+
 #section-free-action .text {
     color: gray;
 }
 
-#section-bonus-action, #section-bonus-action .item-icon {
+#section-bonus-action,
+#section-bonus-action .item-icon {
     background-color: indigo;
     border-color: indigo;
 }
+
 #section-bonus-action .text {
     color: indigo;
 }
 
-#section-reaction, #section-reaction .item-icon {
-    background-color: DarkOliveGreen ;
-    border-color: DarkOliveGreen ;
-}
-#section-reaction .text {
-    color: DarkOliveGreen ;
+#section-reaction,
+#section-reaction .item-icon {
+    background-color: DarkOliveGreen;
+    border-color: DarkOliveGreen;
 }
 
-#section-condition, #section-condition .item-icon {
+#section-reaction .text {
+    color: DarkOliveGreen;
+}
+
+#section-condition,
+#section-condition .item-icon {
     background-color: FireBrick;
     border-color: FireBrick;
 }
+
 #section-condition .text {
     color: FireBrick;
 }
 
-#section-environment, #section-environment .item-icon {
+#section-environment,
+#section-environment .item-icon {
     background-color: ForestGreen;
     border-color: ForestGreen;
 }
+
 #section-environment .text {
     color: ForestGreen;
 }
 
-#section-travel, #section-travel .item-icon {
+#section-travel,
+#section-travel .item-icon {
     background-color: SaddleBrown;
     border-color: SaddleBrown;
 }
+
 #section-travel .text {
     color: SaddleBrown;
 }
 
-#section-xp, #section-xp .item-icon {
+#section-xp,
+#section-xp .item-icon {
     background-color: #2271AE;
     border-color: #2271AE;
 }
+
 #section-xp .text {
     color: #2271AE;
 }
 
-#section-damage-types, #section-damage-types .item-icon {
+#section-damage-types,
+#section-damage-types .item-icon {
     background-color: IndianRed;
     border-color: IndianRed;
 }
+
 #section-damage-types .text {
     color: IndianRed;
 }
 
-#section-damage-healing, #section-damage-healing .item-icon {
+#section-damage-healing,
+#section-damage-healing .item-icon {
     background-color: SeaGreen;
     border-color: SeaGreen;
 }
+
 #section-damage-healing .text {
     color: SeaGreen;
 }
 
-#section-abilities, #section-abilities .item-icon {
+#section-abilities,
+#section-abilities .item-icon {
     background-color: DarkSlateGray;
     border-color: DarkSlateGray;
 }
+
 #section-abilities .text {
     color: DarkSlateGray;
 }
 
-#section-languages, #section-languages .item-icon {
+#section-languages,
+#section-languages .item-icon {
     background-color: Purple;
     border-color: Purple;
 }
+
 #section-languages .text {
     color: Purple;
 }
 
-#section-equipment, #section-equipment .item-icon {
+#section-equipment,
+#section-equipment .item-icon {
     background-color: Sienna;
     border-color: Sienna;
 }
+
 #section-equipment .text {
     color: Sienna;
 }
 
-#section-classabilities, #section-classabilities .item-icon {
+#section-classabilities,
+#section-classabilities .item-icon {
     background-color: Maroon;
     border-color: Maroon;
 }
+
 #section-classabilities .text {
     color: Maroon;
 }
 
-#section-spellcasting, #section-spellcasting .item-icon {
+#section-spellcasting,
+#section-spellcasting .item-icon {
     background-color: #404580;
     border-color: #404580;
 }
+
 #section-spellcasting .text {
     color: #404580;
 }
 
-#section-multiclassing, #section-multiclassing .item-icon {
+#section-multiclassing,
+#section-multiclassing .item-icon {
     background-color: #2e4f1e;
     border-color: #2e4f1e;
 }
+
 #section-multiclassing .text {
     color: #2e4f1e;
 }
@@ -368,8 +412,8 @@ table#t01 th {
 
 body {
     display: flex;
-    justify-content:center;
-    align-content:center;
+    justify-content: center;
+    align-content: center;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -384,7 +428,8 @@ ul {
     padding-left: 20px;
 }
 
-p, hr {
+p,
+hr {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
@@ -429,23 +474,24 @@ p:first-child {
 .modal-dialog {
     position: relative;
     width: auto;
+    z-index: 1;
     margin: 8px;
 }
 
 .modal-backdrop {
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
-    background-color: #888;
-    opacity: .75;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(136, 136, 136, 0.5);
 }
 
 .modal-container {
     background-clip: padding-box;
     outline: 0;
-    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
 
 .modal-footer {
@@ -460,57 +506,146 @@ p:first-child {
 /* ------------------------------------------------------------------------- */
 
 /* Smart phone, portrait */
-@media (min-width:    0px) and (max-width:  479px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width: 100%; }
+@media (min-width: 0px) and (max-width: 479px) {
+    .fontsize {
+        font-size: 12pt;
+    }
+
+    .iconsize {
+        width: 44px;
+        height: 44px;
+    }
+
+    .itemsize {
+        height: 44px;
+        width: 100%;
+    }
+
     .modalsize {}
 }
 
 /* Smart phone, landscape */
-@media (min-width:  480px) and (max-width:  767px) {
-    .fontsize { font-size: 11pt; }
-    .iconsize { width: 40px; height: 40px;}
-    .itemsize { height: 40px; width:  50%; }
+@media (min-width: 480px) and (max-width: 767px) {
+    .fontsize {
+        font-size: 11pt;
+    }
+
+    .iconsize {
+        width: 40px;
+        height: 40px;
+    }
+
+    .itemsize {
+        height: 40px;
+        width: 50%;
+    }
+
     .modalsize {}
 }
 
 /* Tablet, portrait */
-@media (min-width:  768px) and (max-width:  991px) {
-    .fontsize { font-size: 11pt; }
-    .iconsize { width: 40px; height: 40px;}
-    .itemsize { height: 40px; width:  33%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+@media (min-width: 768px) and (max-width: 991px) {
+    .fontsize {
+        font-size: 11pt;
+    }
+
+    .iconsize {
+        width: 40px;
+        height: 40px;
+    }
+
+    .itemsize {
+        height: 40px;
+        width: 33%;
+    }
+
+    .modalsize {
+        width: 600px;
+        margin: 30px auto;
+    }
 }
 
 /* Tablet, landscape */
-@media (min-width:  992px) and (max-width: 1199px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width:  33%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fontsize {
+        font-size: 12pt;
+    }
+
+    .iconsize {
+        width: 44px;
+        height: 44px;
+    }
+
+    .itemsize {
+        height: 44px;
+        width: 33%;
+    }
+
+    .modalsize {
+        width: 600px;
+        margin: 30px auto;
+    }
 }
 
 /* Small desktop screen */
 @media (min-width: 1200px) and (max-width: 1599px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width:  25%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+    .fontsize {
+        font-size: 12pt;
+    }
+
+    .iconsize {
+        width: 44px;
+        height: 44px;
+    }
+
+    .itemsize {
+        height: 44px;
+        width: 25%;
+    }
+
+    .modalsize {
+        width: 600px;
+        margin: 30px auto;
+    }
 }
 
 /* Large desktop screen */
 @media (min-width: 1600px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width:  20%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+    .fontsize {
+        font-size: 12pt;
+    }
+
+    .iconsize {
+        width: 44px;
+        height: 44px;
+    }
+
+    .itemsize {
+        height: 44px;
+        width: 20%;
+    }
+
+    .modalsize {
+        width: 600px;
+        margin: 30px auto;
+    }
 }
 
 /* Print */
 @media print {
-    .fontsize { font-size: 10pt; }
-    .iconsize { width: 36px; height: 36px;}
-    .itemsize { height: 36px; width:  33%; }
+    .fontsize {
+        font-size: 10pt;
+    }
+
+    .iconsize {
+        width: 36px;
+        height: 36px;
+    }
+
+    .itemsize {
+        height: 36px;
+        width: 33%;
+    }
+
     .modalsize {}
 }
