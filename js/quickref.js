@@ -97,8 +97,8 @@ function init() {
     //fill_section(data_classabilities_sorcerer, "class-abilities-sorcerer", "Способности класса");
     //fill_section(data_classabilities_warlock, "class-abilities-warlock", "Способности класса");
     //fill_section(data_classabilities_wizard, "class-abilities-wizard", "Class Abilities");
-    fill_section(data_spellcasting_spellinfo, "spellcasting-spellinfo", "Информация о заклиняниях");
-    fill_section(data_spellcasting_casting, "spellcasting-casting", "Использование заклинаний");
+    fill_section(data_spellcasting_spellinfo, "spellcasting-spellinfo", "Информация о заклинаниях");
+    fill_section(data_spellcasting_casting, "spellcasting-casting", "Наложение заклинаний");
     fill_section(data_multiclassing_classreqs, "multiclassing-classreqs", "Требования мультиклассирования");
     fill_section(data_multiclassing_classfeats_reg, "multiclassing-classfeats-reg", "Особенности классов");
     fill_section(data_multiclassing_classfeats_casting, "multiclassing-classfeats-casting", "Особенности классов");
