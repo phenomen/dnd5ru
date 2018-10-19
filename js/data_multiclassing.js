@@ -1,137 +1,137 @@
 data_multiclassing_classreqs = [
      {
-         title: "Prerequisites",
+         title: "Требования",
          icon: "juggler",
-         subtitle: "Requirements for taking other classes",
-         description: "Requirements for taking other classes",
-         reference: "PHB, pg. 163",
+         subtitle: "Требования для взятия класса",
+         description: "Требования для взятия класса",
+         reference: "КИ, стр. 163",
          bullets: [
-              "<div class='section-title-reverse-black' align='center'>Multiclassing Prerequisites</div><table id='t01' style='width:100%'>\
+              "<div class='section-title-reverse-black' align='center'>Требования к мультиклассированию</div><table id='t01' style='width:100%'>\
                 <tr>\
-                  <th><b>Class</b></th>\
-                  <th><b>Ability Score Minimum</b></th>\
+                  <th><b>Класс</b></th>\
+                  <th><b>Мин. значения характеристик</b></th>\
                 </tr>\
                 <tr>\
-                  <td>Barbarian</td>\
-                  <td>Strength 13</td>\
+                  <td>Варвар</td>\
+                  <td>Сила 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Bard</td>\
-                  <td>Charisma 13</td>\
+                  <td>Бард</td>\
+                  <td>Харизма 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Cleric</td>\
-                  <td>Wisdom 13</td>\
+                  <td>Жрец</td>\
+                  <td>Мудрость 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Druid</td>\
-                  <td>Wisdom 13</td>\
+                  <td>Друид</td>\
+                  <td>Мудрость 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Fighter</td>\
-                  <td>Strength 13 or Dexterity 13</td>\
+                  <td>Воин</td>\
+                  <td>Сила 13 или Ловкость 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Monk</td>\
-                  <td>Dexterity 13 and Wisdom 13</td>\
+                  <td>Монах</td>\
+                  <td>Ловкость 13 и Мудрость 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Paladin</td>\
-                  <td>Strength 13 and Charisma 13</td>\
+                  <td>Паладин</td>\
+                  <td>Сила 13 и Харизма 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Ranger</td>\
-                  <td>Dexterity 13 and Wisdom 13</td>\
+                  <td>Следопыт</td>\
+                  <td>Ловкость 13 и Мудрость 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Rogue</td>\
-                  <td>Dexterity 13</td>\
+                  <td>Плут</td>\
+                  <td>Ловкость 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Sorcerer</td>\
-                  <td>Charisma 13</td>\
+                  <td>Колдун</td>\
+                  <td>Харизма 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Warlock</td>\
-                  <td>Charisma 13</td>\
+                  <td>Чародей</td>\
+                  <td>Харизма 13</td>\
                 </tr>\
                 <tr>\
-                  <td>Wizard</td>\
-                  <td>Intelligence 13</td>\
+                  <td>Волшебник</td>\
+                  <td>Интеллект 13</td>\
                 </tr>\
               </table>",
          ]
      },
      {
-         title: "Hit Points and Hit Dice",
+         title: "Хиты и Кости Хитов",
          icon: "health-capsule",
-         subtitle: "How multiclassing affects Hit Dice/HP",
-         description: "How multiclassing affects Hit Dice/Hit Points",
-         reference: "PHB, pg. 163",
+         subtitle: "Влияние мультиклассирования на хиты",
+         description: "Влияние мультиклассирования на хиты",
+         reference: "КИ, стр. 163",
          bullets: [
-             "You gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.",
-             "You add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If the Hit Dice are the same die type, you can simply pool them together. For example, both the fighter and the paladin have a d10, so if you are a paladin 5/fighter 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, keep them seperately. If you are a paladin 5/cleric 5, for example, you have five d10 Hit Dice and five d8 Hit Dice."
+             "Вы получаете хиты от нового класса как для любого уровня после первого. Хиты класса 1 уровня получают только когда уровень персонажа тоже первый.",
+             "Вы складываете Кости Хитов, полученные от всех классов, формируя общий фонд Костей Хитов. Если все Кости Хитов одного вида, вы можете их просто просуммировать. Например, и у воина и у паладина Кости Хитов к10, поэтому если вы паладин 5/воин 5, у вас десять Костей Хитов к10. Если классы дают разные Кости Хитов, отслеживайте их отдельно. Например, если вы паладин 5/жрец 5, у вас будет пять Костей Хитов к10 и пять Костей Хитов к8."
          ]
      },
      {
-         title: "Proficiencies",
+         title: "Владение",
          icon: "master-of-arms",
-         subtitle: "Proficiencies gained from multiclassing",
-         description: "Proficiencies gained from multiclassing",
-         reference: "PHB, pg. 164",
+         subtitle: "Получение владения от мультикласса",
+         description: "Получение владения от мультикласса",
+         reference: "КИ, стр. 164",
          bullets: [
-             "When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies, as shown in the Multiclassing Proficiencies table.",
-             "<div class='section-title-reverse-black' align='center'>Multiclassing Proficiencies</div><table id='t01' style='width:100%'>\
+             "Когда вы получаете первый уровень нового класса, вы получаете не все его владения, а только часть, как показано в приведённой таблице:",
+             "<div class='section-title-reverse-black' align='center'>Мультиклассовые владения</div><table id='t01' style='width:100%'>\
                <tr>\
-                 <th><b>Class</b></th>\
-                 <th><b>Proficiencies Gained</b></th>\
+                 <th><b>Класс</b></th>\
+                 <th><b>Получаемые владения</b></th>\
                </tr>\
                <tr>\
-                 <td>Barbarian</td>\
-                 <td>Shields, simple weapons, martial weapons</td>\
+                 <td>Варвар</td>\
+                 <td>Щиты, простое оружие, воинское оружие</td>\
                </tr>\
                <tr>\
-                 <td>Bard</td>\
-                 <td>Light armor, one skill of your choice, one musical instrument of your choice</td>\
+                 <td>Бард</td>\
+                 <td>Лёгкие доспехи, один навык на ваш выбор, один музыкальный инструмент</td>\
                </tr>\
                <tr>\
-                 <td>Cleric</td>\
-                 <td>Light armor, medium armor, shields</td>\
+                 <td>Жрец</td>\
+                 <td>Лёгкие доспехи, средние доспехи, щиты</td>\
                </tr>\
                <tr>\
-                 <td>Druid</td>\
-                 <td>Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</td>\
+                 <td>Друид</td>\
+                 <td>Лёгкие доспехи, средние доспехи, щиты (друиды не носят и не используют доспехи и щиты из металла)</td>\
                </tr>\
                <tr>\
-                 <td>Fighter</td>\
-                 <td>Light armor, medium armor, shields, simple weapons, martial weapons</td>\
+                 <td>Воин</td>\
+                 <td>Лёгкие доспехи, средние доспехи, щиты, простое оружие, воинское оружие</td>\
                </tr>\
                <tr>\
-                 <td>Monk</td>\
-                 <td>Simple weapons, shortswords</td>\
+                 <td>Монах</td>\
+                 <td>Простое оружие, короткие мечи</td>\
                </tr>\
                <tr>\
-                 <td>Paladin</td>\
-                 <td>Light armor, medium armor, shields, simple weapons, martial weapons</td>\
+                 <td>Паладин</td>\
+                 <td>Лёгкие доспехи, средние доспехи, щиты, простое оружие, воинское оружие</td>\
                </tr>\
                <tr>\
-                 <td>Ranger</td>\
-                 <td>Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class's skill list.</td>\
+                 <td>Следопыт</td>\
+                 <td>Лёгкие доспехи, средние доспехи, щиты, простое оружие, воинское оружие, один навык из списка классовых навыков</td>\
                </tr>\
                <tr>\
-                 <td>Rogue</td>\
-                 <td>Light armor, one skill from the class's skill list, thieves' tools</td>\
+                 <td>Плут</td>\
+                 <td>Лёгкие доспехи, один навык из списка классовых навыков, воровские инструменты</td>\
                </tr>\
                <tr>\
-                 <td>Sorcerer</td>\
+                 <td>Чародей</td>\
                  <td>---</td>\
                </tr>\
                <tr>\
-                 <td>Warlock</td>\
-                 <td>Light armor, simple weapons</td>\
+                 <td>Колдун</td>\
+                 <td>Лёгкие доспехи, простое оружие</td>\
                </tr>\
                <tr>\
-                 <td>Wizard</td>\
+                 <td>Волшебник</td>\
                  <td>--- </td>\
                </tr>\
             </table>",
@@ -141,124 +141,125 @@ data_multiclassing_classreqs = [
 
 data_multiclassing_classfeats_reg = [
      {
-         title: "Channel Divinity",
+         title: "Божественный канал",
          icon: "holy-symbol",
-         subtitle: "Having multiple Channel Divinity effects",
-         description: "Having multiple Channel Divinity effects",
-         reference: "PHB, pg. 164",
+         subtitle: "Несколько Божественных каналов",
+         description: "Несколько Божественных каналов",
+         reference: "КИ, стр. 164",
          bullets: [
-             "If you already have the Channel Divinity feature and gain a level in a class that also grants the feature, you gain the Channel Divinity effects granted by that class, but getting the feature again doesn’t give you an additional use of it. You gain additional uses only when you reach a class level that explicitly grants them to you. For example, if you are a cleric 6/paladin 4, you can use Channel Divinity twice between rests because you are high enough level in the cleric class to have more uses. Whenever you use the feature, you can choose any of the Channel Divinity effects available to you from your two classes."
+             "Если у вас уже есть умение Божественный канал, и вы получаете уровень в классе, тоже дающем это умение, вы получаете эффекты Божественного канала от нового класса, но не получаете возможность дополнительного его использования. Дополнительные использования вы получите только тогда, когда получите в каком-нибудь из классов уровень, дающий эти дополнительные использования недвусмысленно. Например, если вы жрец 6/паладин 4, то можете использовать Божественный канал два раза между отдыхами, потому что уровень жреца это позволяет. Каждый раз, когда вы используете это умение, вы можете выбирать эффекты, доступные за счёт любого из имеющихся классов."
          ]
      },
      {
-         title: "Extra Attack",
+         title: "Дополнительная атака",
          icon: "saber-slash",
-         subtitle: "Gaining Extra Attack multiple times",
-         description: "Gaining Extra Attack multiple times",
-         reference: "PHB, pg. 164",
+         subtitle: "Несколько Дополнительных атак",
+         description: "Несколько Дополнительных атак",
+         reference: "КИ, стр. 164",
          bullets: [
-             "If you gain the Extra Attack class feature from more than one class, the features don’t add together. You can’t make more than two attacks with this feature unless it says you do (as the fighter’s version of Extra Attack does). Similarly, the warlock’s eldritch invocation Thirsting Blade doesn’t give you additional attacks if you also have Extra Attack."
+             "Если вы получаете классовое умение Дополнительная атака из нескольких классов, то они не скла дываются между собой. Вы не можете совершать с помощью этого умения более двух атак, если только оно не позволяет прямо это делать (как в случае с версией Дополнительной атаки у воина). Кроме того, таинственное воззвание колдуна «Жаждущий клинок» не предоставляет вам дополнительную атаку, если у вас есть умение Дополнительная атака."
          ]
      },
      {
-         title: "Unarmored Defense",
+         title: "Защита без доспехов",
          icon: "spiked-armor",
-         subtitle: "Gaining Unarmored Defense multiple times",
-         description: "Gaining Unarmored Defense multiple times",
-         reference: "PHB, pg. 164",
+         subtitle: "Несколько Защиты без доспехов",
+         description: "Несколько Защиты без доспехов",
+         reference: "КИ, стр. 164",
          bullets: [
-             "If you already have the Unarmored Defense feature, you can't gain it again from another class."
+             "Если у вас уже есть умение Защита без доспехов, вы не можете получить его ещё раз от другого класса."
          ]
      },
 ]
 
 data_multiclassing_classfeats_casting = [
      {
-         title: "Spells Known and Prepared",
+         title: "Знание и подготовка заклинаний",
          icon: "spell-book",
-         subtitle: "How many spells you know",
-         description: "How many spells you know",
-         reference: "PHB, pg. 164",
+         subtitle: "Сколько заклинаний вы знаете",
+         description: "Сколько заклинаний вы знаете",
+         reference: "КИ, стр. 164",
          bullets: [
-             "You determine what spells you know and can prepare for each class individually, as if you were a single-classed member of that class. If you are a ranger 4/wizard 3, for example, you know three 1st-level ranger spells based on your levels in the ranger class. As 3rd-level wizard, you know three wizard cantrips, and your spellbook contains ten wizard spells, two of which (the two you gained when you reached 3rd level as a wizard) can be 2nd-level spells. If your Intelligence is 16, you can prepare six wizard spells from your spellbook. Each spell you know and prepare is associated",
-             "Each spell you know and prepare is associated with one of your classes, and you use the spellcasting ability of that class when you cast the spell. Similarly, a spellcasting focus, such as a holy symbol, can be used only for the spells from the class associated with that focus."
+             "Вы определяете, какие заклинания знаете и можете подготовить для каждого класса индивидуально, как если бы других классов просто не было. Например, если вы следопыт 4/волшебник 3, то благодаря первому классу вы знаете три заклинания следопыта 1 уровня. Как волшебник 3 уровня вы знаете три заговора волшебника, и в книге заклинаний может быть десять (как минимум) заклинаний волшебника, два из которых могут быть 2 уровня (получены на 3 уровне волшебника). Если ваш Интеллект равен 16, вы можете подготовить шесть заклинаний волшебника из книги заклинаний.",
+             "Все известные вам заклинания подготавливаются в рамках одного из классов, и при накладывании этого заклинания вы используете базовую характеристику этого класса. Точно так же фокусировки заклинаний, такие как священные символы, могут использоваться только классами, использующими эту фокусировку."
          ]
      },
      {
-         title: "Spell Slots",
+         title: "Ячейки заклинаний",
          icon: "shotgun",
-         subtitle: "How many spell slots you have",
-         description: "How many spell slots you have",
-         reference: "PHB, pg. 164",
+         subtitle: "Сколько у вас ячеек заклинаний",
+         description: "Сколько у вас ячеек заклинаний",
+         reference: "КИ, стр. 164",
          bullets: [
-             "You determine your available spell slots by adding together all your levels in the bard, cleric, druid, sorcerer, and wizard classes, half your levels (rounded down) in the paladin and ranger classes, and a third of your fighter or rogue levels (rounded down) if you have the Eldritch Knight or the Arcane Trickster feature. Use this total to determine your spell slots by consulting the Multiclass Spellcaster table.",
-             "If you have more than one spellcasting class, the table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lower-level spells. If a lower level spell that you cast, like <i>burning hands</i>, has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect, even though you don’t have any spells of that higher level."
+             "Количество имеющихся ячеек заклинаний вы определяете, суммируя уровни барда, волшебника, друида, жреца и чародея, половины уровней (округляя в меньшую сторону) паладина и следопыта, и треть уровней воина или плута (округляя в меньшую сторону), если у вас есть умения Мистический рыцарь и Мистический ловкач соответственно. Получив сумму, определите по приведённой таблице количествоимеющихся ячеек заклинаний разных уровней.",
+             "Результат из таблицы может дать ячейки заклинаний таких уровней, каких вы не знаете или не можете подготавливать. Вы можете использовать эти ячейки для заклинаний с меньшим уровнем. Если накладываемое вами низкоуровневое заклинание, такое как огненные ладони, обладает усиленным эффектом при использовании ячейки более высокого уровня, вы можете использовать усиленный эффект, несмотря на то, что у вас нет заклинаний такого высокого уровня.",
+             "Например, если вы уже упомянутый выше следопыт 4/ волшебник 3, при определении ячеек заклинаний вы считаетесь персонажем 5 уровня: у вас есть четыре ячейки 1 уровня, три ячейки 2 уровня и две ячейки 3 уровня. Однако у вас нет никаких заклинаний 3 уровня и нет заклинаний следопыта 2 уровня. Вы можете использовать ячейки этих высоких уровней для накладывания известных заклинаний, значительно усиливая их эффекты."
          ]
      },
      {
-         title: "Pact Magic",
+         title: "Магия договора",
          icon: "blood",
-         subtitle: "Having Pact Magic & Spellcasting",
-         description: "Having Pact Magic & Spellcasting",
-         reference: "PHB, pg. 164",
+         subtitle: "Магия договора и заклинания",
+         description: "Владение магией договора и заклинаниями",
+         reference: "КИ, стр. 164",
          bullets: [
-             "If you have both the Spellcasting class feature and the Pact Magic class feature from the warlock class, you can use the spell slots you gain from the Pact Magic feature to cast spells you know or have prepared from classes with the Spellcasting class feature, and you can use the spell slots you gain from the Spellcasting class feature to cast warlock spells you know."
+             "Если у вас есть и умение Использование заклинаний и умение Магия договора от класса колдуна, вы можете использовать ячейки заклинаний, полученные от Магии договора для накладывания известных или подготовленных заклинаний, полученных от умения Использование заклинаний, а также можете использовать ячейки заклинаний, полученные от умения Использование заклинаний для накладывания известных вам заклинаний колдуна."
          ]
      },
      {
-         title: "Multiclass Caster Table",
+         title: "Таблица мультиклассового заклинателя",
          icon: "ice-spell-cast",
-         subtitle: "A table for multiclass spell slots",
-         description: "A table for multiclass spell slots",
-         reference: "PHB, pg. 165",
+         subtitle: "Ячейки заклинаний мультиклассов",
+         description: "Ячейки заклинаний мультиклассов",
+         reference: "КИ, стр. 165",
          bullets: [
-              "Add together levels in spellcasting classes like so (rounded down)... <div class='section-title-reverse-black' align='center'>Level Table</div><table id='t01' style='width:100%'>\
+              "Сложите уровни классов заклинателей, округляя вниз: <div class='section-title-reverse-black' align='center'>Таблица уровней</div><table id='t01' style='width:100%'>\
               <tr>\
-               <th><b>All the levels of...</b></th>\
-               <th><b>Half the levels of...</b></th>\
-               <th><b>1/3 the levels of...</b></th>\
+               <th><b>Все уровни...</b></th>\
+               <th><b>Половина уровней...</b></th>\
+               <th><b>1/3 уровней...</b></th>\
               </tr>\
               <tr>\
-               <td>Bard</td>\
-               <td>Paladin</td>\
-               <td>Eldritch Knight (Fighter)</td>\
+               <td>Бард</td>\
+               <td>Паладин</td>\
+               <td>Мистический рыцарь (Воин)</td>\
               </tr>\
               <tr>\
-               <td>Cleric</td>\
-               <td>Ranger</td>\
-               <td>Arcane Trickster (Rogue)</td>\
+               <td>Жрец</td>\
+               <td>Следопыт</td>\
+               <td>Мистический ловкач (Плут)</td>\
               </tr>\
               <tr>\
-               <td>Druid</td>\
+               <td>Друид</td>\
                <td>--</td>\
                <td>--</td>\
               </tr>\
               <tr>\
-               <td>Sorcerer</td>\
+               <td>Чародей</td>\
                <td>--</td>\
                <td>--</td>\
               </tr>\
               <tr>\
-               <td>Wizard</td>\
+               <td>Волшебник</td>\
                <td>--</td>\
                <td>--</td>\
               </tr>\
           </table>",
-              "<div class='section-title-reverse-black' align='center'>Multiclass Spellcaster</div><table id='t01' style='width:100%'>\
+              "<div class='section-title-reverse-black' align='center'>Мультиклассовый заклинатель</div><table id='t01' style='width:100%'>\
                <tr>\
-                 <th><b>Lvl.</b></th>\
-                 <th><b>1st</b></th>\
-			  <th><b>2nd.</b></th>\
-                 <th><b>3rd</b></th>\
-                 <th><b>4th.</b></th>\
-                 <th><b>5th</b></th>\
-			  <th><b>6th</b></th>\
-                 <th><b>7th</b></th>\
-                 <th><b>8th</b></th>\
-                 <th><b>9th</b></th>\
+                 <th><b>Ур./Ячейка</b></th>\
+                 <th><b>1</b></th>\
+			     <th><b>2</b></th>\
+                 <th><b>3</b></th>\
+                 <th><b>4</b></th>\
+                 <th><b>5</b></th>\
+			     <th><b>6</b></th>\
+                 <th><b>7</b></th>\
+                 <th><b>8</b></th>\
+                 <th><b>9</b></th>\
                </tr>\
                <tr>\
-                 <td>1st</td>\
+                 <td>1</td>\
                  <td>2</td>\
                  <td>--</td>\
                  <td>--</td>\
@@ -270,7 +271,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>2nd</td>\
+                 <td>2</td>\
                  <td>3</td>\
                  <td>--</td>\
                  <td>--</td>\
@@ -282,7 +283,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>3rd</td>\
+                 <td>3</td>\
                  <td>4</td>\
                  <td>2</td>\
                  <td>--</td>\
@@ -294,7 +295,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>4th</td>\
+                 <td>4</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>--</td>\
@@ -306,7 +307,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>5th</td>\
+                 <td>5</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>2</td>\
@@ -318,7 +319,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>6th</td>\
+                 <td>6</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -330,7 +331,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>7th</td>\
+                 <td>7</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -342,7 +343,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>8th</td>\
+                 <td>8</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -354,7 +355,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>9th</td>\
+                 <td>9</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -366,7 +367,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>10th</td>\
+                 <td>10</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -378,7 +379,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>11th</td>\
+                 <td>11</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -390,7 +391,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>12th</td>\
+                 <td>12</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -402,7 +403,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>13th</td>\
+                 <td>13</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -414,7 +415,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>14th</td>\
+                 <td>14</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -426,19 +427,7 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>15th</td>\
-                 <td>4</td>\
-                 <td>3</td>\
-                 <td>3</td>\
-                 <td>3</td>\
-                 <td>2</td>\
-                 <td>1</td>\
-                 <td>1</td>\
- 			  <td>1</td>\
-                 <td>--</td>\
-               </tr>\
-               <tr>\
-                 <td>16th</td>\
+                 <td>15</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -450,7 +439,19 @@ data_multiclassing_classfeats_casting = [
                  <td>--</td>\
                </tr>\
                <tr>\
-                 <td>17th</td>\
+                 <td>16</td>\
+                 <td>4</td>\
+                 <td>3</td>\
+                 <td>3</td>\
+                 <td>3</td>\
+                 <td>2</td>\
+                 <td>1</td>\
+                 <td>1</td>\
+ 			  <td>1</td>\
+                 <td>--</td>\
+               </tr>\
+               <tr>\
+                 <td>17</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -462,7 +463,7 @@ data_multiclassing_classfeats_casting = [
                  <td>1</td>\
                </tr>\
                <tr>\
-                 <td>18th</td>\
+                 <td>18</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -474,7 +475,7 @@ data_multiclassing_classfeats_casting = [
                  <td>1</td>\
                </tr>\
                <tr>\
-                 <td>19th</td>\
+                 <td>19</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
@@ -486,7 +487,7 @@ data_multiclassing_classfeats_casting = [
                  <td>1</td>\
                </tr>\
                <tr>\
-                 <td>20th</td>\
+                 <td>20</td>\
                  <td>4</td>\
                  <td>3</td>\
                  <td>3</td>\
