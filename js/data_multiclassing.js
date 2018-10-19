@@ -65,7 +65,7 @@ data_multiclassing_classreqs = [
      {
          title: "Хиты и Кости Хитов",
          icon: "health-capsule",
-         subtitle: "Влияние мультиклассирования на хиты",
+         subtitle: "Влияние на хиты",
          description: "Влияние мультиклассирования на хиты",
          reference: "КИ, стр. 163",
          bullets: [
@@ -174,7 +174,7 @@ data_multiclassing_classfeats_reg = [
 
 data_multiclassing_classfeats_casting = [
      {
-         title: "Знание и подготовка заклинаний",
+         title: "Знание заклинаний",
          icon: "spell-book",
          subtitle: "Сколько заклинаний вы знаете",
          description: "Сколько заклинаний вы знаете",

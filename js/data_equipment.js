@@ -20,7 +20,7 @@ data_equipment_packs = [
          ]
      },
      {
-         title: "Набор исследователя подземелий",
+         title: "Набор археолога",
          icon: "dungeon-gate",
          subtitle: "Стоимость: 12зм",
          description: "Стоимость: 12зм",
@@ -306,7 +306,7 @@ data_equipment_weapons_properties = [
      {
          title: "Тяжёлое",
          icon: "anvil",
-         subtitle: "Слишком тяжёлое для малых существ",
+         subtitle: "Тяжёлое для малых существ",
          description: "Слишком тяжёлое для малых существ",
          reference: "КИ, стр. 147",
          bullets: [
