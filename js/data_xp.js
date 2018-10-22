@@ -1,11 +1,11 @@
 data_xp = [
-     {
-         title: "Требуемый опыт",
-         icon: "chart",
-         subtitle: "Опыт для повышения уровня",
-         description: "Количество опыта для повышения уровня",
-         reference: "КИ, стр. 15",
-         bullets: [
+  {
+    title: "Требуемый опыт",
+    icon: "chart",
+    subtitle: "Опыт для повышения уровня",
+    description: "Количество опыта для повышения уровня",
+    reference: "КИ, стр. 15",
+    bullets: [
               "<table id='t01' style='width:100%'>\
                  <tr>\
                    <th><b>Опыт</b></th>\
@@ -94,13 +94,13 @@ data_xp = [
                </table>"
          ]
      },
-     {
-         title: "Получение опыта",
-         icon: "fish-monster",
-         subtitle: "Опыт за победу",
-         description: "Количество опыта за победу над противниками",
-         reference: "РМ, стр. 81",
-         bullets: [
+  {
+    title: "Получение опыта",
+    icon: "fish-monster",
+    subtitle: "Опыт за победу",
+    description: "Количество опыта за победу над противниками",
+    reference: "РМ, стр. 81",
+    bullets: [
                    "<table id='t01' style='width:100%'>\
                       <tr>\
                         <th><b>Сложность</b></th>\

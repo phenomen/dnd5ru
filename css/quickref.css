@@ -2,516 +2,621 @@
 /* Sections */
 /* ------------------------------------------------------------------------- */
 .section-container {
-    border: 8px solid;
-    border-radius: 8px;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    /*font-family: Arial;*/
-    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-    width:100%;
-    margin-bottom:8px;
-    page-break-inside: avoid;
+  border: 8px solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /*font-family: Arial;*/
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  width: 100%;
+  margin-bottom: 8px;
+  page-break-inside: avoid;
 }
 
 .section-content {
-    padding:8px;
-    padding-bottom: 0;
-    border-radius: 8px;
-    margin-top: 0;
-    background-color: white;
-    border-color: inherit;
-    font-size: inherit;
+  padding: 8px;
+  padding-bottom: 0;
+  border-radius: 8px;
+  margin-top: 0;
+  background-color: white;
+  border-color: inherit;
+  font-size: inherit;
 }
 
 .section-title {
-    height: 32px;
-    padding-left: 8px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: white;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: white;
+  font-size: 16pt;
 }
 
 .section-title-reverse-sienna {
-    height: 32px;
-    padding-left: 0px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: Sienna;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 0px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: Sienna;
+  font-size: 16pt;
 }
 
 .section-title-reverse-maroon {
-    height: 32px;
-    padding-left: 0px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: Maroon;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 0px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: Maroon;
+  font-size: 16pt;
 }
 
 .section-title-reverse-crimson {
-    height: 32px;
-    padding-left: 0px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: DarkSlateGray;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 0px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: DarkSlateGray;
+  font-size: 16pt;
 }
 
 .section-title-reverse-purple {
-    height: 32px;
-    padding-left: 0px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: Purple;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 0px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: Purple;
+  font-size: 16pt;
 }
 
 .section-title-reverse-spellcasting {
-    height: 32px;
-    padding-left: 0px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: #404580;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 0px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: #404580;
+  font-size: 16pt;
 }
 
 .section-title-reverse-multiclassing {
-    height: 32px;
-    padding-left: 0px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: #2e4f1e;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 0px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: #2e4f1e;
+  font-size: 16pt;
 }
 
 .section-title-reverse-black {
-    height: 32px;
-    padding-left: 0px;
-    padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    background-color: inherit;
-    color: Black;
-    font-size: 16pt;
+  height: 32px;
+  padding-left: 0px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: Black;
+  font-size: 16pt;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
 .section-subtitle, #modal-reference {
-    display: block;
-    margin-bottom: 8px;
-    font-size: inherit;
-    font-style: italic;
+  display: block;
+  margin-bottom: 8px;
+  font-size: inherit;
+  font-style: italic;
 }
 
 #modal-reference {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .section-row {
-    font-size: inherit;
+  font-size: inherit;
 }
 
-.section-row:before, .section-row:after{
-    display: table;
-    content: " ";
-    clear: both;
+.section-row:before, .section-row:after {
+  display: table;
+  content: " ";
+  clear: both;
 }
 
-.section-row + .section-subtitle {
-    margin-top: 1em;
+.section-row+.section-subtitle {
+  margin-top: 1em;
 }
 
 /* ------------------------------------------------------------------------- */
 /* Items */
 /* ------------------------------------------------------------------------- */
-
 .item {
-    margin-bottom: 8px;
-    float: left;
-    display: flex;
-    font-size: inherit;
-    vertical-align: top;
-    box-sizing: border-box;
-    cursor: pointer;
+  margin-bottom: 8px;
+  float: left;
+  display: flex;
+  font-size: inherit;
+  vertical-align: top;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .item-icon {
-    float: left;
-    flex: 0 0 auto;
-    background-repeat: no-repeat;
-    background-size: contain;
-    box-sizing: border-box;
-    border-radius: 4px;
-    display: inline-block;
-    margin-right: 4px;
+  float: left;
+  flex: 0 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 4px;
 }
 
 .item-title {
-    font-weight: bold;
-    font-size: inherit;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  font-weight: bold;
+  font-size: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .item-desc {
-    font-style: italic;
-    font-size: inherit;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  font-style: italic;
+  font-size: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .item-text-container {
-    flex: 1;
-    padding-right: 4px;
-    font-size: inherit;
-    height: 100%;
+  flex: 1;
+  padding-right: 4px;
+  font-size: inherit;
+  height: 100%;
 }
 
 table {
-    width:40%;
+  width: 40%;
 }
+
 table, th, td {
-    border: 0px solid #cdd2d8;
-    border-collapse: collapse;
+  border: 0px solid #cdd2d8;
+  border-collapse: collapse;
 }
+
 th, td {
-    padding: 5px;
-    text-align: center;
+  padding: 5px;
+  text-align: center;
 }
+
 table#t01 tr:nth-child(even) {
-    background-color: #eee;
-    border-radius: 4px;
+  background-color: #eee;
+  border-radius: 4px;
 }
+
 table#t01 tr:nth-child(odd) {
-   background-color: #fff;
-   border-radius: 4px;
+  background-color: #fff;
+  border-radius: 4px;
 }
+
 table#t01 th {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
 #section-movement, #section-movement .item-icon {
-    background-color: maroon;
-    border-color: maroon;
+  background-color: maroon;
+  border-color: maroon;
 }
+
 #section-movement .text {
-    color: maroon;
+  color: maroon;
 }
 
 #section-action, #section-action .item-icon {
-    background-color: black;
-    border-color: black;
+  background-color: black;
+  border-color: black;
 }
+
 #section-action .text {
-    color: black;
+  color: black;
 }
 
 #section-free-action, #section-free-action .item-icon {
-    background-color: gray;
-    border-color: gray;
+  background-color: gray;
+  border-color: gray;
 }
+
 #section-free-action .text {
-    color: gray;
+  color: gray;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: indigo;
-    border-color: indigo;
+  background-color: indigo;
+  border-color: indigo;
 }
+
 #section-bonus-action .text {
-    color: indigo;
+  color: indigo;
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: DarkOliveGreen ;
-    border-color: DarkOliveGreen ;
+  background-color: DarkOliveGreen;
+  border-color: DarkOliveGreen;
 }
+
 #section-reaction .text {
-    color: DarkOliveGreen ;
+  color: DarkOliveGreen;
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: FireBrick;
-    border-color: FireBrick;
+  background-color: FireBrick;
+  border-color: FireBrick;
 }
+
 #section-condition .text {
-    color: FireBrick;
+  color: FireBrick;
 }
 
 #section-environment, #section-environment .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+  background-color: ForestGreen;
+  border-color: ForestGreen;
 }
+
 #section-environment .text {
-    color: ForestGreen;
+  color: ForestGreen;
 }
 
 #section-travel, #section-travel .item-icon {
-    background-color: SaddleBrown;
-    border-color: SaddleBrown;
+  background-color: SaddleBrown;
+  border-color: SaddleBrown;
 }
+
 #section-travel .text {
-    color: SaddleBrown;
+  color: SaddleBrown;
 }
 
 #section-xp, #section-xp .item-icon {
-    background-color: #2271AE;
-    border-color: #2271AE;
+  background-color: #2271AE;
+  border-color: #2271AE;
 }
+
 #section-xp .text {
-    color: #2271AE;
+  color: #2271AE;
 }
 
 #section-damage-types, #section-damage-types .item-icon {
-    background-color: IndianRed;
-    border-color: IndianRed;
+  background-color: IndianRed;
+  border-color: IndianRed;
 }
+
 #section-damage-types .text {
-    color: IndianRed;
+  color: IndianRed;
 }
 
 #section-damage-healing, #section-damage-healing .item-icon {
-    background-color: SeaGreen;
-    border-color: SeaGreen;
+  background-color: SeaGreen;
+  border-color: SeaGreen;
 }
+
 #section-damage-healing .text {
-    color: SeaGreen;
+  color: SeaGreen;
 }
 
 #section-abilities, #section-abilities .item-icon {
-    background-color: DarkSlateGray;
-    border-color: DarkSlateGray;
+  background-color: DarkSlateGray;
+  border-color: DarkSlateGray;
 }
+
 #section-abilities .text {
-    color: DarkSlateGray;
+  color: DarkSlateGray;
 }
 
 #section-languages, #section-languages .item-icon {
-    background-color: Purple;
-    border-color: Purple;
+  background-color: Purple;
+  border-color: Purple;
 }
+
 #section-languages .text {
-    color: Purple;
+  color: Purple;
 }
 
 #section-equipment, #section-equipment .item-icon {
-    background-color: Sienna;
-    border-color: Sienna;
+  background-color: Sienna;
+  border-color: Sienna;
 }
+
 #section-equipment .text {
-    color: Sienna;
+  color: Sienna;
 }
 
 #section-classabilities, #section-classabilities .item-icon {
-    background-color: Maroon;
-    border-color: Maroon;
+  background-color: Maroon;
+  border-color: Maroon;
 }
+
 #section-classabilities .text {
-    color: Maroon;
+  color: Maroon;
 }
 
 #section-spellcasting, #section-spellcasting .item-icon {
-    background-color: #404580;
-    border-color: #404580;
+  background-color: #404580;
+  border-color: #404580;
 }
+
 #section-spellcasting .text {
-    color: #404580;
+  color: #404580;
 }
 
 #section-multiclassing, #section-multiclassing .item-icon {
-    background-color: #2e4f1e;
-    border-color: #2e4f1e;
-}
-#section-multiclassing .text {
-    color: #2e4f1e;
+  background-color: #2e4f1e;
+  border-color: #2e4f1e;
 }
 
+#section-multiclassing .text {
+  color: #2e4f1e;
+}
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
 /* ------------------------------------------------------------------------- */
-
 body {
-    display: flex;
-    justify-content:center;
-    align-content:center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 /* ------------------------------------------------------------------------- */
 /* Misc */
 /* ------------------------------------------------------------------------- */
-
 .hidden {
-    display: none;
+  display: none;
 }
 
 ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 p, hr {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 hr {
-    border: 0px;
-    border-top: 1px solid gray;
+  border: 0px;
+  border-top: 1px solid gray;
 }
 
 p:first-child {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 /* ------------------------------------------------------------------------- */
 /* Modal */
 /* ------------------------------------------------------------------------- */
 .modal-open {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .modal-open .modal {
-    overflow-x: hidden;
-    overflow-y: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1040;
-    overflow: hidden;
-    outline: 0;
-    display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  overflow: hidden;
+  outline: 0;
+  display: none;
 }
 
 .modal-visible {
-    display: block;
+  display: block;
 }
 
 .modal-dialog {
-    position: relative;
-    width: auto;
-    z-index: 1;
-    margin: 8px;
+  position: relative;
+  width: auto;
+  z-index: 1;
+  margin: 8px;
 }
 
 .modal-backdrop {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%;
-    z-index: 0;
-    background-color: rgba(136,136,136,.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  background-color: rgba(136, 136, 136, .5);
 }
 
 .modal-container {
-    background-clip: padding-box;
-    outline: 0;
-    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  background-clip: padding-box;
+  outline: 0;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
 
 .modal-footer {
-    padding: 15px;
-    text-align: right;
-    border-top: 1px solid #e5e5e5;
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
 }
-
 
 /* ------------------------------------------------------------------------- */
 /* Viewport sizes */
 /* ------------------------------------------------------------------------- */
-
 /* Smart phone, portrait */
-@media (min-width:    0px) and (max-width:  479px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width: 100%; }
-    .modalsize {}
+@media (min-width: 0px) and (max-width: 479px) {
+  .fontsize {
+    font-size: 12pt;
+  }
+
+  .iconsize {
+    width: 44px;
+    height: 44px;
+  }
+
+  .itemsize {
+    height: 44px;
+    width: 100%;
+  }
+
+  .modalsize {}
 }
 
 /* Smart phone, landscape */
-@media (min-width:  480px) and (max-width:  767px) {
-    .fontsize { font-size: 11pt; }
-    .iconsize { width: 40px; height: 40px;}
-    .itemsize { height: 40px; width:  50%; }
-    .modalsize {}
+@media (min-width: 480px) and (max-width: 767px) {
+  .fontsize {
+    font-size: 11pt;
+  }
+
+  .iconsize {
+    width: 40px;
+    height: 40px;
+  }
+
+  .itemsize {
+    height: 40px;
+    width: 50%;
+  }
+
+  .modalsize {}
 }
 
 /* Tablet, portrait */
-@media (min-width:  768px) and (max-width:  991px) {
-    .fontsize { font-size: 11pt; }
-    .iconsize { width: 40px; height: 40px;}
-    .itemsize { height: 40px; width:  33%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+@media (min-width: 768px) and (max-width: 991px) {
+  .fontsize {
+    font-size: 11pt;
+  }
+
+  .iconsize {
+    width: 40px;
+    height: 40px;
+  }
+
+  .itemsize {
+    height: 40px;
+    width: 33%;
+  }
+
+  .modalsize {
+    width: 600px;
+    margin: 30px auto;
+  }
 }
 
 /* Tablet, landscape */
-@media (min-width:  992px) and (max-width: 1199px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width:  33%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .fontsize {
+    font-size: 12pt;
+  }
+
+  .iconsize {
+    width: 44px;
+    height: 44px;
+  }
+
+  .itemsize {
+    height: 44px;
+    width: 33%;
+  }
+
+  .modalsize {
+    width: 600px;
+    margin: 30px auto;
+  }
 }
 
 /* Small desktop screen */
 @media (min-width: 1200px) and (max-width: 1599px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width:  25%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+  .fontsize {
+    font-size: 12pt;
+  }
+
+  .iconsize {
+    width: 44px;
+    height: 44px;
+  }
+
+  .itemsize {
+    height: 44px;
+    width: 25%;
+  }
+
+  .modalsize {
+    width: 600px;
+    margin: 30px auto;
+  }
 }
 
 /* Large desktop screen */
 @media (min-width: 1600px) {
-    .fontsize { font-size: 12pt; }
-    .iconsize { width: 44px; height: 44px;}
-    .itemsize { height: 44px; width:  20%; }
-    .modalsize { width: 600px; margin: 30px auto; }
+  .fontsize {
+    font-size: 12pt;
+  }
+
+  .iconsize {
+    width: 44px;
+    height: 44px;
+  }
+
+  .itemsize {
+    height: 44px;
+    width: 20%;
+  }
+
+  .modalsize {
+    width: 600px;
+    margin: 30px auto;
+  }
 }
 
 /* Print */
 @media print {
-    .fontsize { font-size: 10pt; }
-    .iconsize { width: 36px; height: 36px;}
-    .itemsize { height: 36px; width:  33%; }
-    .modalsize {}
+  .fontsize {
+    font-size: 10pt;
+  }
+
+  .iconsize {
+    width: 36px;
+    height: 36px;
+  }
+
+  .itemsize {
+    height: 36px;
+    width: 33%;
+  }
+
+  .modalsize {}
 }
