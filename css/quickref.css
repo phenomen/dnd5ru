@@ -73,88 +73,16 @@ table#drug td:last-child {
   font-size: 16pt;
 }
 
-.section-title-reverse-sienna {
-  height: 32px;
-  padding-left: 0px;
-  padding-right: 8px;
-  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  background-color: inherit;
-  color: Sienna;
-  font-size: 16pt;
-}
-
-.section-title-reverse-maroon {
-  height: 32px;
-  padding-left: 0px;
-  padding-right: 8px;
-  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  background-color: inherit;
-  color: Maroon;
-  font-size: 16pt;
-}
-
-.section-title-reverse-crimson {
-  height: 32px;
-  padding-left: 0px;
-  padding-right: 8px;
-  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  background-color: inherit;
-  color: DarkSlateGray;
-  font-size: 16pt;
-}
-
-.section-title-reverse-purple {
-  height: 32px;
-  padding-left: 0px;
-  padding-right: 8px;
-  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  background-color: inherit;
-  color: Purple;
-  font-size: 16pt;
-}
-
-.section-title-reverse-spellcasting {
-  height: 32px;
-  padding-left: 0px;
-  padding-right: 8px;
-  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  background-color: inherit;
-  color: #404580;
-  font-size: 16pt;
-}
-
-.section-title-reverse-multiclassing {
-  height: 32px;
-  padding-left: 0px;
-  padding-right: 8px;
-  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  background-color: inherit;
-  color: #2e4f1e;
-  font-size: 16pt;
-}
-
-.section-title-reverse-black {
-  height: 32px;
-  padding-left: 0px;
-  padding-right: 8px;
-  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
-  font-variant: small-caps;
-  font-weight: bold;
-  background-color: inherit;
-  color: Black;
-  font-size: 16pt;
+.section-title-subtitle {
+    height: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: black;
+    font-size: 16pt;
 }
 
 .float-right {
@@ -266,156 +194,156 @@ table#t01 th {
 /* Colors */
 /* ------------------------------------------------------------------------- */
 #section-movement, #section-movement .item-icon {
-  background-color: maroon;
-  border-color: maroon;
+  background-color:#0D47A1;
+  border-color: #0D47A1;
 }
 
 #section-movement .text {
-  color: maroon;
+  color: #0D47A1;
 }
 
 #section-action, #section-action .item-icon {
-  background-color: black;
-  border-color: black;
+  background-color: #b71c1c;
+  border-color: #b71c1c;
 }
 
 #section-action .text {
-  color: black;
+  color: #b71c1c;
 }
 
 #section-free-action, #section-free-action .item-icon {
-  background-color: gray;
-  border-color: gray;
+  background-color: #BF360C;
+  border-color: #BF360C;
 }
 
 #section-free-action .text {
-  color: gray;
+  color: #BF360C;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-  background-color: indigo;
-  border-color: indigo;
+  background-color: #E65100;
+  border-color: #E65100;
 }
 
 #section-bonus-action .text {
-  color: indigo;
+  color: #E65100;
 }
 
 #section-reaction, #section-reaction .item-icon {
-  background-color: DarkOliveGreen;
-  border-color: DarkOliveGreen;
+  background-color: #FF6F00;
+  border-color: #FF6F00;
 }
 
 #section-reaction .text {
-  color: DarkOliveGreen;
+  color: #FF6F00;
 }
 
 #section-condition, #section-condition .item-icon {
-  background-color: FireBrick;
-  border-color: FireBrick;
+  background-color: #33691E;
+  border-color: #33691E;
 }
 
 #section-condition .text {
-  color: FireBrick;
+  color: #33691E;
 }
 
 #section-environment, #section-environment .item-icon {
-  background-color: ForestGreen;
-  border-color: ForestGreen;
+  background-color: #1B5E20;
+  border-color: #1B5E20;
 }
 
 #section-environment .text {
-  color: ForestGreen;
+  color: #1B5E20;
 }
 
 #section-travel, #section-travel .item-icon {
-  background-color: SaddleBrown;
-  border-color: SaddleBrown;
+  background-color: #5D4037;
+  border-color: #5D4037;
 }
 
 #section-travel .text {
-  color: SaddleBrown;
+  color: #5D4037;
 }
 
 #section-xp, #section-xp .item-icon {
-  background-color: #2271AE;
-  border-color: #2271AE;
+  background-color: #7B1FA2;
+  border-color: #7B1FA2;
 }
 
 #section-xp .text {
-  color: #2271AE;
+  color: #7B1FA2;
 }
 
 #section-damage-types, #section-damage-types .item-icon {
-  background-color: IndianRed;
-  border-color: IndianRed;
+  background-color: #d32f2f;
+  border-color: #d32f2f;
 }
 
 #section-damage-types .text {
-  color: IndianRed;
+  color: #d32f2f;
 }
 
 #section-damage-healing, #section-damage-healing .item-icon {
-  background-color: SeaGreen;
-  border-color: SeaGreen;
+  background-color: #546E7A;
+  border-color: #546E7A;
 }
 
 #section-damage-healing .text {
-  color: SeaGreen;
+  color: #546E7A;
 }
 
 #section-abilities, #section-abilities .item-icon {
-  background-color: DarkSlateGray;
-  border-color: DarkSlateGray;
+  background-color: #37474F;
+  border-color: #37474F;
 }
 
 #section-abilities .text {
-  color: DarkSlateGray;
+  color: #37474F;
 }
 
 #section-languages, #section-languages .item-icon {
-  background-color: Purple;
-  border-color: Purple;
+  background-color: #AB47BC;
+  border-color: #AB47BC;
 }
 
 #section-languages .text {
-  color: Purple;
+  color: #AB47BC;
 }
 
 #section-equipment, #section-equipment .item-icon {
-  background-color: Sienna;
-  border-color: Sienna;
+  background-color: #3E2723;
+  border-color: #3E2723;
 }
 
 #section-equipment .text {
-  color: Sienna;
+  color: #3E2723;
 }
 
 #section-classabilities, #section-classabilities .item-icon {
-  background-color: Maroon;
-  border-color: Maroon;
+  background-color: #212121;
+  border-color: #212121;
 }
 
 #section-classabilities .text {
-  color: Maroon;
+  color: #212121;
 }
 
 #section-spellcasting, #section-spellcasting .item-icon {
-  background-color: #404580;
-  border-color: #404580;
+  background-color: #004D40;
+  border-color: #004D40;
 }
 
 #section-spellcasting .text {
-  color: #404580;
+  color: #004D40;
 }
 
 #section-multiclassing, #section-multiclassing .item-icon {
-  background-color: #2e4f1e;
-  border-color: #2e4f1e;
+  background-color: #388E3C;
+  border-color: #388E3C;
 }
 
 #section-multiclassing .text {
-  color: #2e4f1e;
+  color: #388E3C;
 }
 
 /* ------------------------------------------------------------------------- */

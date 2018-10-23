@@ -6,7 +6,7 @@ data_multiclassing_classreqs = [
     description: "Требования для взятия класса",
     reference: "КИ, стр. 163",
     bullets: [
-              "<div class='section-title-reverse-black' align='center'>Требования к мультиклассированию</div><table id='t01' style='width:100%'>\
+              "<div class='section-title-subtitle' align='center'>Требования к мультиклассированию</div><table id='t01' style='width:100%'>\
                 <tr>\
                   <th><b>Класс</b></th>\
                   <th><b>Мин. значения характеристик</b></th>\
@@ -81,7 +81,7 @@ data_multiclassing_classreqs = [
     reference: "КИ, стр. 164",
     bullets: [
              "Когда вы получаете первый уровень нового класса, вы получаете не все его владения, а только часть, как показано в приведённой таблице:",
-             "<div class='section-title-reverse-black' align='center'>Мультиклассовые владения</div><table id='t01' style='width:100%'>\
+             "<div class='section-title-subtitle' align='center'>Мультиклассовые владения</div><table id='t01' style='width:100%'>\
                <tr>\
                  <th><b>Класс</b></th>\
                  <th><b>Получаемые владения</b></th>\
@@ -213,7 +213,7 @@ data_multiclassing_classfeats_casting = [
     description: "Ячейки заклинаний мультиклассов",
     reference: "КИ, стр. 165",
     bullets: [
-              "Сложите уровни классов заклинателей, округляя вниз: <div class='section-title-reverse-black' align='center'>Таблица уровней</div><table id='t01' style='width:100%'>\
+              "Сложите уровни классов заклинателей, округляя вниз: <div class='section-title-subtitle' align='center'>Таблица уровней</div><table id='t01' style='width:100%'>\
               <tr>\
                <th><b>Все уровни...</b></th>\
                <th><b>Половина уровней...</b></th>\
@@ -245,7 +245,7 @@ data_multiclassing_classfeats_casting = [
                <td>--</td>\
               </tr>\
           </table>",
-              "<div class='section-title-reverse-black' align='center'>Мультиклассовый заклинатель</div><table id='t01' style='width:100%'>\
+              "<div class='section-title-subtitle' align='center'>Мультиклассовый заклинатель</div><table id='t01' style='width:100%'>\
                <tr>\
                  <th><b>Ур./Ячейка</b></th>\
                  <th><b>1</b></th>\
