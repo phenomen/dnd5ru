@@ -17,259 +17,260 @@
 
 <body class="page-background">
   <div class="page fontsize" data-size="fullscreen">
+  </div>
 
-    <!-- Movement section -->
-    <div id="section-movement" class="section-container">
-      <div class="section-title">
-        Движение <span class="float-right">ограничено скоростью</span>
+  <!-- Movement section -->
+  <div id="section-movement" class="section-container">
+    <div class="section-title">
+      Движение <span class="float-right">ограничено скоростью</span>
+    </div>
+    <div class="section-content">
+      <div class="section-row section-subtitle text fontsize">
+        Вы можете передвигаться в любое время вашего хода (до, после или во время действий).
       </div>
-      <div class="section-content">
-        <div class="section-row section-subtitle text fontsize">
-          Вы можете передвигаться в любое время вашего хода (до, после или во время действий).
-        </div>
-        <div class="section-row" id="basic-movement">
-        </div>
+      <div class="section-row" id="basic-movement">
       </div>
     </div>
+  </div>
 
-    <!-- Action section -->
-    <div id="section-action" class="section-container">
-      <div class="section-title">
-        Действие <span class="float-right">1/ход</span>
+  <!-- Action section -->
+  <div id="section-action" class="section-container">
+    <div class="section-title">
+      Действие <span class="float-right">1/ход</span>
+    </div>
+    <div class="section-content">
+      <div class="section-row" id="basic-actions"></div>
+    </div>
+  </div>
+
+  <!-- Free Action section -->
+  <div id="section-free-action" class="section-container">
+    <div class="section-title">
+      Свободное действие
+    </div>
+    <div class="section-content">
+      <div class="section-row section-subtitle text fontsize">
+        Свободное действие может быть совершено в ваш ход без затраты основного.
       </div>
-      <div class="section-content">
-        <div class="section-row" id="basic-actions"></div>
+      <div class="section-row" id="basic-free-actions"></div>
+    </div>
+  </div>
+
+  <!-- Bonus Action section -->
+  <div id="section-bonus-action" class="section-container">
+    <div class="section-title">
+      Бонусное действие <span class="float-right">макс. 1/ход</span>
+    </div>
+    <div class="section-content">
+      <div class="section-row section-subtitle text fontsize">
+        Разнообразные классовые умения, заклинания и прочие эффекты позволяют
+        вам совершать в ход дополнительное бонусное действие.
       </div>
+      <div class="section-row" id="basic-bonus-actions"></div>
+    </div>
+  </div>
+
+  <!-- Reaction section -->
+  <div id="section-reaction" class="section-container">
+    <div class="section-title">
+      Реакция <span class="float-right">макс. 1/раунд</span>
+    </div>
+    <div class="section-content">
+      <div class="section-row section-subtitle text fontsize">
+        Реакция — это мгновенный ответ на срабатывание некоего условия, который может
+        происходить как в ваш, так и в чужой ход.
+      </div>
+      <div class="section-row" id="basic-reactions"></div>
+    </div>
+  </div>
+
+  <!-- Condition section -->
+  <div id="section-condition" class="section-container">
+    <div class="section-title">
+      Состояние
+    </div>
+    <div class="section-content">
+      <div class="section-row section-subtitle text fontsize">
+        Состояния различными способами изменяют возможности существа и
+        могут являться следствием заклинания, классового умения, атаки
+        чудовища или другого эффекта.
+      </div>
+      <div class="section-row" id="basic-conditions"></div>
+    </div>
+  </div>
+
+  <!-- Environmental section -->
+  <div id="section-environment" class="section-container">
+    <div class="section-title">
+      Окружающая среда
+    </div>
+    <div class="section-content">
+      <div class="section-row section-subtitle text fontsize">
+        Эффекты местности, которые сильно затрудняют видимость, передвижение и другие действия.
+      </div>
+      <div class="section-row" id="environment-obscurance"></div>
+      <div class="section-row section-subtitle text fontsize">
+        Наличие или отсутствие света создаёт три категории освещения: яркий свет, тусклый свет и тьму.
+      </div>
+      <div class="section-row" id="environment-light"></div>
+      <div class="section-row section-subtitle text fontsize">
+        Некоторые существа обладают экстраординарными чувствами, что позволяет им выживать в сложных условиях.
+      </div>
+      <div class="section-row" id="environment-vision"></div>
+      <div class="section-row section-subtitle text fontsize">
+        Препятствия могут создавать укрытие, давая преимущество в защите.
+      </div>
+      <div class="section-row" id="environment-cover"></div>
+    </div>
+  </div>
+
+  <!-- Travel Section -->
+  <div id="section-travel" class="section-container">
+    <div class="section-title">
+      Путешествие
     </div>
 
-    <!-- Free Action section -->
-    <div id="section-free-action" class="section-container">
-      <div class="section-title">
-        Свободное действие
+    <div class="section-content">
+      <div class="section-row section-subtitle text fontsize">
+        Передвижение в течение долгого времени на дальние дистанции
       </div>
-      <div class="section-content">
-        <div class="section-row section-subtitle text fontsize">
-          Свободное действие может быть совершено в ваш ход без затраты основного.
-        </div>
-        <div class="section-row" id="basic-free-actions"></div>
-      </div>
+      <div class="section-row" id="travel"></div>
     </div>
+  </div>
 
-    <!-- Bonus Action section -->
-    <div id="section-bonus-action" class="section-container">
-      <div class="section-title">
-        Бонусное действие <span class="float-right">макс. 1/ход</span>
-      </div>
-      <div class="section-content">
-        <div class="section-row section-subtitle text fontsize">
-          Разнообразные классовые умения, заклинания и прочие эффекты позволяют
-          вам совершать в ход дополнительное бонусное действие.
-        </div>
-        <div class="section-row" id="basic-bonus-actions"></div>
-      </div>
+  <!-- Damage Types Section -->
+  <div id="section-damage-types" class="section-container">
+    <div class="section-title">
+      Урон и атака
     </div>
-
-    <!-- Reaction section -->
-    <div id="section-reaction" class="section-container">
-      <div class="section-title">
-        Реакция <span class="float-right">макс. 1/раунд</span>
-      </div>
-      <div class="section-content">
-        <div class="section-row section-subtitle text fontsize">
-          Реакция — это мгновенный ответ на срабатывание некоего условия, который может
-          происходить как в ваш, так и в чужой ход.
-        </div>
-        <div class="section-row" id="basic-reactions"></div>
-      </div>
+    <div class="section-content">
+      <div class="section-row" id="damage-types"></div>
     </div>
+  </div>
 
-    <!-- Condition section -->
-    <div id="section-condition" class="section-container">
-      <div class="section-title">
-        Состояние
-      </div>
-      <div class="section-content">
-        <div class="section-row section-subtitle text fontsize">
-          Состояния различными способами изменяют возможности существа и
-          могут являться следствием заклинания, классового умения, атаки
-          чудовища или другого эффекта.
-        </div>
-        <div class="section-row" id="basic-conditions"></div>
-      </div>
+  <!-- Health, Dying, and Resting Section -->
+  <div id="section-damage-healing" class="section-container">
+    <div class="section-title">
+      Хиты, Смерть и Отдых
     </div>
-
-    <!-- Environmental section -->
-    <div id="section-environment" class="section-container">
-      <div class="section-title">
-        Окружающая среда
-      </div>
-      <div class="section-content">
-        <div class="section-row section-subtitle text fontsize">
-          Эффекты местности, которые сильно затрудняют видимость, передвижение и другие действия.
-        </div>
-        <div class="section-row" id="environment-obscurance"></div>
-        <div class="section-row section-subtitle text fontsize">
-          Наличие или отсутствие света создаёт три категории освещения: яркий свет, тусклый свет и тьму.
-        </div>
-        <div class="section-row" id="environment-light"></div>
-        <div class="section-row section-subtitle text fontsize">
-          Некоторые существа обладают экстраординарными чувствами, что позволяет им выживать в сложных условиях.
-        </div>
-        <div class="section-row" id="environment-vision"></div>
-        <div class="section-row section-subtitle text fontsize">
-          Препятствия могут создавать укрытие, давая преимущество в защите.
-        </div>
-        <div class="section-row" id="environment-cover"></div>
-      </div>
+    <div class="section-content">
+      <div class="section-row" id="damage-health"></div>
+      <div class="section-row" id="damage-death"></div>
+      <div class="section-row" id="damage-resting"></div>
     </div>
+  </div>
 
-    <!-- Travel Section -->
-    <div id="section-travel" class="section-container">
-      <div class="section-title">
-        Путешествие
-      </div>
-
-      <div class="section-content">
-        <div class="section-row section-subtitle text fontsize">
-          Передвижение в течение долгого времени на дальние дистанции
-        </div>
-        <div class="section-row" id="travel"></div>
-      </div>
+  <!-- Ability Scores/Skills Section -->
+  <div id="section-abilities" class="section-container">
+    <div class="section-title">
+      Характеристики и Навыки
     </div>
-
-    <!-- Damage Types Section -->
-    <div id="section-damage-types" class="section-container">
-      <div class="section-title">
-        Урон и атака
+    <div class="section-content">
+      <div class="section-title-reverse-crimson">
+        Сила
       </div>
-      <div class="section-content">
-        <div class="section-row" id="damage-types"></div>
+      <div class="section-row section-subtitle text fontsize">
+        Природный атлетизм, физическая сила.
       </div>
+      <div class="section-row" id="abilities-str"></div>
+      <div class="section-title-reverse-crimson">
+        Ловкость
+      </div>
+      <div class="section-row section-subtitle text fontsize">
+        Проворство, реакция, равновесие.
+      </div>
+      <div class="section-row" id="abilities-dex"></div>
+      <div class="section-title-reverse-crimson">
+        Телосложение
+      </div>
+      <div class="section-row section-subtitle text fontsize">
+        Здоровье, выносливость, жизненная сила.
+      </div>
+      <div class="section-row" id="abilities-con"></div>
+      <div class="section-title-reverse-crimson">
+        Интеллект
+      </div>
+      <div class="section-row section-subtitle text fontsize">
+        Ясность ума, память, аналитические способности.
+      </div>
+      <div class="section-row" id="abilities-int"></div>
+      <div class="section-title-reverse-crimson">
+        Мудрость
+      </div>
+      <div class="section-row section-subtitle text fontsize">
+        Осведомлённость, интуиция, проницательность.
+      </div>
+      <div class="section-row" id="abilities-wis"></div>
+      <div class="section-title-reverse-crimson">
+        Харизма
+      </div>
+      <div class="section-row section-subtitle text fontsize">
+        Уверенность, красноречие, лидерство.
+      </div>
+      <div class="section-row" id="abilities-cha"></div>
     </div>
+  </div>
 
-    <!-- Health, Dying, and Resting Section -->
-    <div id="section-damage-healing" class="section-container">
-      <div class="section-title">
-        Хиты, Смерть и Отдых
-      </div>
-      <div class="section-content">
-        <div class="section-row" id="damage-health"></div>
-        <div class="section-row" id="damage-death"></div>
-        <div class="section-row" id="damage-resting"></div>
-      </div>
+  <!-- Languages section -->
+  <div id="section-languages" class="section-container">
+    <div class="section-title">
+      Языки
     </div>
-
-    <!-- Ability Scores/Skills Section -->
-    <div id="section-abilities" class="section-container">
-      <div class="section-title">
-        Характеристики и Навыки
+    <div class="section-content">
+      <div class="section-title-reverse-purple">
+        Распространённые языки
       </div>
-      <div class="section-content">
-        <div class="section-title-reverse-crimson">
-          Сила
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Природный атлетизм, физическая сила.
-        </div>
-        <div class="section-row" id="abilities-str"></div>
-        <div class="section-title-reverse-crimson">
-          Ловкость
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Проворство, реакция, равновесие.
-        </div>
-        <div class="section-row" id="abilities-dex"></div>
-        <div class="section-title-reverse-crimson">
-          Телосложение
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Здоровье, выносливость, жизненная сила.
-        </div>
-        <div class="section-row" id="abilities-con"></div>
-        <div class="section-title-reverse-crimson">
-          Интеллект
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Ясность ума, память, аналитические способности.
-        </div>
-        <div class="section-row" id="abilities-int"></div>
-        <div class="section-title-reverse-crimson">
-          Мудрость
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Осведомлённость, интуиция, проницательность.
-        </div>
-        <div class="section-row" id="abilities-wis"></div>
-        <div class="section-title-reverse-crimson">
-          Харизма
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Уверенность, красноречие, лидерство.
-        </div>
-        <div class="section-row" id="abilities-cha"></div>
+      <div class="section-row" id="languages-standard"></div>
+      <div class="section-title-reverse-purple">
+        Экзотические языки
       </div>
+      <div class="section-row" id="languages-exotic"></div>
     </div>
+  </div>
 
-    <!-- Languages section -->
-    <div id="section-languages" class="section-container">
-      <div class="section-title">
-        Языки
-      </div>
-      <div class="section-content">
-        <div class="section-title-reverse-purple">
-          Распространённые языки
-        </div>
-        <div class="section-row" id="languages-standard"></div>
-        <div class="section-title-reverse-purple">
-          Экзотические языки
-        </div>
-        <div class="section-row" id="languages-exotic"></div>
-      </div>
+  <!-- Class Abilities section -->
+  <div id="section-classabilities" class="section-container">
+    <div class="section-title">
+      Активные классовые умения
     </div>
-
-    <!-- Class Abilities section -->
-    <div id="section-classabilities" class="section-container">
-      <div class="section-title">
-        Активные классовые умения
+    <div class="section-content">
+      <div class="section-title-reverse-maroon">
+        Варвар
       </div>
-      <div class="section-content">
-        <div class="section-title-reverse-maroon">
-          Варвар
-        </div>
-        <div class="section-row" id="class-abilities-barbarian"></div>
-        <div class="section-title-reverse-maroon">
-          Бард
-        </div>
-        <div class="section-row" id="class-abilities-bard"></div>
-        <div class="section-title-reverse-maroon">
-          Жрец
-        </div>
-        <div class="section-row" id="class-abilities-cleric"></div>
-        <div class="section-title-reverse-maroon">
-          Друид
-        </div>
-        <div class="section-row" id="class-abilities-druid"></div>
-        <div class="section-title-reverse-maroon">
-          Воин
-        </div>
-        <div class="section-row" id="class-abilities-fighter"></div>
-        <div class="section-title-reverse-maroon">
-          Монах
-        </div>
-        <div class="section-row" id="class-abilities-monk"></div>
-        <div class="section-title-reverse-maroon">
-          Паладин
-        </div>
-        <div class="section-row" id="class-abilities-paladin"></div>
-        <div class="section-title-reverse-maroon">
-          Следопыт
-        </div>
-        <div class="section-row" id="class-abilities-ranger"></div>
-        <div class="section-title-reverse-maroon">
-          Плут
-        </div>
-        <div class="section-row" id="class-abilities-rogue"></div>
-        <!--<div class="section-title-reverse-maroon">
+      <div class="section-row" id="class-abilities-barbarian"></div>
+      <div class="section-title-reverse-maroon">
+        Бард
+      </div>
+      <div class="section-row" id="class-abilities-bard"></div>
+      <div class="section-title-reverse-maroon">
+        Жрец
+      </div>
+      <div class="section-row" id="class-abilities-cleric"></div>
+      <div class="section-title-reverse-maroon">
+        Друид
+      </div>
+      <div class="section-row" id="class-abilities-druid"></div>
+      <div class="section-title-reverse-maroon">
+        Воин
+      </div>
+      <div class="section-row" id="class-abilities-fighter"></div>
+      <div class="section-title-reverse-maroon">
+        Монах
+      </div>
+      <div class="section-row" id="class-abilities-monk"></div>
+      <div class="section-title-reverse-maroon">
+        Паладин
+      </div>
+      <div class="section-row" id="class-abilities-paladin"></div>
+      <div class="section-title-reverse-maroon">
+        Следопыт
+      </div>
+      <div class="section-row" id="class-abilities-ranger"></div>
+      <div class="section-title-reverse-maroon">
+        Плут
+      </div>
+      <div class="section-row" id="class-abilities-rogue"></div>
+      <!--<div class="section-title-reverse-maroon">
                     Чародей
                   </div>
                   <div class="section-row" id="class-abilities-sorcerer"></div>
@@ -281,130 +282,130 @@
                     Волшебник
                   </div>
                   <div class="section-row" id="class-abilities-wizard"></div>-->
-      </div>
     </div>
+  </div>
 
-    <!--Spellcasting section-->
-    <div id="section-spellcasting" class="section-container">
-      <div class="section-title">
-        Заклинания
-      </div>
-      <div class="section-content">
-        <div class="section-title-reverse-spellcasting">
-          Информация о заклинаниях
-        </div>
-        <div class="section-row" id="spellcasting-spellinfo"></div>
-        <div class="section-title-reverse-spellcasting">
-          Наложение заклинаний
-        </div>
-        <div class="section-row" id="spellcasting-casting"></div>
-      </div>
+  <!--Spellcasting section-->
+  <div id="section-spellcasting" class="section-container">
+    <div class="section-title">
+      Заклинания
     </div>
-
-    <!--Multiclassing section-->
-    <div id="section-multiclassing" class="section-container">
-      <div class="section-title">
-        Мультиклассирование
+    <div class="section-content">
+      <div class="section-title-reverse-spellcasting">
+        Информация о заклинаниях
       </div>
-      <div class="section-content">
-        <div class="section-title-reverse-multiclassing">
-          Требования мультиклассирования
-        </div>
-        <div class="section-row" id="multiclassing-classreqs"></div>
-        <div class="section-title-reverse-multiclassing">
-          Особенности умений при мультиклассировании
-        </div>
-        <div class="section-row" id="multiclassing-classfeats-reg"></div>
-        <div class="section-row section-subtitle text fontsize">
-          Использование классов заклинателей при мультиклассировании
-        </div>
-        <div class="section-row" id="multiclassing-classfeats-casting"></div>
+      <div class="section-row" id="spellcasting-spellinfo"></div>
+      <div class="section-title-reverse-spellcasting">
+        Наложение заклинаний
       </div>
+      <div class="section-row" id="spellcasting-casting"></div>
     </div>
+  </div>
 
-    <!-- Equipment section -->
-    <div id="section-equipment" class="section-container">
-      <div class="section-title">
-        Снаряжение
-      </div>
-      <div class="section-content">
-        <div class="section-title-reverse-sienna">
-          Наборы снаряжения
-        </div>
-        <div class="section-row" id="equipment-packs"></div>
-        <div class="section-title-reverse-sienna">
-          Инструменты
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Обычные инструменты
-        </div>
-        <div class="section-row" id="equipment-tools-norm"></div>
-        <div class="section-row section-subtitle text fontsize">
-          Инструменты ремесленников
-        </div>
-        <div class="section-row" id="equipment-tools-artisan"></div>
-        <div class="section-title-reverse-sienna">
-          Оружие
-        </div>
-        <div class="section-row section-subtitle text fontsize">
-          Свойства оружия
-        </div>
-        <div class="section-row" id="equipment-weap-prop"></div>
-      </div>
+  <!--Multiclassing section-->
+  <div id="section-multiclassing" class="section-container">
+    <div class="section-title">
+      Мультиклассирование
     </div>
-
-    <!-- XP section -->
-    <div id="section-xp" class="section-container">
-      <div class="section-title">
-        Опыт
+    <div class="section-content">
+      <div class="section-title-reverse-multiclassing">
+        Требования мультиклассирования
       </div>
-      <div class="section-content">
-        <div class="section-row" id="xp"></div>
+      <div class="section-row" id="multiclassing-classreqs"></div>
+      <div class="section-title-reverse-multiclassing">
+        Особенности умений при мультиклассировании
       </div>
+      <div class="section-row" id="multiclassing-classfeats-reg"></div>
+      <div class="section-row section-subtitle text fontsize">
+        Использование классов заклинателей при мультиклассировании
+      </div>
+      <div class="section-row" id="multiclassing-classfeats-casting"></div>
     </div>
+  </div>
 
-    <!-- Modal -->
-    <div class="modal" id="modal" tabindex="-1">
-      <div class="modal-backdrop" id="modal-backdrop">
-        <div class="modal-dialog modalsize">
-          <div class="section-container modal-container" id="modal-container">
-            <div class="section-title" id="modal-title">
-              Modal title<span class="float-right">Action</span>
+  <!-- Equipment section -->
+  <div id="section-equipment" class="section-container">
+    <div class="section-title">
+      Снаряжение
+    </div>
+    <div class="section-content">
+      <div class="section-title-reverse-sienna">
+        Наборы снаряжения
+      </div>
+      <div class="section-row" id="equipment-packs"></div>
+      <div class="section-title-reverse-sienna">
+        Инструменты
+      </div>
+      <div class="section-row section-subtitle text fontsize">
+        Обычные инструменты
+      </div>
+      <div class="section-row" id="equipment-tools-norm"></div>
+      <div class="section-row section-subtitle text fontsize">
+        Инструменты ремесленников
+      </div>
+      <div class="section-row" id="equipment-tools-artisan"></div>
+      <div class="section-title-reverse-sienna">
+        Оружие
+      </div>
+      <div class="section-row section-subtitle text fontsize">
+        Свойства оружия
+      </div>
+      <div class="section-row" id="equipment-weap-prop"></div>
+    </div>
+  </div>
+
+  <!-- XP section -->
+  <div id="section-xp" class="section-container">
+    <div class="section-title">
+      Опыт
+    </div>
+    <div class="section-content">
+      <div class="section-row" id="xp"></div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" tabindex="-1">
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal-dialog modalsize">
+        <div class="section-container modal-container" id="modal-container">
+          <div class="section-title" id="modal-title">
+            Modal title<span class="float-right">Action</span>
+          </div>
+          <div class="section-content">
+            <div class="section-row section-subtitle text" id="modal-subtitle">
+              Subtitle
             </div>
-            <div class="section-content">
-              <div class="section-row section-subtitle text" id="modal-subtitle">
-                Subtitle
+            <div class="section-row text">
+              <div id="modal-bullets">
               </div>
-              <div class="section-row text">
-                <div id="modal-bullets">
-                </div>
-              </div>
-              <div class="section-row text" id="modal-reference">
-              </div>
+            </div>
+            <div class="section-row text" id="modal-reference">
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Data -->
-    <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_freeaction.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_xp.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_damage.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_abilities.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_travel.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_languages.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_equipment.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_classabilities.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_spellcasting.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_multiclassing.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
+  <!-- Data -->
+  <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/data_freeaction.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_xp.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_damage.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_abilities.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_travel.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_languages.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_equipment.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_classabilities.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_spellcasting.js" charset="utf-8"></script>
+  <Script type="text/javascript" src="js/data_multiclassing.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
 </body>
 
 </html>

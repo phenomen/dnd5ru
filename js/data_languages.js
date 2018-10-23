@@ -169,7 +169,7 @@ data_languages_exotic = [
      },
   {
     title: "Подземный",
-    icon: "trade",
+    icon: "cave-entrance",
     subtitle: "Жители Подземья",
     description: "Жители Подземья",
     reference: "КИ, стр. 123",
