@@ -23,7 +23,7 @@ data_languages_standard = [
      },
   {
     title: "Эльфийский",
-    icon: "elf-ear",
+    icon: "woman-elf-face",
     subtitle: "Эльфы",
     description: "Эльфы",
     reference: "КИ, стр. 123",
@@ -45,7 +45,7 @@ data_languages_standard = [
      },
   {
     title: "Гномий",
-    icon: "bad-gnome",
+    icon: "wizard-face",
     subtitle: "Гномы",
     description: "Гномы",
     reference: "КИ, стр. 123",
@@ -67,7 +67,7 @@ data_languages_standard = [
      },
   {
     title: "Полуросликов",
-    icon: "conversation",
+    icon: "nun-face",
     subtitle: "Полурослики",
     description: "Полурослики",
     reference: "КИ, стр. 123",
@@ -147,7 +147,7 @@ data_languages_exotic = [
      },
   {
     title: "Первичный",
-    icon: "unfriendly-fire",
+    icon: "ifrit",
     subtitle: "Элементали",
     description: "Элементали",
     reference: "КИ, стр. 123",

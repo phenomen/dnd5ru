@@ -81,7 +81,7 @@ data_movement = [
     },
   {
     title: "Прыжок в длину",
-    icon: "wingfoot",
+    icon: "jump-across",
     subtitle: "Стоимость: 5 футов за 5 футов",
     description: "Стоимость движения: 5 футов за 5 футов прыжка",
     reference: "КИ, стр. 182.",

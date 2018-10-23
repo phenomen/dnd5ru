@@ -105,7 +105,7 @@ data_abilities_dex = [
     },
   {
     title: "Класс Доспеха",
-    icon: "spiked-armor",
+    icon: "breastplate",
     subtitle: "Насколько вероятно не получитить урон",
     description: "Насколько вероятно не получитить урон",
     reference: "КИ, стр. 177",
@@ -125,7 +125,7 @@ data_abilities_dex = [
     },
   {
     title: "Броски Атаки и Урона",
-    icon: "plain-dagger",
+    icon: "archer",
     subtitle: "Насколько вероятно попадание",
     description: "Насколько вероятно попадание по цели",
     reference: "КИ, стр. 177",
@@ -275,7 +275,7 @@ data_abilities_int = [
 data_abilities_wis = [
   {
     title: "Уход за животными",
-    icon: "hoof",
+    icon: "koala",
     subtitle: "Управление животными",
     description: "Используется для управления животными",
     reference: "КИ, стр. 178",
@@ -351,7 +351,7 @@ data_abilities_wis = [
 data_abilities_cha = [
   {
     title: "Обман",
-    icon: "conversation",
+    icon: "convince",
     subtitle: "Ложь и скрытие мотивов",
     description: "Ложь и скрытие мотивов",
     reference: "КИ, стр. 178",
@@ -361,7 +361,7 @@ data_abilities_cha = [
      },
   {
     title: "Запугивание",
-    icon: "scarecrow",
+    icon: "screaming",
     subtitle: "Угрозы и шатаж",
     description: "Угрозы и шатаж",
     reference: "КИ, стр. 179",
@@ -381,7 +381,7 @@ data_abilities_cha = [
      },
   {
     title: "Убеждение",
-    icon: "trade",
+    icon: "discussion",
     subtitle: "Убеждение и воодушевление",
     description: "Убеждение и воодушевление",
     reference: "КИ, стр. 179",

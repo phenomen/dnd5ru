@@ -11,7 +11,7 @@ data_environment_obscurance = [
     },
   {
     title: "Сильно заслонённая",
-    icon: "lightning-tear",
+    icon: "eyelashes",
     subtitle: "Практическая слепота",
     description: "Темнота, непроглядный туман, густая листва",
     reference: "КИ, стр. 183.",

@@ -73,7 +73,7 @@ data_action = [
     },
   {
     title: "Уклонение",
-    icon: "aura",
+    icon: "dodging",
     subtitle: "Увеличивает защиту",
     description: "Сосредотачение на уклонении от атак",
     reference: "КИ, стр. 192.",

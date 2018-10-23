@@ -949,7 +949,7 @@ data_equipment_weapons_properties = [
      },
   {
     title: "Метательное",
-    icon: "barbed-spear",
+    icon: "flying-shuriken",
     subtitle: "Оружие можно метнуть",
     description: "Оружие можно метнуть",
     reference: "КИ, стр. 147",

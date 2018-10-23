@@ -37,7 +37,7 @@ data_spellcasting_spellinfo = [
 data_spellcasting_casting = [
   {
     title: "Время наложения",
-    icon: "alarm-clock",
+    icon: "sands-of-time",
     subtitle: "Продолжительность наложения",
     description: "Большинство заклинаний накладываются действием, но некоторые накладываются бонусным действием, реакцией, или же требуют долгого времени.",
     reference: "КИ, стр. 203",

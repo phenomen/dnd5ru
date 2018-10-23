@@ -33,7 +33,7 @@ data_condition = [
     },
   {
     title: "Истощённый",
-    icon: "crawl",
+    icon: "despair",
     subtitle: "Вы истощены",
     description: "Истощение имеет шесть уровней",
     reference: "КИ, стр. 291.",
