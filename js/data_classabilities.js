@@ -24,111 +24,122 @@ data_classabilities_barbarian = [
 
 data_classabilities_bard = [
   {
-    title: "Bardic Inspiration",
+    title: "Вдохновение барда",
     icon: "music-spell",
     subtitle: "Стоимость: Бонусное действие",
     description: "Inspire others with your performances",
-    reference: "КИ, стр. 53-54",
+    reference: "КИ, стр. 53",
     bullets: [
-             "You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.",
-             "Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.",
-             "You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.",
-             "Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
+             "Своими словами или музыкой вы можете вдохновлять других. Для этого вы должны бонусным действием выбрать одно существо, отличное от вас, в пределах 60 футов, которое может вас слышать. Это существо получает кость бардовского вдохновения — к6.",
+             "В течение следующих 10 минут это существо может один раз бросить эту кость и добавить результат к проверке характеристики, броску атаки или спасброску, который оно совершает. Существо может принять решение о броске кости вдохновения уже после броска к20, но должно сделать это прежде, чем Мастер объявит результат броска. Как только кость бардовского вдохновения брошена, она исчезает. Существо может иметь только одну такую кость одновременно.",
+             "Вы можете использовать это умение количество раз, равное модификатору вашей Харизмы, но как минимум один раз. Потраченные использования этого умения восстанавливаются после продолжительного отдыха.",
+             "Ваша кость бардовского вдохновения изменяется с ростом вашего уровня в этом классе. Она становится к8 на 5 уровне, к10 на 10 уровне и к12 на 15 уровне."
          ]
      },
 ]
 
 data_classabilities_cleric = [
   {
-    title: "Channel Divinity: Turn Undead",
+    title: "Изгнание нежити",
     icon: "shambling-zombie",
     subtitle: "Стоимость: Действие",
-    description: "Action",
+    description: "Действие",
     reference: "КИ, стр. 59",
     bullets: [
-             "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
-             "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its actions, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+             "Вы действием демонстрируете свой священный символ и читаете молитву, изгоняющую нежить. Вся нежить, которая может видеть или слышать вас в пределах 30 футов, должна совершить спасбросок Мудрости. Если существо провалило спасбросок, оно изгоняется на 1 минуту, или пока не получит урон.",
+             "Изгнанное существо должно тратить свои ходы, пытаясь уйти от вас как можно дальше, и не может добровольно переместиться в пространство, находящееся в пределах 30 футов от вас. Оно также не может совершать реакции. В качестве действия существо может использовать только Рывок или пытаться освободиться от эффекта, препятствующего его передвижению. Если двигаться некуда, существо может использовать действие Уклонение."
          ]
      },
   {
-    title: "Divine Intervention",
+    title: "Божественное вмешательство",
     icon: "hand-of-god",
     subtitle: "Стоимость: Действие",
-    description: "Request your deity's aid",
+    description: "Умолять божество о помощи",
     reference: "КИ, стр. 59",
     bullets: [
-             "Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.",
-             "Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate.",
-             "If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.",
-             "At 20th level, your call for intervention succeeds automatically, no roll required."
+             "Начиная с 10 уровня вы можете воззвать к своему божеству о помощи, когда сильно в этом нуждаетесь.",
+             "Мольба о помощи совершается действием. Опишите помощь, которую вы ждёте, и киньте процентную кость. Если выпадет число, не превышающее ваш уровень жреца, ваше божество вмешается. Мастер сам выбирает природу вмешательства; подойдёт эффект какого-либо заклинания жреца или заклинания домена.",
+             "Если божество вмешивается, вы не можете использовать это умение в течение 7 дней. В противном случае вы можете использовать это умение после продолжительного отдыха.",
+             "На 20 уровне ваше воззвание автоматически успешно и не требует проверки."
          ]
      },
 ]
 
 data_classabilities_druid = [
   {
-    title: "Wild Shape",
+    title: "Дикий облик",
     icon: "bestial-fangs",
     subtitle: "Стоимость: Действие",
     description: "",
     reference: "КИ, стр. 66-67",
     bullets: [
-             "Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.",
-             "Your druid level determines the beast you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swim speed.",
-             "<div class='section-title-reverse-black' align='center'>Beast Shapes</div><table id='t01' style='width:100%'>\
+             "Начиная со 2 уровня вы можете действием принять при помощи магии облик любого зверя, которого вы видели. Вы можете использовать это умение два раза, восстанавливая его после короткого или продолжительного отдыха.",
+             "Уровень друида определяет, в каких зверей можно превращаться. Например, на 2 уровне можно превращаться в животное с показателем опасности не более 1/4, без скорости полёта и плавания.",
+             "<div class='section-title-reverse-black' align='center'>Облик животного</div><table id='t01' style='width:100%'>\
                 <tr>\
-                  <th><b>Level</b></th>\
-                  <th><b>Max. CR</b></th>\
-                  <th><b>Limitations</b></th>\
-                  <th><b>Example</b></th>\
+                  <th><b>Уровень</b></th>\
+                  <th><b>Макс. ПО</b></th>\
+                  <th><b>Ограничения</b></th>\
+                  <th><b>Пример</b></th>\
                 </tr>\
                 <tr>\
-                  <td>2nd</td>\
+                  <td>2</td>\
                   <td>1/4</td>\
-                  <td>No flying or swimming speed</td>\
-                  <td>Wolf</td>\
+                  <td>Без скорости плавания и полёта</td>\
+                  <td>Волк</td>\
                 </tr>\
                 <tr>\
-                  <td>4th</td>\
+                  <td>4</td>\
                   <td>1/2</td>\
-                  <td>No flying speed</td>\
-                  <td>Crocodile</td>\
+                  <td>Без скорости полёта</td>\
+                  <td>Крокодил</td>\
                 </tr>\
                 <tr>\
-                  <td>8th</td>\
+                  <td>8</td>\
                   <td>1</td>\
                   <td>---</td>\
-                  <td>Giant eagle</td>\
+                  <td>Гигантский орёл</td>\
                 </tr>\
               </table>",
-             "You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.",
-             "Additional rules can be found on pgs. 66-67 of the Player's Handbook."
+             "В облике животного можно оставаться число часов, равное половине уровня друида (округляя в меньшую сторону). Затем друид возвращается в нормальный облик, если только не потратит ещё одно использование Дикого облика. Можно вернуться в нормальный облик досрочно, бонусным действием. Бессознательный, доведённый до 0 хитов или мёртвый друид сразу возвращается в нормальный облик.",
+             "Когда вы превращены, действуют особые правила из Книги Игрока на стр. 66-67."
          ]
      },
   {
-    title: "Revert Wild Shape",
+    title: "Выход из дикого облика",
     icon: "person",
     subtitle: "Стоимость: Бонусное действие",
-    description: "Turn back to your normal form",
+    description: "Вернуться к обычной форме",
     reference: "КИ, стр. 66",
     bullets: [
-             "You can revert to your normal form earlier by using a bonus action on your turn."
+             "Вы можете вернуться к обычной форме бонусным действием в свой ход."
          ]
      },
 ]
 
 data_classabilities_fighter = [
   {
-    title: "Second Wind",
+    title: "Второе дыхание",
     icon: "healing",
     subtitle: "Стоимость: Бонусное действие",
-    description: "Heal yourself with a bonus action",
+    description: "Вылечить себя бонусным действием",
     reference: "КИ, стр. 72",
     bullets: [
-             "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.",
-             "Once you use this feature, you must finish a short or long rest before you can use it again."
+             "Вы обладаете ограниченным источником выносливости, которым можете воспользоваться, чтобы уберечь себя. В свой ход вы можете бонусным действием восстановить хиты в размере 1к10 + ваш уровень воина.",
+             "Использовав это умение, вы должны завершить короткий либо продолжительный отдых, чтобы получить возможность использовать его снова."
          ]
      },
+  {
+    title: "Всплеск действий",
+    icon: "embrassed-energy",
+    subtitle: "Дополнительное действие",
+    description: "Дополнительное действие",
+    reference: "КИ, стр. 72",
+    bullets: [
+                "Начиная со 2 уровня вы получаете возможность на мгновение преодолеть обычные возможности. В свой ход вы можете совершить одно дополнительное действие помимо обычного и бонусного действий.",
+                "Использовав это умение, вы должны завершить короткий или продолжительный отдых, чтобы получить возможность использовать его снова. Начиная с 17 уровня вы можете использовать это умение дважды, прежде чем вам понадобится отдых, но в течение одного хода его всё равно можно использовать лишь один раз."
+            ]
+        },
   {
     title: "Дополнительная атака",
     icon: "saber-slash",
@@ -136,172 +147,172 @@ data_classabilities_fighter = [
     description: "Используется при действии Атаки",
     reference: "КИ, стр. 72",
     bullets: [
-             "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-             "The number of attacks increases to three when you reach 11th level, and to four when you reach 20th level in this class."
+             "Начиная с 5 уровня, если вы в свой ход совершаете действие Атака, вы можете совершить две атаки вместо одной.",
+             "Количество атак увеличивается до трёх на 11 уровне этого класса, и до четырёх на 20 уровне."
          ]
      },
 ]
 
 data_classabilities_monk = [
   {
-    title: "Flurry of Blows",
+    title: "Шквал ударов",
     icon: "punch",
-    subtitle: "Стоимость: 1 ki point",
-    description: "Стоимость: 1 ki point",
+    subtitle: "Стоимость: 1 очко ци",
+    description: "Стоимость: 1 очко ци",
     reference: "КИ, стр. 78",
     bullets: [
-             "Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+             "Сразу же после того, как вы в свой ход совершили действие Атака, вы можете потратить 1 очко ци, чтобы совершить бонусным действием две безоружные атаки."
          ]
      },
   {
-    title: "Patient Defense",
+    title: "Терпеливая оборона",
     icon: "dodge",
-    subtitle: "Стоимость: 1 ki point",
-    description: "Стоимость: 1 ki point",
+    subtitle: "Стоимость: 1 очко ци",
+    description: "Стоимость: 1 очко ци",
     reference: "КИ, стр. 78",
     bullets: [
-             "You can spend 1 ki point to take the Dodge action as a bonus action on your turn."
+             "Вы тратите 1 очко ци в свой ход, чтобы совершить бонусным действием Уклонение."
          ]
      },
   {
-    title: "Step of the Wind",
+    title: "Поступь ветра",
     icon: "sprint",
-    subtitle: "Стоимость: 1 ki point",
-    description: "Стоимость: 1 ki point",
+    subtitle: "Стоимость: 1 очко ци",
+    description: "Стоимость: 1 очко ци",
     reference: "КИ, стр. 78",
     bullets: [
-             "You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn."
+             "Вы можете потратить 1 очко ци в свой ход, чтобы совершить бонусным действием Отход или Рывок. В этот ход дальность ваших прыжков удваивается."
          ]
      },
   {
-    title: "Deflect Missiles",
+    title: "Отражение снарядов",
     icon: "catch",
-    subtitle: "Стоимость: Reaction (ki point to throw)",
-    description: "Стоимость: Reaction (ki point to throw)",
+    subtitle: "Стоимость: Реакция",
+    description: "Стоимость: Реакция (и очко ци для броска)",
     reference: "КИ, стр. 78",
     bullets: [
-             "Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.",
-             "If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack."
+             "Начиная с 3 уровня вы можете реакцией отразить или поймать снаряд, если по вам попали атакой дальнобойным оружием. Если вы делаете это, урон снижается на 1к10 + модификатор Ловкости + уроочко цвень монаха.",
+             "Если вы снизили урон до 0, вы можете поймать снаряд в случае, если он достаточно мал, чтоб держать его одной рукой, и одна из ваших рук свободна. Если вы поймали снаряд с помощью этого умения, вы можете потратить одно очко ци, чтобы частью реакции совершить дальнобойную атаку пойманным оружием или боеприпасом с дистанцией 20/60 футов. Вы совершаете эту атаку с владением, вне зависимости от владения данным оружием, и этот снаряд считается для данной атаки монашеским оружием."
          ]
      },
   {
-    title: "Slow Fall",
+    title: "Медленное падение",
     icon: "falling-leaf",
-    subtitle: "Стоимость: Reaction",
-    description: "Стоимость: Reaction",
+    subtitle: "Стоимость: Реакция",
+    description: "Стоимость: Реакция",
     reference: "КИ, стр. 78",
     bullets: [
-             "Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+             "Начиная с 4 уровня, если вы упали, вы можете реакцией уменьшить урон от падения на значение, равное вашему уровню монаха, умноженному на пять."
          ]
      },
   {
-    title: "Extra Attack",
+    title: "Дополнительная атака",
     icon: "saber-slash",
-    subtitle: "Used when taking the Attack action",
-    description: "Used when taking the Attack action",
+    subtitle: "Используется при действии Атаки",
+    description: "Используется при действии Атаки",
     reference: "КИ, стр. 79",
     bullets: [
-             "Beginning at 5th level, you can attack twice, instead of once, when you take the Attack action on your turn."
+             "Начиная с 5 уровня, если вы в свой ход совершаете действие Атака, вы можете совершить две атаки вместо одной."
          ]
      },
   {
-    title: "Stunning Strike",
+    title: "Ошеломляющий удар",
     icon: "punch-blast",
-    subtitle: "Стоимость: 1 ki point",
-    description: "Стоимость: 1 ki point",
+    subtitle: "Стоимость: 1 очко ци",
+    description: "Стоимость: 1 очко ци",
     reference: "КИ, стр. 79",
     bullets: [
-             "Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+             "Начиная с 5 уровня вы можете взаимодействовать с энергией ци, текущей в теле вашего противника. Если вы попали по другому существу атакой рукопашным оружием, вы можете потратить 1 очко ци, чтобы нанести ошеломляющий удар. Цель должна преуспеть в спасброске Телосложения, иначе она станет ошеломлённой до конца вашего следующего хода."
          ]
      },
   {
-    title: "Stillness of Mind",
+    title: "Спокойствие разума",
     icon: "brain",
     subtitle: "Стоимость: Действие",
     description: "Стоимость: Действие",
     reference: "КИ, стр. 79",
     bullets: [
-             "Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+             "Начиная с 7 уровня вы можете действием окончить один из действующих на вас эффектов, делающих вас очарованным или испуганным."
          ]
      },
   {
-    title: "Diamond Soul",
+    title: "Алмазная душа",
     icon: "spark-spirit",
-    subtitle: "Стоимость: 1 ki point",
-    description: "Стоимость: 1 ki point",
+    subtitle: "Стоимость: 1 очко ци",
+    description: "Стоимость: 1 очко ци",
     reference: "КИ, стр. 79",
     bullets: [
-             "Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.",
-             "Additionally whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+             "Начиная с 14 уровня ваше мастерство ци предоставляет вам владение всеми спасбросками.",
+             "Кроме того, если вы провалили спасбросок, вы можете повторить его, потратив 1 очко ци, и должны использовать второй результат."
          ]
      },
   {
-    title: "Empty Body",
+    title: "Пустое тело",
     icon: "invisible",
-    subtitle: "Стоимость: 4/8 ki points",
-    description: "Стоимость: 4/8 ki points",
+    subtitle: "Стоимость: 4/8 очков ци",
+    description: "Стоимость: 4/8 очков ци",
     reference: "КИ, стр. 181",
     bullets: [
-             "Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.",
-             "Additionally, you can spend 8 ki points to cast he <i>astral projection</i> spell, without needing material components. When you do so, you can't take any other creatures with you."
+             "Начиная с 18 уровня вы можете действием потратить 4 очка ци, чтобы стать невидимым на 1 минуту. В течение этого времени вы получаете сопротивление всем видам урона кроме урона силовым полем.",
+             "Кроме того, вы можете потратить 8 очков ци, чтобы использовать заклинание проекция в астрал без применения материальных компонентов. Вы не можете перемещать кого-либо вместе с собой."
          ]
      },
 ]
 
 data_classabilities_paladin = [
   {
-    title: "Divine Sense",
+    title: "Божественное чувство",
     icon: "evil-minion",
     subtitle: "Стоимость: Действие",
     description: "Стоимость: Действие",
     reference: "КИ, стр. 84",
     bullets: [
-             "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the <i>hallow</i> spell.",
-             "You can use this feature a number of times equal to your 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
+             "Присутствие сильного зла воспринимается вашими чувствами как неприятный запах, а могущественное добро звучит как небесная музыка в ваших ушах. Вы можете действием открыть своё сознание для обнаружения таких сил. Вы до конца своего следующего хода знаете местоположение всех исчадий, небожителей и нежити в пределах 60 футов, не имеющих полного укрытия. Вы знаете тип (исчадие, небожитель, нежить) любого существа, чьё присутствие вы чувствуете, но не можете определить, кто это конкретно (например, вампир Граф Страд фон Зарович). В этом же радиусе вы также обнаруживаете присутствие мест и предметов, которые были освящены или осквернены, например, заклинанием святилище.",
+             "Вы можете использовать это умение количество раз, равное 1 + модификатор Харизмы. Когда вы заканчиваете продолжительный отдых, вы восстанавливаете все потраченные использования."
          ]
      },
   {
-    title: "Lay on Hands",
+    title: "Наложение рук",
     icon: "healing",
     subtitle: "Стоимость: Действие",
     description: "Стоимость: Действие",
     reference: "КИ, стр. 181",
     bullets: [
-             "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. Wth that pool, you can restore a total number of hit points equal to your paladin level * 5.",
-             "As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.",
-             "Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points seperately for each one.",
-             "This feature has no effect on undead and constructs."
+             "Ваше благословенное касание может лечить раны. У вас есть запас целительной силы, который восстанавливается после продолжительного отдыха. При помощи этого запаса вы можете восстанавливать количество хитов, равное уровню паладина, умноженному на 5.",
+             "Вы можете действием коснуться существа и, зачерпнув силу из запаса, восстановить количество хитов этого существа на любое число, вплоть до максимума, оставшегося в вашем запасе.",
+             "В качестве альтернативы, вы можете потрать 5 хитов из вашего запаса хитов для излечения цели от одной болезни или одного действующего на неё яда. Вы можете устранить несколько эффектов болезни и ядов одним использованием Наложения рук, тратя хиты отдельно для каждого эффекта.",
+             "Это умение не оказывает никакого эффекта на нежить и конструктов."
          ]
      },
   {
-    title: "Divine Smite",
+    title: "Божественная кара",
     icon: "flame",
-    subtitle: "Used when hitting with a melee weapon attack",
-    description: "Used when hitting with a melee weapon attack",
+    subtitle: "Используется при рукопашном попадании",
+    description: "Используется при рукопашном попадании",
     reference: "КИ, стр. 181",
     bullets: [
-             "Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend."
+             "Начиная со 2 уровня, если вы попадаете по существу атакой рукопашным оружием, вы можете потратить одну ячейку заклинания любого своего класса для причинения цели урона излучением, который добавится к урону от оружия. Дополнительный урон равен 2к8 за ячейку 1 уровня, плюс 1к8 за каждый уровень ячейки выше первого, до максимума 5к8. Урон увеличивается на 1к8, если цель — нежить или исчадие."
          ]
      },
   {
-    title: "Extra Attack",
+    title: "Дополнительная атака",
     icon: "saber-slash",
-    subtitle: "Used when taking the Attack action",
-    description: "Used when taking the Attack action",
+    subtitle: "Используется при действии Атаки",
+    description: "Используется при действии Атаки",
     reference: "КИ, стр. 85",
     bullets: [
-             "Beginning at 5th level, you can attack twice, instead of once, when you take the Attack action on your turn."
+             "Начиная с 5 уровня, если вы в свой ход совершаете действие Атака, вы можете совершить две атаки вместо одной."
          ]
     },
   {
-    title: "Cleansing Touch",
+    title: "Очищающее касание",
     icon: "glowing-hands",
     subtitle: "Стоимость: Действие",
     description: "Стоимость: Действие",
     reference: "КИ, стр. 85",
     bullets: [
-            "Beginning at 14th level, you can use your action to end one spell on yourself, or one willing creature that you touch.",
-            "You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
+            "Начиная с 14 уровня вы можете действием окончить действие заклинания на себе или на одном согласном существе, которого вы касаетесь.",
+            "Вы можете использовать это умение количество раз, равное вашему модификатору Харизмы (минимум 1). Вы восстанавливаете возможность использования после продолжительного отдыха."
         ]
    },
 
@@ -309,145 +320,128 @@ data_classabilities_paladin = [
 
 data_classabilities_ranger = [
   {
-    title: "Primeval Awareness",
+    title: "Первозданная осведомлённость",
     icon: "six-eyes",
     subtitle: "Стоимость: Действие",
     description: "Стоимость: Действие",
     reference: "КИ, стр. 92",
     bullets: [
-             "Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn’t reveal the creatures’ location or number."
+             "Начиная с 3 уровня вы можете действием потратить одну ячейку заклинаний следопыта, чтобы сосредоточиться на познании пространства вокруг себя. В течение 1 минуты за каждый уровень использованной ячейки заклинаний вы можете ощутить присутствие следующих видов существ в пределах 1 мили (или в пределах 6 миль, если вы находитесь в избранной местности): аберрации, драконы, исчадия, небожители, нежить, феи и элементали. Это умение не раскрывает местоположение и количество существ."
          ]
      },
   {
-    title: "Extra Attack",
+    title: "Дополнительная атака",
     icon: "saber-slash",
-    subtitle: "Used when taking the Attack action",
-    description: "Used when taking the Attack action",
+    subtitle: "Используется при действии Атаки",
+    description: "Используется при действии Атаки",
     reference: "КИ, стр. 85",
     bullets: [
-             "Beginning at 5th level, you can attack twice, instead of once, when you take the Attack action on your turn."
+             "Начиная с 5 уровня, если вы в свой ход совершаете действие Атака, вы можете совершить две атаки вместо одной."
          ]
     },
   {
-    title: "Vanish",
+    title: "Исчезновение",
     icon: "invisible",
     subtitle: "Стоимость: Бонусное действие",
-    description: "Стоимость: bonus action",
+    description: "Стоимость: Бонусное действие",
     reference: "КИ, стр. 85",
     bullets: [
-            "Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
+            "Начиная с 14 уровня вы можете использовать в свой ход действие Засада бонусным действием. Кроме того, вы не можете быть выслежены немагическими способом, если вы не оставите след намеренно."
         ]
     },
 ]
 
 data_classabilities_rogue = [
   {
-    title: "Cunning Action",
+    title: "Хитрое действие",
     icon: "sprint",
     subtitle: "Стоимость: Бонусное действие",
     description: "Стоимость: Бонусное действие",
     reference: "КИ, стр. 96",
     bullets: [
-             "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can only be used only to take the Dash, Disengage, or Hide action."
+             "Начиная со 2 уровня ваше мышление и ловкость позволяют двигаться и действовать быстрее. Вы можете в каждом ходу боя совершать бонусное действие. Это действие может быть использовано только для Рывка, Отхода или Засады."
          ]
      },
   {
-    title: "Sneak Attack",
+    title: "Скрытая атака",
     icon: "cloak-dagger",
-    subtitle: "Used when attacking with advantage",
-    description: "Used when attacking with advantage",
+    subtitle: "Используется при атаке с преимуществом",
+    description: "Используется при атаке с преимуществом",
     reference: "КИ, стр. 96",
     bullets: [
-             "Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. Once per turn, you candeal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
-             "You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.",
-             "The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
+             "Начиная с 1 уровня вы знаете, как точно наносить удар и использовать отвлечение врага. Один раз в ход вы можете причинить дополнительный урон 1к6 одному из существ, по которому вы попали атакой, совершённой с преимуществом к броску атаки. Атака должна использовать дальнобойное оружие или оружие со свойством «фехтовальное».",
+             "Вам не нужно иметь преимущество при броске атаки, если другой враг цели находится в пределах 5 футов от неё. Этот враг не должен быть недееспособным, и у вас не должно быть помехи для броска атаки.",
+             "Дополнительный урон увеличивается, когда вы получаете уровни в этом классе, как показано в колонке «скрытая атака»."
          ]
      },
   {
-    title: "Uncanny Dodge",
+    title: "Увёртливость",
     icon: "dodge",
-    subtitle: "Стоимость: Reaction",
-    description: "Стоимость: Reaction",
+    subtitle: "Стоимость: Реакция",
+    description: "Стоимость: Реакция",
     reference: "КИ, стр. 96",
     bullets: [
-             "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+             "Начиная с 7 уровня вы можете ловко увернуться от зональных эффектов, например, огненного дыхания красного дракона или заклинания град. Если вы попадаете под действие эффекта, который позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете вовсе никакого урона, если спасбросок был успешен, и только половину урона, если он был провален."
          ]
      },
 ]
 
 data_classabilities_sorcerer = [
   {
-    title: "Convert Sorcery Points/Spell Slots",
+    title: "Свободное заклинательство",
     icon: "trade",
     subtitle: "Стоимость: Бонусное действие",
-    description: "Стоимость: Бонусное действие, sorcery points/spell slots",
+    description: "Стоимость: Бонусное действие",
     reference: "КИ, стр. 101",
     bullets: [
-             "<b>Creating Spell Slots:</b> You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.",
-             "<div class='section-title-reverse-black' align='center'>Creating Spell Slots</div><table id='t01' style='width:100%'>\
+            "Вы можете использовать единицы чародейства, чтобы получить дополнительные ячейки заклинаний, и наоборот, пожертвовать ячейками, чтоб получить единицы. Другие способы использования единиц чародейства вы освоите на более высоких уровнях.",
+             "<b>Создание ячеек заклинаний:</b> В свой ход вы можете бонусным действием превратить оставшиеся единицы чародейства в дополнительные ячейки заклинаний. Приведённая таблица отображает стоимость создания ячеек разных уровней. Вы не можете создавать ячейки с уровнем выше 5. Созданные ячейки заклинаний исчезают в конце длительного отдыха.",
+             "<div class='section-title-reverse-black' align='center'>Создание ячеек заклинаний</div><table id='t01' style='width:100%'>\
                 <tr>\
-                  <th><b>Spell Slot Level</b></th>\
-                  <th><b>Sorcery Point Cost</b></th>\
+                  <th><b>Уровень ячейки заклинаний</b></th>\
+                  <th><b>Единицы чародейства</b></th>\
                 </tr>\
                 <tr>\
-                  <td>1st</td>\
+                  <td>1</td>\
                   <td>2</td>\
                 </tr>\
                 <tr>\
-                  <td>2nd</td>\
+                  <td>2</td>\
                   <td>3</td>\
                 </tr>\
                 <tr>\
-                  <td>2nd</td>\
+                  <td>2</td>\
                   <td>3</td>\
                 </tr>\
                 <tr>\
-                  <td>3rd</td>\
+                  <td>3</td>\
                   <td>5</td>\
                 </tr>\
                 <tr>\
-                  <td>4th</td>\
+                  <td>4</td>\
                   <td>6</td>\
                 </tr>\
                 <tr>\
-                  <td>5th</td>\
+                  <td>5</td>\
                   <td>7</td>\
                 </tr>\
               </table>",
-             "<b>Converting a Spell Slot to Sorcery Points:</b> As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level."
-         ]
-     },
-  {
-    title: "Quickened Spell",
-    icon: "bolt-spell-cast",
-    subtitle: "Стоимость: Бонусное действие",
-    description: "Стоимость: Бонусное действие",
-    reference: "КИ, стр. 102",
-    bullets: [
-             "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+             "<b>Преобразование ячейки заклинания в единицы чародейства:</b> Вы можете в свой ход бонусным действием преобразовать одну ячейку заклинаний в единицы чародейства, количество которых равно уровню ячейки."
          ]
      },
 ]
 
 data_classabilities_warlock = [
   {
-    title: "Familiar Attack",
-    icon: "imp",
-    subtitle: "Стоимость: 1 attack",
-    description: "Requires Pact of the Chain",
-    reference: "КИ, стр. 107",
-    bullets: [
-             "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own."
-         ]
-     },
-  {
-    title: "Pact Weapon",
+    title: "Договор клинка",
     icon: "broadsword",
     subtitle: "Стоимость: Действие",
-    description: "Requires Pact of the Blade",
+    description: "Требуется договор клинка",
     reference: "КИ, стр. 107-108",
     bullets: [
-             "You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+             "Вы можете действием создать оружие договора в своей пустой руке. Вы сами выбираете форму этого рукопашного оружия каждый раз, когда создаёте (смотрите варианты оружия в главе 5). Вы получаете владение этим оружием, пока используете его. Оружие считается магическим при определении преодоления сопротивления и иммунитета от немагических атак и урона.",
+             "Оружие договора исчезает, если оно в течении 1 минуты находится дальше 5 футов от вас. Оно также исчезает, если вы используете это умение ещё раз, отзываете оружие (действие не требуется), или умираете. Вы можете трансформировать одно магическое оружие в своё оружие договора, проведя специальный ритуал, держа это оружие. Ритуал совершается 1 час, его можно провести во время короткого отдыха. Впоследствии вы можете отозвать оружие, помещая его между измерениями. Оно будет появляться в руке, когда вы будете в дальнейшем создавать оружие договора. Вы не можете сделать это с артефактом или разумным оружием. Оружие перестаёт быть оружием договора, когда вы умираете, выполняете часовой ритуал с другим оружием или когда вы исполните ритуал длиной в час для того, чтобы разорвать связь. Оружие материализуется у ваших ног, если в момент разрыва связи оно находилось между измерениями."
+
          ]
      },
 ]
