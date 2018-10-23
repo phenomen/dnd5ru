@@ -1,4 +1,40 @@
 /* ------------------------------------------------------------------------- */
+/* Toggle */
+/* ------------------------------------------------------------------------- */
+.toggler {
+    margin-right:10px;
+    float:left;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+ .hide {
+    background-image: url(../img/hide.png);
+}
+ .show {
+    background-image: url(../img/show.png);
+}
+ #modal-bullets {
+    overflow-y: auto;
+}
+#collapse-all {
+    cursor: pointer;
+}
+ table#drug {
+    text-align:center;
+    font-size:70%;
+}
+table#drug th#l {
+    border-right: 1px dashed #000000;
+}
+table#drug td {
+    border-right: 1px dashed #000000;
+}
+table#drug td:last-child {
+    border-right: none !important;
+}
+
+/* ------------------------------------------------------------------------- */
 /* Sections */
 /* ------------------------------------------------------------------------- */
 .section-container {
@@ -389,6 +425,10 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.page {
+	width:100%;
 }
 
 /* ------------------------------------------------------------------------- */

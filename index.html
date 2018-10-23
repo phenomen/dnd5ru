@@ -13,6 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
   <!-- Javascript -->
   <script type="text/javascript" src="js/jquery/jquery.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/collapsebutton.js" charset="utf-8"></script>
 </head>
 
 <body class="page-background">
@@ -21,7 +22,7 @@
     <!-- Movement section -->
     <div id="section-movement" class="section-container">
       <div class="section-title">
-        Движение <span class="float-right">ограничено скоростью</span>
+      <div id="tog-movement" class="toggler hide"></div> Движение<span class="float-right">ограничено скоростью</span>
       </div>
       <div class="section-content">
         <div class="section-row section-subtitle text fontsize">
@@ -35,7 +36,7 @@
     <!-- Action section -->
     <div id="section-action" class="section-container">
       <div class="section-title">
-        Действие <span class="float-right">1/ход</span>
+        <div id="tog-action" class="toggler hide"></div> Действие <span class="float-right">1/ход</span>
       </div>
       <div class="section-content">
         <div class="section-row" id="basic-actions"></div>
@@ -45,7 +46,7 @@
     <!-- Free Action section -->
     <div id="section-free-action" class="section-container">
       <div class="section-title">
-        Свободное действие
+        <div id="tog-free-action" class="toggler hide"></div> Свободное действие
       </div>
       <div class="section-content">
         <div class="section-row section-subtitle text fontsize">
@@ -58,7 +59,7 @@
     <!-- Bonus Action section -->
     <div id="section-bonus-action" class="section-container">
       <div class="section-title">
-        Бонусное действие <span class="float-right">макс. 1/ход</span>
+        <div id="tog-bonus-action" class="toggler hide"></div> Бонусное действие <span class="float-right">макс. 1/ход</span>
       </div>
       <div class="section-content">
         <div class="section-row section-subtitle text fontsize">
@@ -72,7 +73,7 @@
     <!-- Reaction section -->
     <div id="section-reaction" class="section-container">
       <div class="section-title">
-        Реакция <span class="float-right">макс. 1/раунд</span>
+        <div id="tog-reaction" class="toggler hide"></div> Реакция <span class="float-right">макс. 1/раунд</span>
       </div>
       <div class="section-content">
         <div class="section-row section-subtitle text fontsize">
@@ -86,7 +87,7 @@
     <!-- Condition section -->
     <div id="section-condition" class="section-container">
       <div class="section-title">
-        Состояние
+        <div id="tog-condition" class="toggler hide"></div> Состояние
       </div>
       <div class="section-content">
         <div class="section-row section-subtitle text fontsize">
@@ -101,7 +102,7 @@
     <!-- Environmental section -->
     <div id="section-environment" class="section-container">
       <div class="section-title">
-        Окружающая среда
+        <div id="tog-environment" class="toggler hide"></div> Окружающая среда
       </div>
       <div class="section-content">
         <div class="section-row section-subtitle text fontsize">
@@ -126,7 +127,7 @@
     <!-- Travel Section -->
     <div id="section-travel" class="section-container">
       <div class="section-title">
-        Путешествие
+        <div id="tog-travel" class="toggler hide"></div> Путешествие
       </div>
 
       <div class="section-content">
@@ -140,7 +141,7 @@
     <!-- Damage Types Section -->
     <div id="section-damage-types" class="section-container">
       <div class="section-title">
-        Урон и атака
+        <div id="tog-damage-types" class="toggler hide"></div> Урон и атака
       </div>
       <div class="section-content">
         <div class="section-row" id="damage-types"></div>
@@ -150,7 +151,7 @@
     <!-- Health, Dying, and Resting Section -->
     <div id="section-damage-healing" class="section-container">
       <div class="section-title">
-        Хиты, Смерть и Отдых
+        <div id="tog-damage-healing" class="toggler hide"></div> Хиты, Смерть и Отдых
       </div>
       <div class="section-content">
         <div class="section-row" id="damage-health"></div>
@@ -162,7 +163,7 @@
     <!-- Ability Scores/Skills Section -->
     <div id="section-abilities" class="section-container">
       <div class="section-title">
-        Характеристики и Навыки
+        <div id="tog-abilities" class="toggler hide"></div> Характеристики и Навыки
       </div>
       <div class="section-content">
         <div class="section-title-reverse-crimson">
@@ -213,7 +214,7 @@
     <!-- Languages section -->
     <div id="section-languages" class="section-container">
       <div class="section-title">
-        Языки
+        <div id="tog-languages" class="toggler hide"></div> Языки
       </div>
       <div class="section-content">
         <div class="section-title-reverse-purple">
@@ -230,7 +231,7 @@
     <!-- Class Abilities section -->
     <div id="section-classabilities" class="section-container">
       <div class="section-title">
-        Активные классовые умения
+        <div id="tog-classabilities" class="toggler hide"></div> Активные классовые умения
       </div>
       <div class="section-content">
         <div class="section-title-reverse-maroon">
@@ -287,7 +288,7 @@
     <!--Spellcasting section-->
     <div id="section-spellcasting" class="section-container">
       <div class="section-title">
-        Заклинания
+        <div id="tog-spellcasting" class="toggler hide"></div> Заклинания
       </div>
       <div class="section-content">
         <div class="section-title-reverse-spellcasting">
@@ -304,7 +305,7 @@
     <!--Multiclassing section-->
     <div id="section-multiclassing" class="section-container">
       <div class="section-title">
-        Мультиклассирование
+        <div id="tog-multiclassing" class="toggler hide"></div> Мультиклассирование
       </div>
       <div class="section-content">
         <div class="section-title-reverse-multiclassing">
@@ -325,7 +326,7 @@
     <!-- Equipment section -->
     <div id="section-equipment" class="section-container">
       <div class="section-title">
-        Снаряжение
+        <div id="tog-equipment" class="toggler hide"></div> Снаряжение
       </div>
       <div class="section-content">
         <div class="section-title-reverse-sienna">
@@ -356,7 +357,7 @@
     <!-- XP section -->
     <div id="section-xp" class="section-container">
       <div class="section-title">
-        Опыт
+        <div id="tog-xp" class="toggler hide"></div> Опыт
       </div>
       <div class="section-content">
         <div class="section-row" id="xp"></div>
