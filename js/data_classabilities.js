@@ -237,7 +237,7 @@ data_classabilities_monk = [
      },
   {
     title: "Алмазная душа",
-    icon: "checkered-diamond",
+    icon: "spark-spirit",
     subtitle: "Стоимость: 1 очко ци",
     description: "Стоимость: 1 очко ци",
     reference: "КИ, стр. 79",
