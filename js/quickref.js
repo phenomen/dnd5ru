@@ -71,6 +71,7 @@ function init() {
   fill_section(data_damage_death, "damage-death", "Хиты, Смерть и Отдых");
   fill_section(data_damage_health, "damage-health", "Хиты, Смерть и Отдых");
   fill_section(data_damage_resting, "damage-resting", "Хиты, Смерть и Отдых");
+  fill_section(data_abilities_characteristics, "abilities-characteristics", "Характеристики и Навыки");
   fill_section(data_abilities_str, "abilities-str", "Характеристики и Навыки");
   fill_section(data_abilities_dex, "abilities-dex", "Характеристики и Навыки");
   fill_section(data_abilities_con, "abilities-con", "Характеристики и Навыки");

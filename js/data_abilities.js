@@ -1,3 +1,86 @@
+data_abilities_characteristics = [
+  {
+    title: "Модификаторы характеристик",
+    icon: "id-card",
+    subtitle: "Бонусы при различных проверках",
+    description: "Бонус, прибавляемый к проверкам характеристик в зависимости их значений",
+    reference: "КИ, стр. 13",
+    bullets: [
+      "<div class='section-title-subtitle' align='center'>Значения и модификаторы характеристик</div>\
+      <table id='t01' style='width:100%'>\
+        <tr>\
+          <th><b>Знач.</b></th>\
+          <th><b>Модификатор</b></th>\
+        </tr>\
+        <tr>\
+          <td>1</td>\
+          <td>-5</td>\
+        </tr>\
+        <tr>\
+          <td>2-3</td>\
+          <td>-4</td>\
+        </tr>\
+        <tr>\
+          <td>4-5</td>\
+          <td>-3</td>\
+        </tr>\
+        <tr>\
+          <td>6-7</td>\
+          <td>-2</td>\
+        </tr>\
+        <tr>\
+          <td>8-9</td>\
+          <td>-1</td>\
+        </tr>\
+        <tr>\
+          <td>10-11</td>\
+          <td>0</td>\
+        </tr>\
+        <tr>\
+          <td>12-13</td>\
+          <td>+1</td>\
+        </tr>\
+        <tr>\
+          <td>14-15</td>\
+          <td>+2</td>\
+        </tr>\
+        <tr>\
+          <td>16-17</td>\
+          <td>+3</td>\
+        </tr>\
+        <tr>\
+          <td>18-19</td>\
+          <td>+4</td>\
+        </tr>\
+        <tr>\
+          <td>20-21</td>\
+          <td>+5</td>\
+        </tr>\
+        <tr>\
+          <td>22-23</td>\
+          <td>+6</td>\
+        </tr>\
+        <tr>\
+          <td>24-25</td>\
+          <td>+7</td>\
+        </tr>\
+        <tr>\
+          <td>26-27</td>\
+          <td>+8</td>\
+        </tr>\
+        <tr>\
+          <td>28-29</td>\
+          <td>+9</td>\
+        </tr>\
+        <tr>\
+          <td>30</td>\
+          <td>+10</td>\
+        </tr>\
+      </table>"
+    ]
+  }
+]
+
 data_abilities_str = [
   {
     title: "Атлетика",
