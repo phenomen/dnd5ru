@@ -1,3 +1,5 @@
+
+
 /* ------------------------------------------------------------------------- */
 /* Toggle */
 /* ------------------------------------------------------------------------- */
@@ -203,72 +205,72 @@ table#t01 th {
 /* ------------------------------------------------------------------------- */
 /* Movement */
 #section-movement, #section-movement .item-icon {
-    background-color: #40739e;
-    border-color: #40739e;
+    background-color: #1E40AF;
+    border-color: #1E40AF;
 }
 
 #section-movement .text {
-    color: #40739e;
+    color: #1E3A8A;
 }
 
 /* Action */
 #section-action, #section-action .item-icon {
-    background-color: #d63031;
-    border-color: #d63031;
+    background-color: #991B1B;
+    border-color: #991B1B;
 }
 
 #section-action .text {
-    color: #d63031;
+    color: #7F1D1D;
 }
 
 /* Free Action */
 #section-free-action, #section-free-action .item-icon {
-    background-color: #FFA000;
-    border-color: #FFA000;
+    background-color: #D97706;
+    border-color: #D97706;
 }
 
 #section-free-action .text {
-    color: #FFA000;
+    color: #B45309;
 }
 
 /* Bonus Action */
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: #c23616;
-    border-color: #c23616;
+    background-color: #92400E;
+    border-color: #92400E;
 }
 
 #section-bonus-action .text {
-    color: #c23616;
+    color: #78350F;
 }
 
 /* Reaction */
 #section-reaction, #section-reaction .item-icon {
-    background-color: #e84118;
-    border-color: #e84118;
+    background-color: #1F2937;
+    border-color: #1F2937;
 }
 
 #section-reaction .text {
-    color: #e84118;
+    color: #111827;
 }
 
 /* Condition */
 #section-condition, #section-condition .item-icon {
-    background-color: #33691E;
-    border-color: #33691E;
+    background-color: #065F46;
+    border-color: #065F46;
 }
 
 #section-condition .text {
-    color: #33691E;
+    color: #064E3B;
 }
 
 /* Environment */
 #section-environment, #section-environment .item-icon {
-    background-color: #689F38;
-    border-color: #689F38;
+    background-color: #059669;
+    border-color: #059669;
 }
 
 #section-environment .text {
-    color: #689F38;
+    color: #047857;
 }
 
 /* Damage Types */
@@ -283,12 +285,12 @@ table#t01 th {
 
 /* Damage and Healing */
 #section-damage-healing, #section-damage-healing .item-icon {
-    background-color: #EF5350;
-    border-color: #EF5350;
+    background-color: #9D174D;
+    border-color: #9D174D;
 }
 
 #section-damage-healing .text {
-    color: #EF5350;
+    color: #831843;
 }
 
 /* Abilities */
@@ -313,22 +315,22 @@ table#t01 th {
 
 /* Spellcasting */
 #section-spellcasting, #section-spellcasting .item-icon {
-    background-color: #1976D2;
-    border-color: #1976D2;
+    background-color: #4F46E5;
+    border-color: #4F46E5;
 }
 
 #section-spellcasting .text {
-    color: #1976D2;
+    color: #4338CA;
 }
 
 /* Multiclassing */
 #section-multiclassing, #section-multiclassing .item-icon {
-    background-color: #0288D1;
-    border-color: #0288D1;
+    background-color: #3B82F6;
+    border-color: #3B82F6;
 }
 
 #section-multiclassing .text {
-    color: #0288D1;
+    color: #2563EB;
 }
 
 /* Equipment */
