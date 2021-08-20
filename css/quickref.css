@@ -84,9 +84,7 @@ table#drug td:last-child {
 }
 
 .section-title-subtitle {
-    height: 32px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 0 8px 6px;
     font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
     font-variant: small-caps;
     font-weight: bold;
@@ -169,6 +167,7 @@ table#drug td:last-child {
     padding-right: 4px;
     font-size: inherit;
     height: 100%;
+    overflow: hidden;
 }
 
 table {
