@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-size: 1rem;
+}
 
 
 /* ------------------------------------------------------------------------- */
+
+
 /* Toggle */
+
+
 /* ------------------------------------------------------------------------- */
+
 .toggler {
     margin-right: 10px;
     float: left;
@@ -44,9 +53,15 @@ table#drug td:last-child {
     border-right: none !important;
 }
 
+
 /* ------------------------------------------------------------------------- */
+
+
 /* Sections */
+
+
 /* ------------------------------------------------------------------------- */
+
 .section-container {
     border: 8px solid;
     border-radius: 8px;
@@ -54,8 +69,7 @@ table#drug td:last-child {
     position: relative;
     display: flex;
     flex-direction: column;
-    /*font-family: Arial;*/
-    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    font-family: 'Noto Sans', Arial, sans-serif;
     width: 100%;
     margin-bottom: 8px;
     page-break-inside: avoid;
@@ -75,7 +89,7 @@ table#drug td:last-child {
     height: 32px;
     padding-left: 8px;
     padding-right: 8px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-family: 'Noto Serif', Georgia, serif;
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
@@ -85,7 +99,7 @@ table#drug td:last-child {
 
 .section-title-subtitle {
     padding: 0 8px 6px;
-    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-family: 'Noto Serif', Georgia, serif;
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
@@ -97,7 +111,8 @@ table#drug td:last-child {
     float: right;
 }
 
-.section-subtitle, #modal-reference {
+.section-subtitle,
+#modal-reference {
     display: block;
     margin-bottom: 8px;
     font-size: inherit;
@@ -112,7 +127,8 @@ table#drug td:last-child {
     font-size: inherit;
 }
 
-.section-row:before, .section-row:after {
+.section-row:before,
+.section-row:after {
     display: table;
     content: " ";
     clear: both;
@@ -122,9 +138,15 @@ table#drug td:last-child {
     margin-top: 1em;
 }
 
+
 /* ------------------------------------------------------------------------- */
+
+
 /* Items */
+
+
 /* ------------------------------------------------------------------------- */
+
 .item {
     margin-bottom: 8px;
     float: left;
@@ -174,12 +196,15 @@ table {
     width: 40%;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 0px solid #cdd2d8;
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     padding: 5px;
     text-align: center;
 }
@@ -199,11 +224,20 @@ table#t01 th {
     color: black;
 }
 
+
 /* ------------------------------------------------------------------------- */
+
+
 /* Colors */
+
+
 /* ------------------------------------------------------------------------- */
+
+
 /* Movement */
-#section-movement, #section-movement .item-icon {
+
+#section-movement,
+#section-movement .item-icon {
     background-color: #1E40AF;
     border-color: #1E40AF;
 }
@@ -212,8 +246,11 @@ table#t01 th {
     color: #1E3A8A;
 }
 
+
 /* Action */
-#section-action, #section-action .item-icon {
+
+#section-action,
+#section-action .item-icon {
     background-color: #991B1B;
     border-color: #991B1B;
 }
@@ -222,8 +259,11 @@ table#t01 th {
     color: #7F1D1D;
 }
 
+
 /* Free Action */
-#section-free-action, #section-free-action .item-icon {
+
+#section-free-action,
+#section-free-action .item-icon {
     background-color: #D97706;
     border-color: #D97706;
 }
@@ -232,8 +272,11 @@ table#t01 th {
     color: #B45309;
 }
 
+
 /* Bonus Action */
-#section-bonus-action, #section-bonus-action .item-icon {
+
+#section-bonus-action,
+#section-bonus-action .item-icon {
     background-color: #92400E;
     border-color: #92400E;
 }
@@ -242,8 +285,11 @@ table#t01 th {
     color: #78350F;
 }
 
+
 /* Reaction */
-#section-reaction, #section-reaction .item-icon {
+
+#section-reaction,
+#section-reaction .item-icon {
     background-color: #1F2937;
     border-color: #1F2937;
 }
@@ -252,8 +298,11 @@ table#t01 th {
     color: #111827;
 }
 
+
 /* Condition */
-#section-condition, #section-condition .item-icon {
+
+#section-condition,
+#section-condition .item-icon {
     background-color: #065F46;
     border-color: #065F46;
 }
@@ -262,8 +311,11 @@ table#t01 th {
     color: #064E3B;
 }
 
+
 /* Environment */
-#section-environment, #section-environment .item-icon {
+
+#section-environment,
+#section-environment .item-icon {
     background-color: #059669;
     border-color: #059669;
 }
@@ -272,8 +324,11 @@ table#t01 th {
     color: #047857;
 }
 
+
 /* Damage Types */
-#section-damage-types, #section-damage-types .item-icon {
+
+#section-damage-types,
+#section-damage-types .item-icon {
     background-color: #B71C1C;
     border-color: #B71C1C;
 }
@@ -282,8 +337,11 @@ table#t01 th {
     color: #B71C1C;
 }
 
+
 /* Damage and Healing */
-#section-damage-healing, #section-damage-healing .item-icon {
+
+#section-damage-healing,
+#section-damage-healing .item-icon {
     background-color: #9D174D;
     border-color: #9D174D;
 }
@@ -292,8 +350,11 @@ table#t01 th {
     color: #831843;
 }
 
+
 /* Abilities */
-#section-abilities, #section-abilities .item-icon {
+
+#section-abilities,
+#section-abilities .item-icon {
     background-color: #455A64;
     border-color: #455A64;
 }
@@ -302,8 +363,11 @@ table#t01 th {
     color: #455A64;
 }
 
+
 /* Class Abilities */
-#section-classabilities, #section-classabilities .item-icon {
+
+#section-classabilities,
+#section-classabilities .item-icon {
     background-color: #616161;
     border-color: #616161;
 }
@@ -312,8 +376,11 @@ table#t01 th {
     color: #616161;
 }
 
+
 /* Spellcasting */
-#section-spellcasting, #section-spellcasting .item-icon {
+
+#section-spellcasting,
+#section-spellcasting .item-icon {
     background-color: #4F46E5;
     border-color: #4F46E5;
 }
@@ -322,8 +389,11 @@ table#t01 th {
     color: #4338CA;
 }
 
+
 /* Multiclassing */
-#section-multiclassing, #section-multiclassing .item-icon {
+
+#section-multiclassing,
+#section-multiclassing .item-icon {
     background-color: #3B82F6;
     border-color: #3B82F6;
 }
@@ -332,8 +402,11 @@ table#t01 th {
     color: #2563EB;
 }
 
+
 /* Equipment */
-#section-equipment, #section-equipment .item-icon {
+
+#section-equipment,
+#section-equipment .item-icon {
     background-color: #3E2723;
     border-color: #3E2723;
 }
@@ -342,8 +415,11 @@ table#t01 th {
     color: #3E2723;
 }
 
+
 /* Travel */
-#section-travel, #section-travel .item-icon {
+
+#section-travel,
+#section-travel .item-icon {
     background-color: #5D4037;
     border-color: #5D4037;
 }
@@ -352,8 +428,11 @@ table#t01 th {
     color: #5D4037;
 }
 
+
 /* Language */
-#section-languages, #section-languages .item-icon {
+
+#section-languages,
+#section-languages .item-icon {
     background-color: #512DA8;
     border-color: #512DA8;
 }
@@ -362,8 +441,11 @@ table#t01 th {
     color: #512DA8;
 }
 
+
 /* XP */
-#section-xp, #section-xp .item-icon {
+
+#section-xp,
+#section-xp .item-icon {
     background-color: #C2185B;
     border-color: #C2185B;
 }
@@ -372,9 +454,15 @@ table#t01 th {
     color: #C2185B;
 }
 
+
 /* ------------------------------------------------------------------------- */
+
+
 /* Page container */
+
+
 /* ------------------------------------------------------------------------- */
+
 body {
     display: flex;
     justify-content: center;
@@ -385,9 +473,15 @@ body {
     width: 100%;
 }
 
+
 /* ------------------------------------------------------------------------- */
+
+
 /* Misc */
+
+
 /* ------------------------------------------------------------------------- */
+
 .hidden {
     display: none;
 }
@@ -396,7 +490,8 @@ ul {
     padding-left: 20px;
 }
 
-p, hr {
+p,
+hr {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
@@ -410,9 +505,15 @@ p:first-child {
     margin-top: 1em;
 }
 
+
 /* ------------------------------------------------------------------------- */
+
+
 /* Modal */
+
+
 /* ------------------------------------------------------------------------- */
+
 .modal-open {
     overflow: hidden;
 }
@@ -467,150 +568,128 @@ p:first-child {
     border-top: 1px solid #e5e5e5;
 }
 
-/* ------------------------------------------------------------------------- */
-/* Viewport sizes */
-/* ------------------------------------------------------------------------- */
-/* Smart phone, portrait */
-@media (min-width: 0px) and (max-width: 479px) {
-    .fontsize {
-        font-size: 12pt;
-    }
 
+/* ------------------------------------------------------------------------- */
+
+
+/* Viewport sizes */
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* Smart phone, portrait */
+
+@media (min-width: 0px) and (max-width: 479px) {
     .iconsize {
         width: 44px;
         height: 44px;
     }
-
     .itemsize {
         height: 44px;
         width: 100%;
     }
-
     .modalsize {}
 }
 
-/* Smart phone, landscape */
-@media (min-width: 480px) and (max-width: 767px) {
-    .fontsize {
-        font-size: 11pt;
-    }
 
+/* Smart phone, landscape */
+
+@media (min-width: 480px) and (max-width: 767px) {
     .iconsize {
         width: 40px;
         height: 40px;
     }
-
     .itemsize {
         height: 40px;
         width: 50%;
     }
-
     .modalsize {}
 }
 
-/* Tablet, portrait */
-@media (min-width: 768px) and (max-width: 991px) {
-    .fontsize {
-        font-size: 11pt;
-    }
 
+/* Tablet, portrait */
+
+@media (min-width: 768px) and (max-width: 991px) {
     .iconsize {
         width: 40px;
         height: 40px;
     }
-
     .itemsize {
         height: 40px;
         width: 33%;
     }
-
     .modalsize {
         width: 600px;
         margin: 30px auto;
     }
 }
 
-/* Tablet, landscape */
-@media (min-width: 992px) and (max-width: 1199px) {
-    .fontsize {
-        font-size: 12pt;
-    }
 
+/* Tablet, landscape */
+
+@media (min-width: 992px) and (max-width: 1199px) {
     .iconsize {
         width: 44px;
         height: 44px;
     }
-
     .itemsize {
         height: 44px;
         width: 33%;
     }
-
     .modalsize {
         width: 600px;
         margin: 30px auto;
     }
 }
 
-/* Small desktop screen */
-@media (min-width: 1200px) and (max-width: 1599px) {
-    .fontsize {
-        font-size: 12pt;
-    }
 
+/* Small desktop screen */
+
+@media (min-width: 1200px) and (max-width: 1599px) {
     .iconsize {
         width: 44px;
         height: 44px;
     }
-
     .itemsize {
         height: 44px;
         width: 30%;
     }
-
     .modalsize {
         width: 600px;
         margin: 30px auto;
     }
 }
 
-/* Large desktop screen */
-@media (min-width: 1600px) {
-    .fontsize {
-        font-size: 12pt;
-    }
 
+/* Large desktop screen */
+
+@media (min-width: 1600px) {
     .iconsize {
         width: 44px;
         height: 44px;
     }
-
     .itemsize {
         height: 44px;
         width: 25%;
     }
-
     .modalsize {
         width: 600px;
         margin: 30px auto;
     }
 }
 
-/* Print */
-@media print {
-    .fontsize {
-        font-size: 10pt;
-    }
 
+/* Print */
+
+@media print {
     .iconsize {
         width: 36px;
         height: 36px;
     }
-
     .itemsize {
         height: 36px;
         width: 33%;
     }
-
     .modalsize {}
 }
