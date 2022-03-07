@@ -4,14 +4,13 @@
 
 Новая версия разработана с нуля, используя Node, Svelte, Tailwind и современный подход к разработке.
 
-Репозиторий: https://github.com/Phenomen/dnd5e-ru-ref
+Новый репозиторий: https://github.com/Phenomen/dnd5e-ru-ref
 
 Сайт: https://5e.ruleplaying.com/
 
 # Dungeons and Dragons 5e - Справочник на русском
-==============
 
-Интерактивный справочник по D&D5e. Доступен по ссылке: ~~https://phenomen.github.io/dnd5ru/~~ https://5e.ruleplaying.com/
+Справочник по правилам D&D5e. Доступен по ссылке: ~~https://phenomen.github.io/dnd5ru/~~ https://5e.ruleplaying.com/
 
 Перевод на русский язык: Phenomen#1337, используя материалы Phantom Studio.
 
@@ -19,6 +18,5 @@
 
 
 ## Иконки
-==============
 
 Все иконки взяты с http://game-icons.net/
