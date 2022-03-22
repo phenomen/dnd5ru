@@ -4,7 +4,7 @@
 
 Новая версия разработана с нуля, используя Node, Svelte, Tailwind и современный подход к разработке.
 
-Новый репозиторий: https://github.com/Phenomen/dnd5e-ru-ref
+Новый репозиторий: https://github.com/phenomen/dnd5e-ru-ref
 
 Сайт: https://5e.ruleplaying.com/
 
